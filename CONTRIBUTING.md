@@ -43,7 +43,7 @@ The `Typecheck, lint, tests and build` CI check must pass. Pull requests are squ
 
 Before a pull request, run `npm run typecheck`, `npm run lint`, `npm test`, `npm run validate:content` and `npm run build` (`npm run check` runs all but content validation). CI executes those same checks on `main` pushes and pull requests using pinned GitHub Actions with read-only repository permissions. It does not deploy.
 
-Browser and visual checks remain separate: follow the README instructions for interface changes and inspect every intentional snapshot change. Never update baselines solely to make a check pass.
+Browser and visual checks remain separate: follow the README instructions for interface changes and inspect every intentional snapshot change. Never update baselines solely to make a check pass. The suite also rewrites the tracked 0.3 evidence in `artifacts/revision/screenshots/`; restore it with `git checkout -- artifacts/revision/screenshots` unless you are deliberately replacing that evidence.
 
 ## Gameplay invariants
 
