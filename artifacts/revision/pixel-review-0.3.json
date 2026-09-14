@@ -1,0 +1,19 @@
+{
+  "review": "All seven resulting screenshots visually inspected by the coding agent; no human art-director acceptance is claimed.",
+  "acceptedChanges": [
+    "Explicit category/path/functional-role hierarchy and numeric grades",
+    "Current rules, Scarlet text and canonical keyword badges",
+    "Three opponent intent lanes wrap independently without heading/peer overlap",
+    "Readily reachable inspection controls; compact ten-card hand remains overlapped by design"
+  ],
+  "assertions": "Existing 0.001 pixel threshold retained; added heading/intent and peer-intent collision checks.",
+  "files": {
+    "tests/browser/game.spec.ts-snapshots/battle-en-1366x768-chromium-darwin.png": "8c781aa743771d52c9d540fb353fbf876832a5a23425c0b1c97a54b7b6f76c9b",
+    "tests/browser/game.spec.ts-snapshots/battle-zh-1280x720-chromium-darwin.png": "d626396bfcc45caaec69ec55b484d0ed2e1eec78a2823f4a8d63f419573f3cde",
+    "tests/browser/game.spec.ts-snapshots/battle-zh-1920x1080-chromium-darwin.png": "57376bc24693944a10af84326c574f2c0b2d3d28f478525e02ffd9806fc77e13",
+    "tests/browser/game.spec.ts-snapshots/battle-zh-1366x768-chromium-darwin.png": "d348e344ea4b05c874f5db96dd75d111d6bbd1ac8c03bacf639d6d416e76922a",
+    "tests/browser/game.spec.ts-snapshots/battle-en-1920x1080-chromium-darwin.png": "d8a8ee08254e831448baa16193f974552f05b913daadc0ab2748de70211cb096",
+    "tests/browser/game.spec.ts-snapshots/battle-en-1280x720-chromium-darwin.png": "2e2dde643f83dd282547d6fcd69c772d0c31236c0a088da9a808362019c46ae6",
+    "tests/browser/game.spec.ts-snapshots/battle-en-1440x900-2x-chromium-darwin.png": "f669cd8223c02dceff5c3e437881bb0e6acad40a4a06466b22211acd1550ed51"
+  }
+}

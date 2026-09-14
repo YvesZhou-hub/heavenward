@@ -1,0 +1,46 @@
+
+Running 2 tests using 1 worker
+
+(node:70522) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/browser/revision.spec.ts:52:5 › Pursuit feedback follows committed order and discounts never consume inspection (2.0s)
+  ✘  2 [chromium] › tests/browser/revision.spec.ts:88:5 › negative cards and three summons have readable trilingual inspection on laptop and narrow layouts (2.4s)
+
+
+  1) [chromium] › tests/browser/revision.spec.ts:88:5 › negative cards and three summons have readable trilingual inspection on laptop and narrow layouts 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      90 |  c.player.statuses={strength:10,weak:1,protectiveQi:5,swordIntent:3};c.summons=['reed-wolf','thorn-vine','treant'].map((id,i)=>{const d=SUMMONS[id];return{id:`ally-${i}`,defId:id,name:d.name,hp:d.hp,maxHp:d.hp,armor:0,statuses:{},attack:d.attack,automatic:d.automatic} as Summon;});
+      91 |  for(const locale of ['en','zh-CN','vi'] as const){await load(page,r,locale);await expect(page.locator('.hand-area .game-card')).toHaveCount(10);await expect(page.locator('.summon')).toHaveCount(3);await shot(page,`ten-hand-${locale}`);await page.locator('[data-card="qi-disorder"] .inspect-button').click();await expect(page.locator('.inspection')).toBeVisible();await shot(page,`status-inspect-${locale}`);await page.locator('dialog .dialog-heading button').click();await page.locator('.statuses .keyword-trigger').first().focus();await expect(page.locator('.keyword-tooltip')).toBeVisible();const rect=await page.locator('.keyword-tooltip').boundingBox();expect(rect!.x).toBeGreaterThanOrEqual(0);expect(rect!.y).toBeGreaterThanOrEqual(0);await page.keyboard.press('Escape');}
+    > 92 |  await page.setViewportSize({width:390,height:844});await load(page,r,'vi');await shot(page,'ten-hand-vi-narrow');await page.locator('[data-card="internal-injury"] .inspect-button').click();await shot(page,'long-status-vi-narrow');expect(await page.locator('body').evaluate(e=>e.scrollWidth<=window.innerWidth+1)).toBe(true);
+         |                                                                                                                                                                                                                                                                                                                           ^
+      93 | });
+      94 |
+      95 | test('Cloud Warning exposes next heavy threat and has a real preparation turn',async({page})=>{
+        at /Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts:92:315
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    output/playwright/revision-inspection-retest/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    output/playwright/revision-inspection-retest/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: output/playwright/revision-inspection-retest/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    output/playwright/revision-inspection-retest/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace output/playwright/revision-inspection-retest/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/browser/revision.spec.ts:88:5 › negative cards and three summons have readable trilingual inspection on laptop and narrow layouts 
+  1 passed (5.0s)

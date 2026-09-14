@@ -1,0 +1,1963 @@
+{
+  "label": "Pre-revision v1 resolver diagnostic; scripted policies do not estimate human balance or victory rates.",
+  "sourceArchive": "artifacts/revision/source-v1-before-revision.tar.gz",
+  "resolverVersion": 1,
+  "realm": 0,
+  "maxHp": 72,
+  "grade": 0,
+  "deck": [
+    {
+      "defId": "strike",
+      "uid": "deck-0",
+      "grade": 0,
+      "retained": 0
+    },
+    {
+      "defId": "strike",
+      "uid": "deck-1",
+      "grade": 0,
+      "retained": 0
+    },
+    {
+      "defId": "strike",
+      "uid": "deck-2",
+      "grade": 0,
+      "retained": 0
+    },
+    {
+      "defId": "strike",
+      "uid": "deck-3",
+      "grade": 0,
+      "retained": 0
+    },
+    {
+      "defId": "strike",
+      "uid": "deck-4",
+      "grade": 0,
+      "retained": 0
+    },
+    {
+      "defId": "defense",
+      "uid": "deck-5",
+      "grade": 0,
+      "retained": 0
+    },
+    {
+      "defId": "defense",
+      "uid": "deck-6",
+      "grade": 0,
+      "retained": 0
+    },
+    {
+      "defId": "defense",
+      "uid": "deck-7",
+      "grade": 0,
+      "retained": 0
+    },
+    {
+      "defId": "defense",
+      "uid": "deck-8",
+      "grade": 0,
+      "retained": 0
+    },
+    {
+      "defId": "defense",
+      "uid": "deck-9",
+      "grade": 0,
+      "retained": 0
+    },
+    {
+      "defId": "stone-rampart",
+      "uid": "deck-10",
+      "grade": 0,
+      "retained": 0
+    },
+    {
+      "defId": "reed-wolf-pact",
+      "uid": "deck-11",
+      "grade": 0,
+      "retained": 0
+    }
+  ],
+  "policyDescriptions": {
+    "strike-rush": "Play affordable Attacks at boss; ignore defense and summons.",
+    "defense-and-board": "Summon until slots full, block telegraphed non-piercing incoming damage, spend remaining energy attacking cloud minions first."
+  },
+  "seeds": "1–64 paired",
+  "summary": [
+    {
+      "policy": "strike-rush",
+      "n": 64,
+      "wins": 0,
+      "losses": 64,
+      "unresolved": 0,
+      "meanFinalHp": 0,
+      "meanTurns": 8,
+      "meanBossRemainingHp": 44.63,
+      "meanCloudDeaths": 0
+    },
+    {
+      "policy": "defense-and-board",
+      "n": 64,
+      "wins": 64,
+      "losses": 0,
+      "unresolved": 0,
+      "meanFinalHp": 48.11,
+      "meanTurns": 14.58,
+      "meanBossRemainingHp": 0,
+      "meanCloudDeaths": 7.09
+    }
+  ],
+  "rows": [
+    {
+      "seed": 1,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 46,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "f55278f4c02dac9671044f1c87f5e40553bec59cb158d030874081fcf1a41281",
+      "actionTrace": [
+        {
+          "type": "playCard",
+          "uid": "deck-3",
+          "targetId": "enemy-1",
+          "turn": 1
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-2",
+          "targetId": "enemy-1",
+          "turn": 1
+        },
+        {
+          "type": "endTurn",
+          "turn": 1
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-1",
+          "targetId": "enemy-1",
+          "turn": 2
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-4",
+          "targetId": "enemy-1",
+          "turn": 2
+        },
+        {
+          "type": "endTurn",
+          "turn": 2
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-0",
+          "targetId": "enemy-1",
+          "turn": 3
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-1",
+          "targetId": "enemy-1",
+          "turn": 3
+        },
+        {
+          "type": "endTurn",
+          "turn": 3
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-2",
+          "targetId": "enemy-1",
+          "turn": 4
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-3",
+          "targetId": "enemy-1",
+          "turn": 4
+        },
+        {
+          "type": "endTurn",
+          "turn": 4
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-4",
+          "targetId": "enemy-1",
+          "turn": 5
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-3",
+          "targetId": "enemy-1",
+          "turn": 5
+        },
+        {
+          "type": "endTurn",
+          "turn": 5
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-1",
+          "targetId": "enemy-1",
+          "turn": 6
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-0",
+          "targetId": "enemy-1",
+          "turn": 6
+        },
+        {
+          "type": "endTurn",
+          "turn": 6
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-2",
+          "targetId": "enemy-1",
+          "turn": 7
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-1",
+          "targetId": "enemy-1",
+          "turn": 7
+        },
+        {
+          "type": "endTurn",
+          "turn": 7
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-3",
+          "targetId": "enemy-1",
+          "turn": 8
+        },
+        {
+          "type": "endTurn",
+          "turn": 8
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 17,
+      "hp": 42,
+      "bossHp": 0,
+      "actions": 58,
+      "cloudDeaths": 8,
+      "actionHash": "46537fe224ae578c350341e3b3afa857e633c842378fec4a3a505f0a0ec246fe",
+      "actionTrace": [
+        {
+          "type": "playCard",
+          "uid": "deck-3",
+          "targetId": "enemy-1",
+          "turn": 1
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-2",
+          "targetId": "enemy-1",
+          "turn": 1
+        },
+        {
+          "type": "endTurn",
+          "turn": 1
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-10",
+          "targetId": "enemy-2",
+          "turn": 2
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-1",
+          "targetId": "enemy-2",
+          "turn": 2
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-4",
+          "targetId": "enemy-2",
+          "turn": 2
+        },
+        {
+          "type": "endTurn",
+          "turn": 2
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-11",
+          "targetId": "enemy-3",
+          "turn": 3
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-0",
+          "targetId": "enemy-3",
+          "turn": 3
+        },
+        {
+          "type": "endTurn",
+          "turn": 3
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-6",
+          "targetId": "enemy-3",
+          "turn": 4
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-5",
+          "targetId": "enemy-3",
+          "turn": 4
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-2",
+          "targetId": "enemy-3",
+          "turn": 4
+        },
+        {
+          "type": "endTurn",
+          "turn": 4
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-1",
+          "targetId": "enemy-3",
+          "turn": 5
+        },
+        {
+          "type": "endTurn",
+          "turn": 5
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-11",
+          "targetId": "enemy-5",
+          "turn": 6
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-7",
+          "targetId": "enemy-5",
+          "turn": 6
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-2",
+          "targetId": "enemy-5",
+          "turn": 6
+        },
+        {
+          "type": "endTurn",
+          "turn": 6
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-11",
+          "targetId": "enemy-5",
+          "turn": 7
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-4",
+          "targetId": "enemy-5",
+          "turn": 7
+        },
+        {
+          "type": "endTurn",
+          "turn": 7
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-9",
+          "targetId": "enemy-6",
+          "turn": 8
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-5",
+          "targetId": "enemy-6",
+          "turn": 8
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-2",
+          "targetId": "enemy-6",
+          "turn": 8
+        },
+        {
+          "type": "endTurn",
+          "turn": 8
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-1",
+          "targetId": "enemy-6",
+          "turn": 9
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-2",
+          "targetId": "enemy-1",
+          "turn": 9
+        },
+        {
+          "type": "endTurn",
+          "turn": 9
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-11",
+          "targetId": "enemy-9",
+          "turn": 10
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-10",
+          "targetId": "enemy-9",
+          "turn": 10
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-3",
+          "targetId": "enemy-9",
+          "turn": 10
+        },
+        {
+          "type": "endTurn",
+          "turn": 10
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-4",
+          "targetId": "enemy-9",
+          "turn": 11
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-0",
+          "targetId": "enemy-10",
+          "turn": 11
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-2",
+          "targetId": "enemy-10",
+          "turn": 11
+        },
+        {
+          "type": "endTurn",
+          "turn": 11
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-9",
+          "targetId": "enemy-1",
+          "turn": 12
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-7",
+          "targetId": "enemy-1",
+          "turn": 12
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-5",
+          "targetId": "enemy-1",
+          "turn": 12
+        },
+        {
+          "type": "endTurn",
+          "turn": 12
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-11",
+          "targetId": "enemy-1",
+          "turn": 13
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-2",
+          "targetId": "enemy-1",
+          "turn": 13
+        },
+        {
+          "type": "endTurn",
+          "turn": 13
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-5",
+          "targetId": "enemy-13",
+          "turn": 14
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-9",
+          "targetId": "enemy-13",
+          "turn": 14
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-1",
+          "targetId": "enemy-13",
+          "turn": 14
+        },
+        {
+          "type": "endTurn",
+          "turn": 14
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-11",
+          "targetId": "enemy-13",
+          "turn": 15
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-0",
+          "targetId": "enemy-13",
+          "turn": 15
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-4",
+          "targetId": "enemy-14",
+          "turn": 15
+        },
+        {
+          "type": "endTurn",
+          "turn": 15
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-5",
+          "targetId": "enemy-14",
+          "turn": 16
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-8",
+          "targetId": "enemy-14",
+          "turn": 16
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-7",
+          "targetId": "enemy-14",
+          "turn": 16
+        },
+        {
+          "type": "endTurn",
+          "turn": 16
+        },
+        {
+          "type": "playCard",
+          "uid": "deck-1",
+          "targetId": "enemy-14",
+          "turn": 17
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 34,
+      "actions": 26,
+      "cloudDeaths": 0,
+      "actionHash": "c0194125a643f8767bedb1f9072876ad22b0446ff0d963d53a1e05688c51db0c"
+    },
+    {
+      "seed": 2,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 17,
+      "hp": 47,
+      "bossHp": 0,
+      "actions": 62,
+      "cloudDeaths": 8,
+      "actionHash": "3bbd09c223df8178f4d7869dea15e4520800fa45b3c6daf0b49cccb75ed83dc9"
+    },
+    {
+      "seed": 3,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 34,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "a147793c86557144c87ebfe15db4e265b8607024d2b661b96f8de599f4878ba6"
+    },
+    {
+      "seed": 3,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 17,
+      "hp": 41,
+      "bossHp": 0,
+      "actions": 60,
+      "cloudDeaths": 8,
+      "actionHash": "8a0bb629e7519a02197c6ee6a7125f4a40f7e1864759c60d46e4262a698c13a6"
+    },
+    {
+      "seed": 4,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 43,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "9c79ceb12219935360de9aa55f64823b6d21837497613e9d29c9d9fc7b482b4d"
+    },
+    {
+      "seed": 4,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 20,
+      "hp": 36,
+      "bossHp": 0,
+      "actions": 72,
+      "cloudDeaths": 10,
+      "actionHash": "562648f2537bcb17817bd564583436733216df1667bd12612d6092a1322b5667"
+    },
+    {
+      "seed": 5,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 41,
+      "actions": 25,
+      "cloudDeaths": 0,
+      "actionHash": "d4d19dc06b12b93a89b0372a31ef21c12702a00c8f84f4b68442e5c675d510d4"
+    },
+    {
+      "seed": 5,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 15,
+      "hp": 40,
+      "bossHp": 0,
+      "actions": 55,
+      "cloudDeaths": 8,
+      "actionHash": "d6a54d4c47813d05e15dee9fa3bf4871f6954226f6a12213d2f8e71deafe7f14"
+    },
+    {
+      "seed": 6,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 47,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "507fb10f88886dc86a92535f44ee50f1a681d54e64a7f3ee3d8abfbef40e9821"
+    },
+    {
+      "seed": 6,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 49,
+      "cloudDeaths": 6,
+      "actionHash": "2dfd900518e2373e880598acafd7b7adfc188e031f5991c509a1c4bc537ad1c3"
+    },
+    {
+      "seed": 7,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 46,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "63a911fe823052923dfa273932d9a08d0ba5e9a25053894dcec03f3de908d3b9"
+    },
+    {
+      "seed": 7,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 15,
+      "hp": 51,
+      "bossHp": 0,
+      "actions": 52,
+      "cloudDeaths": 8,
+      "actionHash": "b9f13ba71e9ca5aa26183a0202dca4b25852df30eb3c29d0d85949fc74a02b69"
+    },
+    {
+      "seed": 8,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 58,
+      "actions": 21,
+      "cloudDeaths": 0,
+      "actionHash": "4916d339ea13eb3e0470ce581c59dfd53c34300cc6079b8f8c9700e734565b28"
+    },
+    {
+      "seed": 8,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 16,
+      "hp": 46,
+      "bossHp": 0,
+      "actions": 59,
+      "cloudDeaths": 8,
+      "actionHash": "1ed5b8ef62b45416fc57bff613744c20916ff59e6d29549381e6235f6a63c1c8"
+    },
+    {
+      "seed": 9,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 44,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "66b6ed2e6af976a9bbd732beea6f09d4db6b910586d9ad0823bda5d9022877ae"
+    },
+    {
+      "seed": 9,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 44,
+      "cloudDeaths": 6,
+      "actionHash": "e94e6be5f48f3d5b3b978b1b5cad59be4e53e27f830bd718952afed8b9ae5cd5"
+    },
+    {
+      "seed": 10,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 50,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "179c63ae09ab500032b06363707c0a39de8222750aa78cb83d81ccc336f338e3"
+    },
+    {
+      "seed": 10,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 51,
+      "bossHp": 0,
+      "actions": 46,
+      "cloudDeaths": 6,
+      "actionHash": "7a1f56075d942a11caae0c99daa16f9963d66f147a2d8c57397f6671c6578d50"
+    },
+    {
+      "seed": 11,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 50,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "6ec1e81daa56e8ac535ca16e469bf4d1c96f290b6e96d7ddb8e23ac23eb5c7d2"
+    },
+    {
+      "seed": 11,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 12,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 46,
+      "cloudDeaths": 6,
+      "actionHash": "2eadd20deb11ba4f872f6c2842981aca4a2f9378c0d675256092e55c2f185227"
+    },
+    {
+      "seed": 12,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 58,
+      "actions": 22,
+      "cloudDeaths": 0,
+      "actionHash": "474ba791a671a25d2af47d87b1984a9387415c7d98871dcb92d7eef2f9ffb8be"
+    },
+    {
+      "seed": 12,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 16,
+      "hp": 38,
+      "bossHp": 0,
+      "actions": 57,
+      "cloudDeaths": 8,
+      "actionHash": "faf4e04d83d0017a8f3a5e5f8ee0acc7c9ea65fbf7156260fcf1451e3adfe46f"
+    },
+    {
+      "seed": 13,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 47,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "13626982e5ae344c82c5d75d460002ff83695fd6d80e1c6f34f73cdfa70bbe04"
+    },
+    {
+      "seed": 13,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 17,
+      "hp": 41,
+      "bossHp": 0,
+      "actions": 59,
+      "cloudDeaths": 8,
+      "actionHash": "b063aa3a5f436eee5e256cffdae33cf6ebf2a451ca6861ee65308ea96c776d07"
+    },
+    {
+      "seed": 14,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 51,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "eab68c26966ec6a99b59e7fe410b8097cd1c82767f09d689bf1bd6a64d485398"
+    },
+    {
+      "seed": 14,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 17,
+      "hp": 43,
+      "bossHp": 0,
+      "actions": 62,
+      "cloudDeaths": 8,
+      "actionHash": "e4687c698e8cef81fc9af0e4b27e9c5d070b821902c932ed34e76a678ba1acc7"
+    },
+    {
+      "seed": 15,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 42,
+      "actions": 25,
+      "cloudDeaths": 0,
+      "actionHash": "d111722fcc25b345e57e0b76e9ed4475b2d939886d9223f20646abb24c8ea5c3"
+    },
+    {
+      "seed": 15,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 15,
+      "hp": 54,
+      "bossHp": 0,
+      "actions": 54,
+      "cloudDeaths": 8,
+      "actionHash": "6c9dc2942849e04cf75b530e5ba364815f0b99df680283bfa7b3cf43da99c3d7"
+    },
+    {
+      "seed": 16,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 41,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "a937c69f3a958ad10ea06892c2506aa91aab1a5eec2cbd07486cf49346998d35"
+    },
+    {
+      "seed": 16,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 54,
+      "bossHp": 0,
+      "actions": 47,
+      "cloudDeaths": 6,
+      "actionHash": "871c54b08357734ea53d9f44797322d4852dd93af323d0465a2e9c479a061442"
+    },
+    {
+      "seed": 17,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 51,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "a9cd1690873769dbcec494cd89595777924af82a775911bf38ac6edf681a5081"
+    },
+    {
+      "seed": 17,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 15,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 54,
+      "cloudDeaths": 8,
+      "actionHash": "046681d8ecc2698dee810bc38dda784f69b9cdbe02d67d9ba8f3bc742140d5b7"
+    },
+    {
+      "seed": 18,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 54,
+      "actions": 22,
+      "cloudDeaths": 0,
+      "actionHash": "6bf98e32d8404a6a6b010e103046c530b6d4356f1950ce32d3deac058eb4eb32"
+    },
+    {
+      "seed": 18,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 11,
+      "hp": 57,
+      "bossHp": 0,
+      "actions": 40,
+      "cloudDeaths": 6,
+      "actionHash": "6a63ee3fcdfed0ddb56665744603692360f7af17f3d51b3f0c6ffb50237136c3"
+    },
+    {
+      "seed": 19,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 51,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "81a86803ae9572f1b35c921b854a34f50442fba9924e4b232d5de6a235714fcb"
+    },
+    {
+      "seed": 19,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 54,
+      "bossHp": 0,
+      "actions": 47,
+      "cloudDeaths": 6,
+      "actionHash": "f69bbb5c98fb9ca4e98f26d834b659282a798c5003a986aa54cf7dd1ecc9609c"
+    },
+    {
+      "seed": 20,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 54,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "b5858346c8a4d4971ee1cb7dac2435a4ea911895438e9cd65eaccff5a8dbe944"
+    },
+    {
+      "seed": 20,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 15,
+      "hp": 51,
+      "bossHp": 0,
+      "actions": 56,
+      "cloudDeaths": 8,
+      "actionHash": "e1c99e4cf05068f5b9d48170208f5ed12e367cbe4874f74182e6b6c3cc7e4194"
+    },
+    {
+      "seed": 21,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 49,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "a90c5b5e77b0cfc597d83cf8aa6d691be7db7ce78b87b76d25effbc0482b1f36"
+    },
+    {
+      "seed": 21,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 48,
+      "cloudDeaths": 6,
+      "actionHash": "7af249a10ccf2deb3997bc49857fce93b218446601d1ed627aed5f04a71d7505"
+    },
+    {
+      "seed": 22,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 47,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "2a673658f07925717944e27c8f54e7d21e204c3b59908c9594985c5c9747f629"
+    },
+    {
+      "seed": 22,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 50,
+      "bossHp": 0,
+      "actions": 45,
+      "cloudDeaths": 6,
+      "actionHash": "8a024e1dcd2d9bea48084212becc9eb020c581877355a07c4d6d631743f25929"
+    },
+    {
+      "seed": 23,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 54,
+      "actions": 22,
+      "cloudDeaths": 0,
+      "actionHash": "2533a3338d165c34bf1930111b2fff2fea719dc7cea395158e9f4b1d6d63931b"
+    },
+    {
+      "seed": 23,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 51,
+      "bossHp": 0,
+      "actions": 48,
+      "cloudDeaths": 6,
+      "actionHash": "20e9892401e7b8c1e2e326c989520ebc5ddc9356d10ba7e67eaed7ade7868e05"
+    },
+    {
+      "seed": 24,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 58,
+      "actions": 22,
+      "cloudDeaths": 0,
+      "actionHash": "acf7a55f6c1722732f59e0975680b328503dac5bfee017488e5e86b6634d359d"
+    },
+    {
+      "seed": 24,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 15,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 54,
+      "cloudDeaths": 8,
+      "actionHash": "6be971038e9a821f061afd5db2339f6e76d244f5d960a3adf47d3bf711cc2f4c"
+    },
+    {
+      "seed": 25,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 42,
+      "actions": 25,
+      "cloudDeaths": 0,
+      "actionHash": "7a522a4b7f98443953a93ea06feeea1b17b2a9056c2bf6a4cbcfef3469a39356"
+    },
+    {
+      "seed": 25,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 20,
+      "hp": 46,
+      "bossHp": 0,
+      "actions": 67,
+      "cloudDeaths": 10,
+      "actionHash": "558e8ff15b290b1e055985ef6759b1655a143b3ffbdfc2a3c58feb8289860f02"
+    },
+    {
+      "seed": 26,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 50,
+      "actions": 22,
+      "cloudDeaths": 0,
+      "actionHash": "e9743a8ffcaf77c34f37961c445b4529a39613ef8008c583f5709fe2e293021e"
+    },
+    {
+      "seed": 26,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 16,
+      "hp": 43,
+      "bossHp": 0,
+      "actions": 60,
+      "cloudDeaths": 8,
+      "actionHash": "f52a81f6cad84fc62cfad16cd6186701e60ff13fa134a08325a04e97d481d53a"
+    },
+    {
+      "seed": 27,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 50,
+      "actions": 22,
+      "cloudDeaths": 0,
+      "actionHash": "8d88cad637506d0fe8dd4467d2b534fac8654bdc8d2c501fffaa0a3e8a6c40c2"
+    },
+    {
+      "seed": 27,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 51,
+      "bossHp": 0,
+      "actions": 46,
+      "cloudDeaths": 6,
+      "actionHash": "a6d4b59ade8e751c62f46f0a061937af5853c3a5c90794672f3a2483f2398d78"
+    },
+    {
+      "seed": 28,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 39,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "bff8530fb0b80f082b6c579f6e8a9fcb8723426095bfe6c293303c46a82f69aa"
+    },
+    {
+      "seed": 28,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 46,
+      "cloudDeaths": 6,
+      "actionHash": "1327cf2cc8f40039cd95e229b9e5a252b6c5ea468ec178f15137c994cf6b3e1b"
+    },
+    {
+      "seed": 29,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 38,
+      "actions": 26,
+      "cloudDeaths": 0,
+      "actionHash": "42dd0eda62016c1cedfac09fed0ad9e599462a5bcbb4f532c819dc6592a59d64"
+    },
+    {
+      "seed": 29,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 15,
+      "hp": 48,
+      "bossHp": 0,
+      "actions": 53,
+      "cloudDeaths": 8,
+      "actionHash": "71918870f60243711ae2dd62cf818b4331de6a0dabcd41b8f9e4d68c2b8043a6"
+    },
+    {
+      "seed": 30,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 38,
+      "actions": 25,
+      "cloudDeaths": 0,
+      "actionHash": "4c8092c010f854eb7f7d00874089dbf151f4da628dda87fa1fa1507bd7269e74"
+    },
+    {
+      "seed": 30,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 15,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 54,
+      "cloudDeaths": 8,
+      "actionHash": "1fa4f00e97a52e3c7d74c5ed1d758bef54a3cff842e14ac7cdbfaf8ef16f22cd"
+    },
+    {
+      "seed": 31,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 42,
+      "actions": 25,
+      "cloudDeaths": 0,
+      "actionHash": "7f4cdd8e6dbf2ba64b7739374f07b9e32223c3d597490901962ca041a79017a4"
+    },
+    {
+      "seed": 31,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 51,
+      "bossHp": 0,
+      "actions": 48,
+      "cloudDeaths": 6,
+      "actionHash": "33f3ed4e0e843a277a9a49ccc872e4fbff7b906e3178b2fb2d49c0287702a5d7"
+    },
+    {
+      "seed": 32,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 42,
+      "actions": 25,
+      "cloudDeaths": 0,
+      "actionHash": "5807e25ecebef339aa937780b3eae3634fa6e626949d50cdb2f3b3912e4b4ac4"
+    },
+    {
+      "seed": 32,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 15,
+      "hp": 54,
+      "bossHp": 0,
+      "actions": 56,
+      "cloudDeaths": 8,
+      "actionHash": "aa6ba035b59ca8a8346247ba9d8b237b84b0fbfe254f69a89932ef804cd371a0"
+    },
+    {
+      "seed": 33,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 34,
+      "actions": 25,
+      "cloudDeaths": 0,
+      "actionHash": "b654876dd74e39274fda4d9a4b297aa903efc6756c30dbf211204cadca1530c3"
+    },
+    {
+      "seed": 33,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 51,
+      "bossHp": 0,
+      "actions": 47,
+      "cloudDeaths": 6,
+      "actionHash": "90f7589ec5d653a5515aef2bb4b44b8e32b46211845a8ee19eeadc16771e4112"
+    },
+    {
+      "seed": 34,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 33,
+      "actions": 26,
+      "cloudDeaths": 0,
+      "actionHash": "adadd97f3f54cdcdd02e0b668d87f0c66c425794bfd68a641225277931525345"
+    },
+    {
+      "seed": 34,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 50,
+      "cloudDeaths": 6,
+      "actionHash": "29c533f7e8bc1bc60ca9e034427c07f28ce6d00297a7bdd8c1a4d25b2fc92ce6"
+    },
+    {
+      "seed": 35,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 47,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "9e7c6f42ace9d799ba114cc8cc213f8c433735143e3e26213aca6c4b6a08d8bb"
+    },
+    {
+      "seed": 35,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 17,
+      "hp": 44,
+      "bossHp": 0,
+      "actions": 59,
+      "cloudDeaths": 8,
+      "actionHash": "65d69d791c299d36e26acf3db51964a6950292082b5a5b466cbaf961ce02e0ea"
+    },
+    {
+      "seed": 36,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 41,
+      "actions": 25,
+      "cloudDeaths": 0,
+      "actionHash": "a1d0273a8e420d5c674748361ffb3aacd98552106959e56ed02a12284d837c51"
+    },
+    {
+      "seed": 36,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 12,
+      "hp": 54,
+      "bossHp": 0,
+      "actions": 47,
+      "cloudDeaths": 6,
+      "actionHash": "4ae65dd588ef5c277f50b9a23ab17745c64cd7c1b28dd648dd02bddc7a1eff31"
+    },
+    {
+      "seed": 37,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 43,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "ba0a4b72025afd8b428f6ec43e3b985c6105f1739173f2551c3d34212b31f64d"
+    },
+    {
+      "seed": 37,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 16,
+      "hp": 44,
+      "bossHp": 0,
+      "actions": 56,
+      "cloudDeaths": 8,
+      "actionHash": "0763560ca4e80cfc960ad7e518b77cfe40fe41003d93e73e7e185f700af2c66a"
+    },
+    {
+      "seed": 38,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 38,
+      "actions": 25,
+      "cloudDeaths": 0,
+      "actionHash": "4081e3f9b713b7faf454c0828d88944c75baccfedd4166ec66d31e5fd3ce39be"
+    },
+    {
+      "seed": 38,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 16,
+      "hp": 43,
+      "bossHp": 0,
+      "actions": 59,
+      "cloudDeaths": 8,
+      "actionHash": "235ff0ca96eedec2e912f62822ed5f6015db5c0ca1aa35d5f18b76ffe6b717f9"
+    },
+    {
+      "seed": 39,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 30,
+      "actions": 26,
+      "cloudDeaths": 0,
+      "actionHash": "517f890daada51ff0784b7b7b950b80b1fa92eb6d6fcdf91957d57713f6ada2e"
+    },
+    {
+      "seed": 39,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 50,
+      "cloudDeaths": 6,
+      "actionHash": "a782d0807179bae5d700b2de5e65a5426638d2e6ff48898604689769cc0dea5b"
+    },
+    {
+      "seed": 40,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 50,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "d54c80db18d1d1c9a56c069afa4329773ee95e594e12399f3d89fd7a5134c779"
+    },
+    {
+      "seed": 40,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 12,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 44,
+      "cloudDeaths": 6,
+      "actionHash": "f806a7fed08ae79234952ab5225eb28ab5ea99ec1dbb925a876e54f14160ccfb"
+    },
+    {
+      "seed": 41,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 46,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "1a8c4bf0a7b3755ea7470e6316c8ba6188d51683aa65b2dcbb2db873b47490b1"
+    },
+    {
+      "seed": 41,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 17,
+      "hp": 49,
+      "bossHp": 0,
+      "actions": 57,
+      "cloudDeaths": 8,
+      "actionHash": "76c0837269787d2715d89e005858d2d8481d33701fb532b3dcf8b9809b57cbb6"
+    },
+    {
+      "seed": 42,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 42,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "1ff8a81c4f9db9644cc40d3bd28fde48eba4e98a5bf017c2d8d5a7f2e0749ce7"
+    },
+    {
+      "seed": 42,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 48,
+      "bossHp": 0,
+      "actions": 46,
+      "cloudDeaths": 6,
+      "actionHash": "170a28d199999939e09c87f1b7575dfdb9555ed6af549fa0f32333bcb75457dc"
+    },
+    {
+      "seed": 43,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 45,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "03b07432d88b8b7c6289dd6c0411d5a6f9d82103c2bc50e691a0cf404aff8bb8"
+    },
+    {
+      "seed": 43,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 48,
+      "cloudDeaths": 6,
+      "actionHash": "b391ac042b0b5b877645471fc594ec4bb462ceeb1897d49207cb002961c81f59"
+    },
+    {
+      "seed": 44,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 41,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "2e6ab09d87bb344149bb4f786055d38ee62355bdba3c9660d14fd7bf66e0e31a"
+    },
+    {
+      "seed": 44,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 50,
+      "bossHp": 0,
+      "actions": 47,
+      "cloudDeaths": 6,
+      "actionHash": "58350470d307d6956282b24f6e7cdf712754413c398af177c4504d3beef036f1"
+    },
+    {
+      "seed": 45,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 44,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "b34659ec57cbf5ba9cfad14a07505e39f819ab5675398e065ab0da200f3be3ba"
+    },
+    {
+      "seed": 45,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 44,
+      "cloudDeaths": 6,
+      "actionHash": "5d3dd941380d2894a5ac608f11d09343b223c968735cffd0eb8b8882beac066a"
+    },
+    {
+      "seed": 46,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 38,
+      "actions": 26,
+      "cloudDeaths": 0,
+      "actionHash": "c5476f5fb38ee3f3b710ec411d78192f2739b09f108b07fd52a1890dbf173d9e"
+    },
+    {
+      "seed": 46,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 17,
+      "hp": 39,
+      "bossHp": 0,
+      "actions": 58,
+      "cloudDeaths": 8,
+      "actionHash": "c2b1995b3cc04b371f6c7dcdc2f5dea0320c2d3788174869812ff1e6b393f183"
+    },
+    {
+      "seed": 47,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 49,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "ea9f0e897f1032773a6806f52dd5a2f4a0273fee4a21059afaade0373cd86603"
+    },
+    {
+      "seed": 47,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 54,
+      "bossHp": 0,
+      "actions": 48,
+      "cloudDeaths": 6,
+      "actionHash": "ec6f1900c76536e26a0ee695b7c749ab90c0c73d74b9fdf480119e564e1be21f"
+    },
+    {
+      "seed": 48,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 51,
+      "actions": 22,
+      "cloudDeaths": 0,
+      "actionHash": "c3a2b612a12af52848ded897d646087ee5098714d55f159791f4accb1e30d22c"
+    },
+    {
+      "seed": 48,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 50,
+      "bossHp": 0,
+      "actions": 47,
+      "cloudDeaths": 6,
+      "actionHash": "765ae613a2a062f3a78e0332e3daae924c28c312145f35abd49f3d4dc780acdd"
+    },
+    {
+      "seed": 49,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 46,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "56d8b9c01e25c07a39e9eb59a2ad6f6e34429056db34e752c760febc0e0f628f"
+    },
+    {
+      "seed": 49,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 46,
+      "cloudDeaths": 6,
+      "actionHash": "b1a332d472a6ef738f29a809363eb73f0750a5c30521c3ea40a6ce0e05609768"
+    },
+    {
+      "seed": 50,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 46,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "9de0a2abf24c0df4262265f38690bd8285201736b8ab744952866469b900d312"
+    },
+    {
+      "seed": 50,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 51,
+      "bossHp": 0,
+      "actions": 47,
+      "cloudDeaths": 6,
+      "actionHash": "068a0681cd36fe382e98ac08e15dab1f01c87c23857f47c2fef7e8484c9cdc08"
+    },
+    {
+      "seed": 51,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 42,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "44c446ab5edf5af4b0a72544a57f7dd9cc2b71aed40f7b191bc239dc966b0dc0"
+    },
+    {
+      "seed": 51,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 50,
+      "bossHp": 0,
+      "actions": 44,
+      "cloudDeaths": 6,
+      "actionHash": "9cd30e7deabdfaaa2ee1285e27a79ff82c284e5fb54636691a0051e34d4e41a9"
+    },
+    {
+      "seed": 52,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 34,
+      "actions": 26,
+      "cloudDeaths": 0,
+      "actionHash": "87f631b050cee0894dc5fd64a4e929f8f0c52c46195f7517944e0a2bc0696adc"
+    },
+    {
+      "seed": 52,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 47,
+      "bossHp": 0,
+      "actions": 48,
+      "cloudDeaths": 6,
+      "actionHash": "a6342ec1407d74e59afe10c29c818c4455e32e2d79d70732ef69040ce782fd64"
+    },
+    {
+      "seed": 53,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 41,
+      "actions": 26,
+      "cloudDeaths": 0,
+      "actionHash": "3bb5229e4c3eaa4182fdb188791db19efe0ea88ae9c3e24a77469cd48f5e5992"
+    },
+    {
+      "seed": 53,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 12,
+      "hp": 51,
+      "bossHp": 0,
+      "actions": 45,
+      "cloudDeaths": 6,
+      "actionHash": "2a3e721f438d69c39cf3b3bcef77fa8ecc7d69ffe180c4aeddc07de28d3698c3"
+    },
+    {
+      "seed": 54,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 50,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "98448bab6ec0551aa71bbd8920282a1437f3b0c5ce1de3d9eb87763a026fbb2d"
+    },
+    {
+      "seed": 54,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 16,
+      "hp": 41,
+      "bossHp": 0,
+      "actions": 55,
+      "cloudDeaths": 8,
+      "actionHash": "01eeb68e527746378c1cb0cbbaa07a3b983ea65711cb814535c4851634b61040"
+    },
+    {
+      "seed": 55,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 49,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "fdae6462b43b7b3ff5f473c74f62f6a6e67a31052c8400f62cfcfe9262ffd1d3"
+    },
+    {
+      "seed": 55,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 16,
+      "hp": 47,
+      "bossHp": 0,
+      "actions": 59,
+      "cloudDeaths": 8,
+      "actionHash": "fe164915e3a4c391b61090ce33c318c6b3c9663722f9d7b0e7ba4ca3809a3551"
+    },
+    {
+      "seed": 56,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 45,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "99ed65c7d8b0a6c7368af24c70a12d7b8c66120cb6d641cc364cbadba5df5c73"
+    },
+    {
+      "seed": 56,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 52,
+      "bossHp": 0,
+      "actions": 47,
+      "cloudDeaths": 6,
+      "actionHash": "e0cdf1a0ba828404eb65dd6961b2e04335d3dd89ed2e21882e9457f20d524209"
+    },
+    {
+      "seed": 57,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 42,
+      "actions": 26,
+      "cloudDeaths": 0,
+      "actionHash": "1c670a9ea5fbe7acb9af71fff7b51663a9802794ede253cdc977374796573c88"
+    },
+    {
+      "seed": 57,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 51,
+      "bossHp": 0,
+      "actions": 47,
+      "cloudDeaths": 6,
+      "actionHash": "0811c12c467191035308ad1cf6b42707c3d69763d3b98fd1554b54eea7815514"
+    },
+    {
+      "seed": 58,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 46,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "20478f221db63b7aee5fb0e0419fd9ce87f9d4d4000fd535ede6c4874da0f688"
+    },
+    {
+      "seed": 58,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 16,
+      "hp": 45,
+      "bossHp": 0,
+      "actions": 60,
+      "cloudDeaths": 8,
+      "actionHash": "d138b3b0fa51dbbf32bc44a7a59e3e8c4b6749444ebaea2633cdb3a2f5df21a9"
+    },
+    {
+      "seed": 59,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 45,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "f962215091165e18d28a8696ea817051ec5cb8796461850cb60aa64d3a00846e"
+    },
+    {
+      "seed": 59,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 20,
+      "hp": 28,
+      "bossHp": 0,
+      "actions": 71,
+      "cloudDeaths": 10,
+      "actionHash": "09cb5294986a8c6af5fedc99d8a061960d3e83605b4012f9f131568c00b9d4fb"
+    },
+    {
+      "seed": 60,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 38,
+      "actions": 25,
+      "cloudDeaths": 0,
+      "actionHash": "c17710aa1f1c9b596fa63b866a3c2fcf42290945cbf3f2412bee6b2405c35375"
+    },
+    {
+      "seed": 60,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 15,
+      "hp": 46,
+      "bossHp": 0,
+      "actions": 52,
+      "cloudDeaths": 8,
+      "actionHash": "cc2d8875cf1ca7ce57240decdb18a3f122aee1102f1d2808fa9ed91d8d607154"
+    },
+    {
+      "seed": 61,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 46,
+      "actions": 25,
+      "cloudDeaths": 0,
+      "actionHash": "2b3266a2fe3a342540adeb30b46ed590db12e9b9b0e54bf9575e3c05c04abd14"
+    },
+    {
+      "seed": 61,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 17,
+      "hp": 43,
+      "bossHp": 0,
+      "actions": 60,
+      "cloudDeaths": 8,
+      "actionHash": "33100c1551c953126a32578ed1915d41ebe7548e377e6afca74b38d6c4ace812"
+    },
+    {
+      "seed": 62,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 46,
+      "actions": 23,
+      "cloudDeaths": 0,
+      "actionHash": "9d82b7919dc9e0724de0ef1c5c53d2ecf6696f1e6351d8774894d9a5089d5fa4"
+    },
+    {
+      "seed": 62,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 15,
+      "hp": 41,
+      "bossHp": 0,
+      "actions": 54,
+      "cloudDeaths": 8,
+      "actionHash": "9410509ecebd828c89458e52c06bf36c12f34151c600021d602c0968874cb766"
+    },
+    {
+      "seed": 63,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 39,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "3b3b3838f35c996fc8911bccf791f1a05470377ff4370982d2cc0ea724901913"
+    },
+    {
+      "seed": 63,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 13,
+      "hp": 50,
+      "bossHp": 0,
+      "actions": 43,
+      "cloudDeaths": 6,
+      "actionHash": "75db138a849f6c2ef6b6903717a1e8e90ca25ff7fe50c125d83b44ac89a536c6"
+    },
+    {
+      "seed": 64,
+      "policy": "strike-rush",
+      "result": "lost",
+      "turns": 8,
+      "hp": 0,
+      "bossHp": 38,
+      "actions": 24,
+      "cloudDeaths": 0,
+      "actionHash": "3cc83c9cbf101c55344bc9513358edc9abd92189543667651fe488f62d44cc22"
+    },
+    {
+      "seed": 64,
+      "policy": "defense-and-board",
+      "result": "won",
+      "turns": 17,
+      "hp": 42,
+      "bossHp": 0,
+      "actions": 59,
+      "cloudDeaths": 8,
+      "actionHash": "fa2171892e34ad811361856ba6bcaedff238d046942f027a476c82fb8fd813a1"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reason": "Preserve initial release baseline hashes before reviewed rules3 UI updates",
+  "files": {
+    "tests/browser/game.spec.ts-snapshots/battle-en-1366x768-chromium-darwin.png": "4d844f34cfea70e7104b5c1c9b52a8a08cfe0b2987bb0cec70f604d2a0eec8b1",
+    "tests/browser/game.spec.ts-snapshots/battle-zh-1280x720-chromium-darwin.png": "f3b02252e57b70a7d8f74c9cb45eae8c310c1c93df3f507313e5a4a99c301b96",
+    "tests/browser/game.spec.ts-snapshots/battle-zh-1920x1080-chromium-darwin.png": "9b504f34fdf5b1bef2bea30b8d9b4a41f3b7ecdd24871e07026035dfbc09a621",
+    "tests/browser/game.spec.ts-snapshots/battle-zh-1366x768-chromium-darwin.png": "16be9631849ba364b07c2eb1a27fd81d2c5d4481526c887a171543f80905248b",
+    "tests/browser/game.spec.ts-snapshots/battle-en-1920x1080-chromium-darwin.png": "c7dfd2fbb654f5bcfd8665b6f802e54b376126cc0b71800d09876ea80a0e8d83",
+    "tests/browser/game.spec.ts-snapshots/battle-en-1280x720-chromium-darwin.png": "fee96dda5f6888c3c9236ebb31eb1306e1bf09d71f6de179ab7d04495895c2d7",
+    "tests/browser/game.spec.ts-snapshots/battle-en-1440x900-2x-chromium-darwin.png": "36bb1539876c253529f3d02aee8ab3c558093731004e603af511cab1d2472c77"
+  }
+}

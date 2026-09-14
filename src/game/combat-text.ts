@@ -1,0 +1,41 @@
+import type { Text } from './types';
+const t = (en: string, zh: string, vi: string): Text => ({ en, 'zh-CN': zh, vi });
+/** Player-facing powers only. Internal combat bookkeeping has no display name. */
+export const POWER_NAMES: Record<string, Text> = {
+  flameEngine: t('Furnace Heart', '炉心不灭', 'Lô Tâm Bất Diệt'),
+  seedGarden: t('Seed Garden', '众生苗圃', 'Chúng Sinh Miêu Phố'),
+  protectiveCycle: t('Golden Body', '不坏金身', 'Bất Hoại Kim Thân'),
+  swordFoundry: t('Sword Foundry', '剑炉长鸣', 'Kiếm Lô Trường Minh'),
+  gale: t('Gale Power', '狂风之力', 'Sức Cuồng Phong'),
+  numericalSuperiority: t('Numerical Superiority', '众势', 'Thế Đông'),
+  refiningArmor: t('Crucible Shell', '炉灰成甲', 'Lô Hôi Thành Giáp'),
+  refiningDraw: t('Living Furnace', '万法归炉', 'Vạn Pháp Quy Lô'),
+  refiningStrength: t('Refined Strength', '炼化之力', 'Sức Luyện Hóa'),
+  refiningHeal: t('Restorative Ash', '炉灰回春', 'Lô Hôi Hồi Xuân'),
+  basicTempering: t('Heavy Foundations', '千钧根基', 'Thiên Quân Căn Cơ'),
+  formationPatience: t('Patient Circle', '静守阵心', 'Tĩnh Thủ Trận Tâm'),
+  foresight: t('Foresight', '先见', 'Tiên Kiến'),
+  regen: t('Endless Vitality', '生生不息', 'Sinh Sinh Bất Tức'),
+  selfHarmDraw: t('Blood Scripture', '血海真经', 'Huyết Hải Chân Kinh'),
+  summonStrength: t('Spirit Sovereign', '万灵归心', 'Vạn Linh Quy Tâm'),
+  swordIntentMultiplier: t('Awakened Sword Heart', '剑心通明', 'Kiếm Tâm Thông Minh'),
+};
+export const POWER_TEXT: Record<string, Text> = {
+  flameEngine: t('After each Fire Attack, apply {n} Explosive Flame.', '每次火道攻击后施加{n}层爆炎。', 'Sau mỗi Tấn Công Hỏa Đạo, gắn {n} Bạo Viêm.'),
+  seedGarden: t('At the start of your turn, Seeds grow {n} extra stacks.', '你的回合开始时，种子额外生长{n}层。', 'Đầu lượt của bạn, Hạt Giống mọc thêm {n} tầng.'),
+  protectiveCycle: t('Gain {n} Protective Qi at turn start.', '你的回合开始时获得{n}层罡气护体。', 'Đầu lượt của bạn, nhận {n} Cương Khí Hộ Thể.'),
+  swordFoundry: t('Create {n} Flying Swords at turn start.', '你的回合开始时生成{n}张飞剑。', 'Đầu lượt của bạn, tạo {n} Phi Kiếm.'),
+  gale: t('Gale deals {n} additional damage.', '狂风额外造成{n}点伤害。', 'Cuồng Phong gây thêm {n} sát thương.'),
+  numericalSuperiority: t('At turn start, with 2 summons, your team gains {n} Strength; with 3, double it.', '你的回合开始时，拥有2只召唤物则全队获得{n}层力量；3只时翻倍。', 'Đầu lượt của bạn, nếu có 2 vật triệu hồi, cả đội nhận {n} Sức Mạnh; nếu có 3, nhận gấp đôi.'),
+  refiningArmor: t('Gain {n} Armor whenever a card is Exhausted.', '每消耗一张牌，获得{n}点护甲。', 'Mỗi khi một lá bị Tiêu Hao, nhận {n} Giáp.'),
+  refiningDraw: t('Draw {n} whenever a card is Exhausted.', '每消耗一张牌，抽{n}张牌。', 'Mỗi khi một lá bị Tiêu Hao, rút {n} lá.'),
+  refiningStrength: t('Gain {n} Strength whenever a card is Exhausted.', '每消耗一张牌，获得{n}层力量。', 'Mỗi khi một lá bị Tiêu Hao, nhận {n} Sức Mạnh.'),
+  refiningHeal: t('Heal {n} HP whenever a card is Exhausted.', '每消耗一张牌，回复{n}点生命。', 'Mỗi khi một lá bị Tiêu Hao, hồi {n} sinh lực.'),
+  basicTempering: t('Basic Mastery from this power strengthens Basic Strike and Defense by {n}. Basic cards cost 1 more Dao Yuan.', '此能力的基础精通使基础打击与防御效果增加{n}点，基础牌耗元增加1点。', 'Tinh Thông Cơ Bản từ năng lực này tăng hiệu ứng Đả Kích và Phòng Ngự Cơ Bản thêm {n}. Bài Cơ Bản tốn thêm 1 Đạo Nguyên.'),
+  formationPatience: t('Gain {n} Armor per card Retained at turn end.', '回合结束时，每张保留的牌提供{n}点护甲。', 'Cuối lượt, nhận {n} Giáp cho mỗi lá được Giữ Lại.'),
+  foresight: t('Draw {n} extra cards at turn start.', '你的回合开始时额外抽{n}张牌。', 'Đầu lượt của bạn, rút thêm {n} lá.'),
+  regen: t('Heal {n} HP at turn start.', '你的回合开始时回复{n}点生命。', 'Đầu lượt của bạn, hồi {n} sinh lực.'),
+  selfHarmDraw: t('Draw {n} after surviving Direct HP Loss.', '承受直接生命损失且存活后，抽{n}张牌。', 'Sau khi chịu Mất Sinh Lực Trực Tiếp và còn sống, rút {n} lá.'),
+  summonStrength: t('Current and future summons gain {n} Strength.', '当前及之后的召唤物获得{n}层力量。', 'Vật triệu hồi hiện có và về sau nhận {n} Sức Mạnh.'),
+  swordIntentMultiplier: t('Each Sword Intent adds {n} damage to every Sword Attack hit.', '每层剑意为剑道攻击的每一段增加{n}点伤害。', 'Mỗi Kiếm Ý cộng {n} sát thương cho từng đòn Tấn Công Kiếm Đạo.'),
+};

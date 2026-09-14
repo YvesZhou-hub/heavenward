@@ -1,0 +1,7 @@
+{
+  "path": "/legacy/v1/index.html",
+  "source": "Existing 0.1.0 static production export",
+  "storage": "Original v1 localStorage; current app will use independent v2",
+  "changes": "Static asset URL prefix and version banner only",
+  "files": 571
+}

@@ -1,0 +1,68 @@
+{
+  "recordedAt": "2026-09-14T05:20:56.473Z",
+  "type": "Post-run provenance note; no simulations rerun and no tested hashes replaced",
+  "rulesVersion": "human-0.3.0",
+  "coreVersion": 3,
+  "change": {
+    "file": "src/game/run.ts",
+    "testedSha256": "0394cc6f7854f7a5bd9f49c121efc43cde2ad50e9b6dfd200d1d6aa3b3c450b3",
+    "currentSha256": "2b12f31b8306e20eda5547838fec47ba36e9450e937893864315a21ac5cd1997",
+    "scope": "getPendingProgression now exposes only the latest receipt when unread, preventing an acknowledged major receipt from revealing an older unread minor notice.",
+    "inspection": "Current query implementation inspected. The owning run/save agent reported this as the only run.ts change; no grant, RNG, acquisition or combat rule changes were made.",
+    "simulationEffect": "The ordinary policy already acknowledges every latest pending notice before advancing. The reports are not represented as a new execution on the revised query; original source hashes and measured results remain intact."
+  },
+  "reports": [
+    {
+      "path": "artifacts/revision-balance.json",
+      "reportSha256": "09102a720a785900952ff861628ad4ff0c286f28496b38b336d38c8f9492790a",
+      "changedInputs": [
+        {
+          "file": "src/game/run.ts",
+          "testedSha256": "0394cc6f7854f7a5bd9f49c121efc43cde2ad50e9b6dfd200d1d6aa3b3c450b3",
+          "currentSha256": "2b12f31b8306e20eda5547838fec47ba36e9450e937893864315a21ac5cd1997"
+        }
+      ]
+    },
+    {
+      "path": "artifacts/bot-runs-v2.json",
+      "reportSha256": "5865c6fed0232202ca729f6573be2e6579119fae3ab4bd18cf8679e54d6c7e1c",
+      "changedInputs": [
+        {
+          "file": "src/game/run.ts",
+          "testedSha256": "0394cc6f7854f7a5bd9f49c121efc43cde2ad50e9b6dfd200d1d6aa3b3c450b3",
+          "currentSha256": "2b12f31b8306e20eda5547838fec47ba36e9450e937893864315a21ac5cd1997"
+        }
+      ]
+    },
+    {
+      "path": "artifacts/bot-runs-sacrifice-v2.json",
+      "reportSha256": "aafc631bbe4514b4618807ff6059c8da79e1435994c1dd925bac1298bf4a360e",
+      "changedInputs": [
+        {
+          "file": "src/game/run.ts",
+          "testedSha256": "0394cc6f7854f7a5bd9f49c121efc43cde2ad50e9b6dfd200d1d6aa3b3c450b3",
+          "currentSha256": "2b12f31b8306e20eda5547838fec47ba36e9450e937893864315a21ac5cd1997"
+        }
+      ]
+    },
+    {
+      "path": "artifacts/revision/reward-seed-report.json",
+      "reportSha256": "c78ec277d6ebcfd243b0f89ca167f15c6dc4f877d8fbecc8261a3dba85d78cbd",
+      "changedInputs": [
+        {
+          "file": "src/game/run.ts",
+          "testedSha256": "0394cc6f7854f7a5bd9f49c121efc43cde2ad50e9b6dfd200d1d6aa3b3c450b3",
+          "currentSha256": "2b12f31b8306e20eda5547838fec47ba36e9450e937893864315a21ac5cd1997"
+        }
+      ]
+    }
+  ],
+  "regression": {
+    "test": "never resurfaces an older minor notice after a major Continue and presents the next new minor",
+    "status": "passed",
+    "reportPath": "artifacts/revision/run-save-latest-tests.json",
+    "reportSha256": "30d51b839f0ca363c078dd246762c6b93a888e765c1dd1a9272318090f35c8df",
+    "passedTests": 55,
+    "totalTests": 55
+  }
+}

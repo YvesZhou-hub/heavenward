@@ -1,0 +1,21 @@
+
+> heavenward@0.2.0 typecheck
+> tsc --noEmit
+
+src/components/Game.tsx(5,137): error TS2305: Module '"@/game/combat"' has no exported member 'validateCardPlay'.
+src/game/card-view.ts(2,38): error TS2305: Module '"./types"' has no exported member 'CardTarget'.
+src/game/card-view.ts(9,83): error TS2339: Property 'target' does not exist on type 'CardDef'.
+src/game/card-view.ts(11,85): error TS7053: Element implicitly has an 'any' type because expression of type 'CardTarget' can't be used to index type '{ self: string; enemy: string; allEnemies: string; randomEnemy: string; none: string; }'.
+src/game/content.ts(48,120): error TS2339: Property 'target' does not exist on type 'CardDef'.
+src/game/content.ts(48,273): error TS2353: Object literal may only specify known properties, and 'target' does not exist in type 'CardDef'.
+src/game/content.ts(49,125): error TS2339: Property 'target' does not exist on type 'CardDef'.
+src/game/content.ts(50,100): error TS2339: Property 'target' does not exist on type 'CardDef'.
+src/game/content.ts(53,94): error TS2353: Object literal may only specify known properties, and 'target' does not exist in type 'CardDef'.
+src/game/content.ts(54,95): error TS2353: Object literal may only specify known properties, and 'target' does not exist in type 'CardDef'.
+src/game/content.ts(55,106): error TS2353: Object literal may only specify known properties, and 'target' does not exist in type 'CardDef'.
+src/game/content.ts(183,104): error TS2353: Object literal may only specify known properties, and 'target' does not exist in type 'CardDef'.
+src/game/content.ts(184,122): error TS2353: Object literal may only specify known properties, and 'target' does not exist in type 'CardDef'.
+src/game/content.ts(185,112): error TS2353: Object literal may only specify known properties, and 'target' does not exist in type 'CardDef'.
+src/game/content.ts(186,104): error TS2353: Object literal may only specify known properties, and 'target' does not exist in type 'CardDef'.
+src/game/content.ts(187,116): error TS2353: Object literal may only specify known properties, and 'target' does not exist in type 'CardDef'.
+src/game/content.ts(188,116): error TS2353: Object literal may only specify known properties, and 'target' does not exist in type 'CardDef'.

@@ -1,0 +1,3190 @@
+{
+  "version": 1,
+  "draft": false,
+  "requestedModel": "gpt-image-2.5-sunburst",
+  "actualModel": "not exposed; no model identity claim",
+  "provenanceRecords": [
+    "assets/source/generation-record.json",
+    "assets/source/cards-01-04-record.json",
+    "assets/source/cards-05-07-record.json",
+    "assets/source/repairs-record.json",
+    "assets/source/entity-record.json"
+  ],
+  "assets": [
+    {
+      "id": "strike",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/strike.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "aaff4e2010a2da915c661be22e7f9f2132e4eefbf44cc12680d89f0f39f663a0",
+      "bytes": 36162,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "defense",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/defense.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "2f9cac2756e6eb11927c78de3ee1eaaa5249b7ec5884ea5816caad877bbe5209",
+      "bytes": 43490,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "flying-sword",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/flying-sword.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "abed6a5dac41902c8081b5f9068f25d63ade74def47df81f84af53e1b203cff1",
+      "bytes": 31828,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "ember-brand",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 943,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/ember-brand.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "784ea250feab58ff3f3393671d4489aabb9484cea15ec12ab33b318b9f30d346",
+      "bytes": 44118,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "cinder-fuse",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/cinder-fuse.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "fae5f44fbed1c9fe9c7f9c91a036cb09e7b92a20d94fe1077b1e4198a32093de",
+      "bytes": 50508,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "wildfire-thread",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/wildfire-thread.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "f2ce047b73cbd3968ae9e2704bacca944c37d68bd54cb6cd84a94da431347629",
+      "bytes": 35870,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "ash-rain",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/ash-rain.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "eb6a8243fda28761c43910cdd05388f22b85e8797ccd047ce9ca2d54908585f6",
+      "bytes": 47516,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "banked-coals",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 943,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/banked-coals.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "176f70408d4eff8f1a6b9eec6dd0be75537f48faad20d5f9156904a3123fa205",
+      "bytes": 45878,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "furnace-heart",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 629,
+        "width": 310,
+        "height": 298
+      },
+      "file": "public/art/cards/furnace-heart.webp",
+      "width": 310,
+      "height": 298,
+      "sha256": "973af2e2aed826e76eba0e6dba14ff3c77503e6c0b5440e40d1a22d6299ed011",
+      "bytes": 45916,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "ashen-sun",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 629,
+        "width": 309,
+        "height": 298
+      },
+      "file": "public/art/cards/ashen-sun.webp",
+      "width": 309,
+      "height": 298,
+      "sha256": "326e9464d16d3e9fc810f28cff2a3778482948a9294f32b9c7abda4e2cb4aaed",
+      "bytes": 40006,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "spring-return",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 629,
+        "width": 310,
+        "height": 298
+      },
+      "file": "public/art/cards/spring-return.webp",
+      "width": 310,
+      "height": 298,
+      "sha256": "de5b84cb005df06326bfb7af64aa39a5d31fa3fa07e35bd7956fc7b43e3d0f9c",
+      "bytes": 42816,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "rootbind",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 943,
+        "top": 629,
+        "width": 309,
+        "height": 298
+      },
+      "file": "public/art/cards/rootbind.webp",
+      "width": 309,
+      "height": 298,
+      "sha256": "2bf096ed44f2fb043ea70f4cd32851353fbd1fb7b8e4bd99d6c075048af6d483",
+      "bytes": 46200,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "thorn-familiar",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 931,
+        "width": 310,
+        "height": 321
+      },
+      "file": "public/art/cards/thorn-familiar.webp",
+      "width": 310,
+      "height": 321,
+      "sha256": "6e4c300dc9858984f0b52e69a9ec3945a915a04104c56be98c451627d179652e",
+      "bytes": 42134,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "living-sap",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 931,
+        "width": 309,
+        "height": 321
+      },
+      "file": "public/art/cards/living-sap.webp",
+      "width": 309,
+      "height": 321,
+      "sha256": "e2c29ce000bfc6f8c060a679512cf80caa63680becb470422d5dee47f968d39c",
+      "bytes": 36416,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "verdant-harvest",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 931,
+        "width": 310,
+        "height": 321
+      },
+      "file": "public/art/cards/verdant-harvest.webp",
+      "width": 310,
+      "height": 321,
+      "sha256": "31ea1a28ac520bd4ab5a29f4e713756563e5f18f1c0e9613866072333e836977",
+      "bytes": 46774,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "seed-garden",
+      "usage": "cards",
+      "source": "assets/source/cards-01.png",
+      "sourceSha256": "575e199748726c5819a00bf91ebd5557b0fcd75371d4136b3f119fff4803f7bf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 943,
+        "top": 931,
+        "width": 309,
+        "height": 321
+      },
+      "file": "public/art/cards/seed-garden.webp",
+      "width": 309,
+      "height": 321,
+      "sha256": "4c35b2fb42bab9083e40e522d569281a376818c56e9bf5ed28ce4d0d30ae09b1",
+      "bytes": 46556,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "ancient-grove",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/ancient-grove.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "e3cf071b7627d4eddac2f72da58236f7ac8deea8da753b2369142f341a6df2c9",
+      "bytes": 55126,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "stone-rampart",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/stone-rampart.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "28ddca99d31c48d65b8ba8411728783781858c76d2253f22a791a5c67a577e0f",
+      "bytes": 45910,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "mountain-breaker",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/mountain-breaker.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "8a03e55aa79c65c1feaf88aa5aa485063c1124e1f0eb315de38bf385f035d503",
+      "bytes": 50936,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "rooted-stance",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/rooted-stance.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "b152fffed909252efa1411c5c6e45bfba71559f15f37e47fa2cbb08b5354e3c5",
+      "bytes": 48552,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "earthen-fist",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/earthen-fist.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "f8c62fa5c206f90502c93c8ae30a07273fbea22c3cd8e82160c2359e88827389",
+      "bytes": 49934,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "stone-skin",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/stone-skin.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "b4f5986da37dfb60b3dafe4269a1ef83ab1a4ceb9c53d85c90194040333e118c",
+      "bytes": 52556,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "gravel-snare",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/gravel-snare.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "c84346fe41b40b09dc8edb0f65a3ef890f4e51c069a8ef19c66c74aaec36a302",
+      "bytes": 53794,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "world-bearing-mountain",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/world-bearing-mountain.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "4448eda1faa73b178ec7a3189710c4eb128220662d8116fa9bb55e45807eb9fe",
+      "bytes": 47178,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "hidden-spring",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 629,
+        "width": 309,
+        "height": 295
+      },
+      "file": "public/art/cards/hidden-spring.webp",
+      "width": 309,
+      "height": 295,
+      "sha256": "553fc6bc261a69a71f86c723b9a8ca08c7570357f25ecfdf11d4ffa95bd7dd13",
+      "bytes": 47318,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "ripple-guard",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 629,
+        "width": 310,
+        "height": 295
+      },
+      "file": "public/art/cards/ripple-guard.webp",
+      "width": 310,
+      "height": 295,
+      "sha256": "f569327ffb8bb958a81540fbc66c212beec02ccde54f0bdadfc11d958a7eeca4",
+      "bytes": 46518,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "unbroken-flow",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 629,
+        "width": 309,
+        "height": 295
+      },
+      "file": "public/art/cards/unbroken-flow.webp",
+      "width": 309,
+      "height": 295,
+      "sha256": "164d16086751e375f646fafa02b53c665c4e03632ee3fd2a86ade3f7aee9a62f",
+      "bytes": 43164,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "clear-channel",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 629,
+        "width": 310,
+        "height": 295
+      },
+      "file": "public/art/cards/clear-channel.webp",
+      "width": 310,
+      "height": 295,
+      "sha256": "765c2470fb592e9fc19379e9eeade1ea987d26a234a8c87407c440c6251bfee3",
+      "bytes": 48180,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "ebb-cut",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 928,
+        "width": 309,
+        "height": 324
+      },
+      "file": "public/art/cards/ebb-cut.webp",
+      "width": 309,
+      "height": 324,
+      "sha256": "c33fb74e9115968e29a0a0a1fb33c4e2880e05565c0cd84877e2d90a2a082014",
+      "bytes": 49382,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "deep-reservoir",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 928,
+        "width": 310,
+        "height": 324
+      },
+      "file": "public/art/cards/deep-reservoir.webp",
+      "width": 310,
+      "height": 324,
+      "sha256": "84fb1b610cbcc2275af1c77f6f17b16d61782d4b2536cb8355bdcc3c768818f1",
+      "bytes": 49212,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "four-seas-return",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 928,
+        "width": 309,
+        "height": 324
+      },
+      "file": "public/art/cards/four-seas-return.webp",
+      "width": 309,
+      "height": 324,
+      "sha256": "afc1d3bb0fa1dbca75d29fad6b09db960b59f875bf56c19f02da6cc5ee20187b",
+      "bytes": 54048,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "hone-the-edge",
+      "usage": "cards",
+      "source": "assets/source/cards-02.png",
+      "sourceSha256": "f9e440045697a1150b9d158b11d158ba05328c4256d3fc9b523072956818c3b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 928,
+        "width": 310,
+        "height": 324
+      },
+      "file": "public/art/cards/hone-the-edge.webp",
+      "width": 310,
+      "height": 324,
+      "sha256": "49af5c84f2d6ca3426b463a085dc985e4a192a7e5e31844ee9673586564d42dd",
+      "bytes": 44922,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "threefold-needles",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/threefold-needles.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "f0a31720ca59b079f5a9102a0aeadd31dbf9974ad9ad4ad72a4959c32b8a6a64",
+      "bytes": 35774,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "golden-breath",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/golden-breath.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "511b9ba978275cad5bf1fe6e6f00d55dd2e56822977bd41bca1195489f8db3bb",
+      "bytes": 40188,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "hardened-edge",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/hardened-edge.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "b5c36c3cd4f3b72c706f156e4a5f13747c05bdb143b0331ffc00970cf8ff9074",
+      "bytes": 47658,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "razor-lattice",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 943,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/razor-lattice.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "aaa25bc142ed8d8fbf3d6c5b3993bac9bea83e1a56072a2da438030a4cc0d6b2",
+      "bytes": 44898,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "shattering-chisel",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/shattering-chisel.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "a198fe88176c735acb4e97d086fa3bd4e245f68d479f0326b5a62521602e0446",
+      "bytes": 45258,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "ten-thousand-needles",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/ten-thousand-needles.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "40842292c05d7865d998314a2cb8a1cf34d5a800e9855ad10af05f6a1b09ef98",
+      "bytes": 43112,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "still-sword-heart",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/still-sword-heart.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "760b96b1c18cabc5c237f8abfca414333aa2b848be1900c4a26fda46986241d1",
+      "bytes": 32556,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "twin-stars",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 943,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/twin-stars.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "313d11f3a0d9f481452f4031d09bc621c296b309c288518d42588df83719a34e",
+      "bytes": 31942,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "flying-arsenal",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 629,
+        "width": 309,
+        "height": 304
+      },
+      "file": "public/art/cards/flying-arsenal.webp",
+      "width": 309,
+      "height": 304,
+      "sha256": "ac6b86a73ea8d2f9bb7935fe0881468d68e7e22f8e3e13b8782cf9017eef7dfe",
+      "bytes": 36218,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "last-word",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 629,
+        "width": 310,
+        "height": 304
+      },
+      "file": "public/art/cards/last-word.webp",
+      "width": 310,
+      "height": 304,
+      "sha256": "3c389c00fe1af4e3e9a4170ac6edd10eb3cc3358340066a74038ca04202a9cb4",
+      "bytes": 41954,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "severing-arc",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 629,
+        "width": 310,
+        "height": 304
+      },
+      "file": "public/art/cards/severing-arc.webp",
+      "width": 310,
+      "height": 304,
+      "sha256": "9b7c65a6e65a166afd7ecb8ddeb8187dc8153ec059e75e57a07ef3d9f9970d59",
+      "bytes": 30914,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "sword-foundry",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 943,
+        "top": 629,
+        "width": 309,
+        "height": 304
+      },
+      "file": "public/art/cards/sword-foundry.webp",
+      "width": 309,
+      "height": 304,
+      "sha256": "7da15bb6598f4eff42cea2ba9395b530da9effde0ebd75eccd088ffe59bfd41f",
+      "bytes": 41762,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "thousand-sword-dawn",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 937,
+        "width": 309,
+        "height": 315
+      },
+      "file": "public/art/cards/thousand-sword-dawn.webp",
+      "width": 309,
+      "height": 315,
+      "sha256": "21dc5b261be4d9029bbee9eb5fc695c75993922d10b8a4c0f833c2547a8d5358",
+      "bytes": 39322,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "swallow-slip",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 937,
+        "width": 310,
+        "height": 315
+      },
+      "file": "public/art/cards/swallow-slip.webp",
+      "width": 310,
+      "height": 315,
+      "sha256": "8e9a973c4d511a3bf1f5135f96a2f5db2fd70ae3434b3d58c9a750abcd087f08",
+      "bytes": 30876,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "ragged-banner",
+      "usage": "cards",
+      "source": "assets/source/cards-03.png",
+      "sourceSha256": "cbf9fd11f35f1001330dcf7d96f67de4451c35e4c7b20168a4a317b279521f6c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 937,
+        "width": 310,
+        "height": 315
+      },
+      "file": "public/art/cards/ragged-banner.webp",
+      "width": 310,
+      "height": 315,
+      "sha256": "1a671594a05cfadd16b1e31d8c38a98dbe04f23e78a2379c96421161e32f6cfb",
+      "bytes": 38558,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "storm-script",
+      "usage": "cards",
+      "source": "assets/source/cards-repairs-01.png",
+      "sourceSha256": "8e6bfae7fa666824cc607798fb168c0060a7e480f4dfc9603e72e5d022eb84c7",
+      "sourceDimensions": [
+        2172,
+        724
+      ],
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 720,
+        "height": 720
+      },
+      "file": "public/art/cards/storm-script.webp",
+      "width": 720,
+      "height": 720,
+      "sha256": "ced3b53d72be98f9d62576a1aa9b0cfc6153c30ca10e57546aa2519fb9988a1c",
+      "bytes": 174198,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "empty-sleeve",
+      "usage": "cards",
+      "source": "assets/source/cards-repairs-01.png",
+      "sourceSha256": "8e6bfae7fa666824cc607798fb168c0060a7e480f4dfc9603e72e5d022eb84c7",
+      "sourceDimensions": [
+        2172,
+        724
+      ],
+      "crop": {
+        "left": 726,
+        "top": 2,
+        "width": 720,
+        "height": 720
+      },
+      "file": "public/art/cards/empty-sleeve.webp",
+      "width": 720,
+      "height": 720,
+      "sha256": "f3398ef2671acb5d92dc414e4ec6a0287612ccc6491dae6d3071deebb8361024",
+      "bytes": 134610,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "wind-shears",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/wind-shears.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "dad2f5952db3109e2314a8481d7a58738ed8d0a1a10524a8a252468d2d42793c",
+      "bytes": 37346,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "wind-shrine",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/wind-shrine.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "d339f58cada0c53acdbf6910943fbe9e8f2dfe3028fb99c5bd7f133fc8e7baf0",
+      "bytes": 41842,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "sky-unbound",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/sky-unbound.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "1474581a56972d27ae605a9a16a16ac7c08cf466d77ad6fd6c4c50e07d64a45e",
+      "bytes": 42570,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "crimson-fang",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/crimson-fang.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "41d94f9ef54ad80dfb774ed5f9df481d3e33377d98ebbc8866dd001f3ce5d8ff",
+      "bytes": 32304,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "bloodletter",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/bloodletter.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "63ce867547d28725fc272ea59bf218678a49855abd4a62de359e5dad64653ecd",
+      "bytes": 27112,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "open-vein",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/open-vein.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "58a4430d908756ba8daac4a91b7d0df53236e95abcd3b0d9c8bd10943d22ac2b",
+      "bytes": 37130,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "blood-oath",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/blood-oath.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "8497f6c82f92da86429a4cc6a32fd2a1775f8302174971c7fb51b51235251a52",
+      "bytes": 35026,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "red-mist",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 629,
+        "width": 310,
+        "height": 284
+      },
+      "file": "public/art/cards/red-mist.webp",
+      "width": 310,
+      "height": 284,
+      "sha256": "29932990bb4fbb3a4114004ac44891609739641d6b7279a1928ebe99453351a6",
+      "bytes": 32748,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "feast-of-scars",
+      "usage": "cards",
+      "source": "assets/source/cards-repairs-01.png",
+      "sourceSha256": "8e6bfae7fa666824cc607798fb168c0060a7e480f4dfc9603e72e5d022eb84c7",
+      "sourceDimensions": [
+        2172,
+        724
+      ],
+      "crop": {
+        "left": 1450,
+        "top": 2,
+        "width": 720,
+        "height": 720
+      },
+      "file": "public/art/cards/feast-of-scars.webp",
+      "width": 720,
+      "height": 720,
+      "sha256": "e5b0d2a58cfabf808a6ea779f56e80997f833aec11c7a31c92996379c369eddb",
+      "bytes": 171568,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "scarlet-requiem",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 629,
+        "width": 309,
+        "height": 284
+      },
+      "file": "public/art/cards/scarlet-requiem.webp",
+      "width": 309,
+      "height": 284,
+      "sha256": "a8bfcbc29ec7b207af504084f7f0b294eb50cf6927d34212f862e8fb2b6aad9a",
+      "bytes": 27944,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "reed-wolf-pact",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 629,
+        "width": 310,
+        "height": 284
+      },
+      "file": "public/art/cards/reed-wolf-pact.webp",
+      "width": 310,
+      "height": 284,
+      "sha256": "a8287a766dcf1c7bd75a81585d259a4953c99776a776cd87815d22bb8d763522",
+      "bytes": 42036,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "thorn-sentinel",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 917,
+        "width": 310,
+        "height": 335
+      },
+      "file": "public/art/cards/thorn-sentinel.webp",
+      "width": 310,
+      "height": 335,
+      "sha256": "7fae26552a00d53fcfa8c80d3d9c4fb7134e30be9664b4a690ce5408590e97ec",
+      "bytes": 53526,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "iron-crane-pact",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 917,
+        "width": 309,
+        "height": 335
+      },
+      "file": "public/art/cards/iron-crane-pact.webp",
+      "width": 309,
+      "height": 335,
+      "sha256": "21dcb4f23c665a79d4356b46a1186a25b482acbb977e50a4609c0d6fa2990877",
+      "bytes": 43198,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "shared-standard",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 917,
+        "width": 309,
+        "height": 335
+      },
+      "file": "public/art/cards/shared-standard.webp",
+      "width": 309,
+      "height": 335,
+      "sha256": "bf711e87e267ae8ab1c2cb8467014c8f2e32faa2f17cfe48daf52ec6249bb13f",
+      "bytes": 49052,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "encirclement",
+      "usage": "cards",
+      "source": "assets/source/cards-04.png",
+      "sourceSha256": "97b504e82cb11ff6e117de79b5f2ae288bfc7fc0c26062c89a52da5be85e3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 917,
+        "width": 310,
+        "height": 335
+      },
+      "file": "public/art/cards/encirclement.webp",
+      "width": 310,
+      "height": 335,
+      "sha256": "096d43a8d3cfa9e0445a96adb9a4acb3c25fa408832739e47fa4fef13c35d156",
+      "bytes": 47882,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "beast-command",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/beast-command.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "96732fd9d973a9be364c96c8d24790fd09bb10256789428a99cd698012375bd7",
+      "bytes": 36668,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "ancestral-offering",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/ancestral-offering.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "61708c0d7ee05c1f4e6f3cd37e23fccc2b2ee591197fc63f254be173afcc2a1f",
+      "bytes": 45296,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "overwhelm-by-numbers",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/overwhelm-by-numbers.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "f0aa31dc77da64000d69dde8afe84913b3b4ce42c5105bb8297dbc47892f5a9a",
+      "bytes": 44738,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "battle-roar",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/battle-roar.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "4b482032f330e5fb29447e9b80189030038d20ff17599a17ffb9750b0463dba1",
+      "bytes": 50072,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "crushing-blow",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/crushing-blow.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "09618f8e4d7d7dd4a47eb19473b8f7cb955e4f4b95112e10a2c88b864328c2f4",
+      "bytes": 50390,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "fundamentals",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/fundamentals.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "52ea052aad928839dd4199b7331ffea755d5881cf2167dbf2ff61c554b934c28",
+      "bytes": 36722,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "heavy-foundations",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/heavy-foundations.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "23adadb3319ec1aa9e112cbf1a3f30d3f76ed78c28d407b7ad2701ca41e9be4d",
+      "bytes": 40052,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "measured-practice",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/measured-practice.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "2af279bc9fceba4e3431c65c975b6bec58e4b3ff3b40d91c1e2c04c7a822702a",
+      "bytes": 36452,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "three-mountain-fist",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 629,
+        "width": 310,
+        "height": 297
+      },
+      "file": "public/art/cards/three-mountain-fist.webp",
+      "width": 310,
+      "height": 297,
+      "sha256": "0ffc556864920e0abfc312ed521f1cdaa42183990231de43ee67a47d4bc553f7",
+      "bytes": 36554,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "unshaken-resolve",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 629,
+        "width": 309,
+        "height": 297
+      },
+      "file": "public/art/cards/unshaken-resolve.webp",
+      "width": 309,
+      "height": 297,
+      "sha256": "110679f5aef5b46704a756d061ff140887caa51545121422130ca92eeba181fe",
+      "bytes": 40780,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "burn-impurities",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 629,
+        "width": 309,
+        "height": 297
+      },
+      "file": "public/art/cards/burn-impurities.webp",
+      "width": 309,
+      "height": 297,
+      "sha256": "8894e664b7ef155c6f24ae2ed29fda1f562c3492cd46fcf93f1114a823deab0d",
+      "bytes": 40272,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "crucible-shell",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 629,
+        "width": 310,
+        "height": 297
+      },
+      "file": "public/art/cards/crucible-shell.webp",
+      "width": 310,
+      "height": 297,
+      "sha256": "9820886a96b03b775e2900dd0c2ab8996c6ab7d962df594e9dcc26db9e2e8ac7",
+      "bytes": 42870,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "re-refinement",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 930,
+        "width": 310,
+        "height": 322
+      },
+      "file": "public/art/cards/re-refinement.webp",
+      "width": 310,
+      "height": 322,
+      "sha256": "4ca29aae06693039d38f9e28ee4c1627bf4e1ec60073062b8a83d5eb5b320998",
+      "bytes": 40750,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "reclaim-the-edge",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 930,
+        "width": 309,
+        "height": 322
+      },
+      "file": "public/art/cards/reclaim-the-edge.webp",
+      "width": 309,
+      "height": 322,
+      "sha256": "841366683973a8d0ce21a18ee33f7690142bb56c03ad059e486b88435d143528",
+      "bytes": 38980,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "ash-insight",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 930,
+        "width": 309,
+        "height": 322
+      },
+      "file": "public/art/cards/ash-insight.webp",
+      "width": 309,
+      "height": 322,
+      "sha256": "a69b93da3603e63be36f45639aebb44369485212f3fbce8329faa305a974d319",
+      "bytes": 48534,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "white-hot-edge",
+      "usage": "cards",
+      "source": "assets/source/cards-05.png",
+      "sourceSha256": "6f5b46be9855e6aeabe69b28152aa7d86c0cad81e3ac4206fe7ccaca1c2378ab",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 930,
+        "width": 310,
+        "height": 322
+      },
+      "file": "public/art/cards/white-hot-edge.webp",
+      "width": 310,
+      "height": 322,
+      "sha256": "99c2ab65efecf89d559476cd6320eb30611707a3395ebe67abdcbdb2ee693ae2",
+      "bytes": 46784,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "five-weapons-return",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/five-weapons-return.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "65e4978dd2096812756eb8cb80e827a56ac572dd8ff959d7fe574945950d315a",
+      "bytes": 41652,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "hidden-thunder-array",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/hidden-thunder-array.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "3b017adb34ecaf2bca394d0bfef5f66d5b4238278bb56c6728d6c8bec893e2c1",
+      "bytes": 37338,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "mountain-seal",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/mountain-seal.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "cb4d8c389c85403e646ecdf2b01720696c893f48e324374c293f8e776ddfdf38",
+      "bytes": 39326,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "silent-array",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/silent-array.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "431a527730fb8d934929612d0a10dba2b992e1b86265245c534676c7ae1470bd",
+      "bytes": 30592,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "phantom-lattice",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/phantom-lattice.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "9a33eb4d486603bc60c7f06845edf88b853b1725391e0d423a5a2ebff99d7c29",
+      "bytes": 35140,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "seven-star-array",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/seven-star-array.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "58b0af8dfe3f1f9503dbb301e903e802a0cc32228dedc4a977fc50ee95ad4e92",
+      "bytes": 32512,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "patient-circle",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/patient-circle.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "df5b58899abd655b978a723ea47b0528b88a9c8cc0355023531283134305f444",
+      "bytes": 34864,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "heaven-earth-array",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/heaven-earth-array.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "f299d91d6554c8dccdf043aed98ce703231d92a93f93bdcb823262dfac18b7c1",
+      "bytes": 44944,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "read-the-current",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 629,
+        "width": 309,
+        "height": 296
+      },
+      "file": "public/art/cards/read-the-current.webp",
+      "width": 309,
+      "height": 296,
+      "sha256": "ec31347149e4fae89947c890d3c855b46eb6110cc710e11ad0666692dbfbf0fa",
+      "bytes": 41416,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "exchange-thought",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 629,
+        "width": 310,
+        "height": 296
+      },
+      "file": "public/art/cards/exchange-thought.webp",
+      "width": 310,
+      "height": 296,
+      "sha256": "88ea40c63f926f6248c64c51c40945c1325a93a76d436a16265629209a687262",
+      "bytes": 37416,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "retrieve-the-page",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 629,
+        "width": 309,
+        "height": 296
+      },
+      "file": "public/art/cards/retrieve-the-page.webp",
+      "width": 309,
+      "height": 296,
+      "sha256": "279f2815ff5b7f0f13fe050fc5c0ab6edb0ec2b09678009bd3fa3cd8c0b25a64",
+      "bytes": 42310,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "inner-sight",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 629,
+        "width": 310,
+        "height": 296
+      },
+      "file": "public/art/cards/inner-sight.webp",
+      "width": 310,
+      "height": 296,
+      "sha256": "73cc507862c9442cb050b2a43fc80b0fa951bc7334146383f01606d8dec2239c",
+      "bytes": 40728,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "seek-the-blade",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 929,
+        "width": 309,
+        "height": 323
+      },
+      "file": "public/art/cards/seek-the-blade.webp",
+      "width": 309,
+      "height": 323,
+      "sha256": "6f61b8f0e72fbf9268e4ee9dd1bbd80922ba2781ed59d73d15b1cd3d22d99c99",
+      "bytes": 41652,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "intentional-forgetting",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 929,
+        "width": 310,
+        "height": 323
+      },
+      "file": "public/art/cards/intentional-forgetting.webp",
+      "width": 310,
+      "height": 323,
+      "sha256": "5a8d9da22c5b91bc5c2ddae82faff2079e4b499ce99c6629b8118e5c5f2a528f",
+      "bytes": 38152,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "master-strategist",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 929,
+        "width": 309,
+        "height": 323
+      },
+      "file": "public/art/cards/master-strategist.webp",
+      "width": 309,
+      "height": 323,
+      "sha256": "77901efa9c94ab858d5aa6d2000c851c32149c22b7b420855a54ea3e0462f497",
+      "bytes": 38132,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "endless-vitality",
+      "usage": "cards",
+      "source": "assets/source/cards-06.png",
+      "sourceSha256": "5e19ece190589fd7623f953301d12863fc966129eecb35561eb6d431254cd773",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 929,
+        "width": 310,
+        "height": 323
+      },
+      "file": "public/art/cards/endless-vitality.webp",
+      "width": 310,
+      "height": 323,
+      "sha256": "d0ce716d489d4b3b3a4dc39f6c80619589385e55f81cb987795ad4603e377c2f",
+      "bytes": 50816,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "sea-without-shore",
+      "usage": "cards",
+      "source": "assets/source/cards-07.png",
+      "sourceSha256": "f7dc61b02aeee4be1d33daee5ad411eaf0228982ef6b6169a2a6f833f812d2e4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/sea-without-shore.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "19aa9ca447b0393701c39d969fbfb6ddbca63ef6195f41e13afc9038ca1db98a",
+      "bytes": 52022,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "indestructible-golden-body",
+      "usage": "cards",
+      "source": "assets/source/cards-07.png",
+      "sourceSha256": "f7dc61b02aeee4be1d33daee5ad411eaf0228982ef6b6169a2a6f833f812d2e4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/indestructible-golden-body.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "c7249537bae3d69f8f0dbb07c726bee831d2f55202a55a0aa487072ba17e39d8",
+      "bytes": 47494,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "sword-heart-awakened",
+      "usage": "cards",
+      "source": "assets/source/cards-07.png",
+      "sourceSha256": "f7dc61b02aeee4be1d33daee5ad411eaf0228982ef6b6169a2a6f833f812d2e4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/cards/sword-heart-awakened.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "dc3368781dc65f9955153e6716e63d0757becba120cd36bcbe6f5cb2f2b3c1a4",
+      "bytes": 36510,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "living-furnace",
+      "usage": "cards",
+      "source": "assets/source/cards-07.png",
+      "sourceSha256": "f7dc61b02aeee4be1d33daee5ad411eaf0228982ef6b6169a2a6f833f812d2e4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/cards/living-furnace.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "63592dd4f5f63d8aa3ff9c22e5beb73aa940a5ca2e14f31ba005b3cf47efc88e",
+      "bytes": 44614,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "sky-splitting-gale",
+      "usage": "cards",
+      "source": "assets/source/cards-07.png",
+      "sourceSha256": "f7dc61b02aeee4be1d33daee5ad411eaf0228982ef6b6169a2a6f833f812d2e4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/cards/sky-splitting-gale.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "40ce76f98d493b83822e57ace098359c6d49200887b28843fef3e72c547d16db",
+      "bytes": 44294,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "blood-scripture",
+      "usage": "cards",
+      "source": "assets/source/cards-07.png",
+      "sourceSha256": "f7dc61b02aeee4be1d33daee5ad411eaf0228982ef6b6169a2a6f833f812d2e4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 316,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/blood-scripture.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "56cae2bd79bbe0f2f4977a82cc37a429bf97ef19bf05e9921067c09b3adccf76",
+      "bytes": 31156,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "thousand-spirit-sovereign",
+      "usage": "cards",
+      "source": "assets/source/cards-07.png",
+      "sourceSha256": "f7dc61b02aeee4be1d33daee5ad411eaf0228982ef6b6169a2a6f833f812d2e4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/cards/thousand-spirit-sovereign.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "120b7cf860d2c7d7c6f570a7c457873698d6121b3d47abb040bcb5440eabaedd",
+      "bytes": 46032,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "road-bandit",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/entities/road-bandit.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "c4f7527101950c4e54e42ebfa57f45f159a659d39649fd93ed5bf9e1e184821f",
+      "bytes": 32092,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "thorn-stalker",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/entities/thorn-stalker.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "d991e1311cc81f6d84ac578ae37c238519cbe90ecf534bea766de5fd7f01a972",
+      "bytes": 43146,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "stone-guardian",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 2,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/entities/stone-guardian.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "d22781db87b5716854af6b22794aa39d89fadf0bb22876d4db44ad371a8f858a",
+      "bytes": 37494,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "river-spirit",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 2,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/entities/river-spirit.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "64052d1f22f7a086973dc9b92448df3bf1344d35d36185db92e7a244e7688065",
+      "bytes": 40892,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "iron-disciple",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/entities/iron-disciple.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "bca5cf36def88ad5856a8d9bccffa0e1a07368c5364f1f23b5f9e36ac47f48d6",
+      "bytes": 35022,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "gale-thief",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/entities/gale-thief.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "4f51eea5886ab0fa3f4dcc08e5aed068aca96e49ee54b7c22f35b6ee8311197b",
+      "bytes": 34596,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "blood-moth",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 315,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/entities/blood-moth.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "6d7db46250b45b740f0421801020a33eca3d7af49763eef2c412a5c8647db8ad",
+      "bytes": 34606,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "lantern-acolyte",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 315,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/entities/lantern-acolyte.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "f0f7b2a686ce8db9b91d45829a41af6943afd377ca54c5f7d295f6f998336167",
+      "bytes": 30440,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "jade-hunter",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 629,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/entities/jade-hunter.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "00cdf8da577af6e1106579a93b5b0f6957c6e9616dfa7a6d41c643ab6bcba733",
+      "bytes": 35976,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "hollow-monk",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 629,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/entities/hollow-monk.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "87d27c471cde2262335304be0e770f862db52ea2d96f3feaa26c5a0cb0dcad06",
+      "bytes": 34936,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "brood-matriarch",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 629,
+        "width": 309,
+        "height": 309
+      },
+      "file": "public/art/entities/brood-matriarch.webp",
+      "width": 309,
+      "height": 309,
+      "sha256": "c21e73bd7f65e26c5191241c585b91d708012f7b58cc0f4b3a12660148efcab3",
+      "bytes": 37994,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "script-devourer",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 629,
+        "width": 310,
+        "height": 309
+      },
+      "file": "public/art/entities/script-devourer.webp",
+      "width": 310,
+      "height": 309,
+      "sha256": "db0f319da15ff3bb421313052e76f531df22699a5f9a92dbfd41d3251ab1b278",
+      "bytes": 38512,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "cloud-wisp",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 942,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/entities/cloud-wisp.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "09cbedb9c0bddb0c0c0f7b00f739f0865f6700d8dab1b2cebfddb27e4fdf685e",
+      "bytes": 23864,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "cloud-beastmaster",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 315,
+        "top": 942,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/entities/cloud-beastmaster.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "c9278476f176c7264bc8d4ae8b94a3fd246e8d291097f66835f53f6d2f74db48",
+      "bytes": 35620,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "link-cultivator",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 629,
+        "top": 942,
+        "width": 309,
+        "height": 310
+      },
+      "file": "public/art/entities/link-cultivator.webp",
+      "width": 309,
+      "height": 310,
+      "sha256": "8e961a9274f371e2214d27f9e79cc3cef4ed43242802dc9503d8c2e921f004f2",
+      "bytes": 32144,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "restriction-soul",
+      "usage": "entities",
+      "source": "assets/source/enemies-01.png",
+      "sourceSha256": "cb549a51b8096d14f2a174aea3cd708e65f27b32ffb3c6ba0fc8cd7d037fd980",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 942,
+        "top": 942,
+        "width": 310,
+        "height": 310
+      },
+      "file": "public/art/entities/restriction-soul.webp",
+      "width": 310,
+      "height": 310,
+      "sha256": "0a4a5ce9f34c1acc2688157472d09eecd880c89f2cc7662a77db09d6e6f2a027",
+      "bytes": 31832,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "thunder-judge",
+      "usage": "entities",
+      "source": "assets/source/entities-02.png",
+      "sourceSha256": "3cb7394cb04588f229517c54514d9f89c0f46baa67953e44e8420c5ce15c9ed5",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 413,
+        "height": 414
+      },
+      "file": "public/art/entities/thunder-judge.webp",
+      "width": 413,
+      "height": 414,
+      "sha256": "0d7bc991a47ec08272a4248fb23a317fc655567154ec63030961e885a95c9695",
+      "bytes": 63518,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "mirror-hermit",
+      "usage": "entities",
+      "source": "assets/source/entities-02.png",
+      "sourceSha256": "3cb7394cb04588f229517c54514d9f89c0f46baa67953e44e8420c5ce15c9ed5",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 419,
+        "top": 2,
+        "width": 414,
+        "height": 414
+      },
+      "file": "public/art/entities/mirror-hermit.webp",
+      "width": 414,
+      "height": 414,
+      "sha256": "30cfe6600aef2fc331aa3dc4778744bfc7215aedc2cc5783dc37f44cd2136986",
+      "bytes": 57548,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "reed-wolf",
+      "usage": "entities",
+      "source": "assets/source/entities-02.png",
+      "sourceSha256": "3cb7394cb04588f229517c54514d9f89c0f46baa67953e44e8420c5ce15c9ed5",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 837,
+        "top": 2,
+        "width": 415,
+        "height": 414
+      },
+      "file": "public/art/entities/reed-wolf.webp",
+      "width": 415,
+      "height": 414,
+      "sha256": "cacd16f068b7d35b092606bcc08f65fa416b27dea03fecd632eb40451d40e013",
+      "bytes": 60520,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "thorn-vine",
+      "usage": "entities",
+      "source": "assets/source/entities-02.png",
+      "sourceSha256": "3cb7394cb04588f229517c54514d9f89c0f46baa67953e44e8420c5ce15c9ed5",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 420,
+        "width": 413,
+        "height": 415
+      },
+      "file": "public/art/entities/thorn-vine.webp",
+      "width": 413,
+      "height": 415,
+      "sha256": "0da3c83ce3ba13a7754672bfb935d43063ef53662229d38a08b6197fa0899db7",
+      "bytes": 60796,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "iron-crane",
+      "usage": "entities",
+      "source": "assets/source/entities-02.png",
+      "sourceSha256": "3cb7394cb04588f229517c54514d9f89c0f46baa67953e44e8420c5ce15c9ed5",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 419,
+        "top": 420,
+        "width": 414,
+        "height": 415
+      },
+      "file": "public/art/entities/iron-crane.webp",
+      "width": 414,
+      "height": 415,
+      "sha256": "baaf9b69187cab59a0b3c8150ae35224c9a19c35e814e341fd70c3409f14d1ed",
+      "bytes": 53118,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "treant",
+      "usage": "entities",
+      "source": "assets/source/entities-02.png",
+      "sourceSha256": "3cb7394cb04588f229517c54514d9f89c0f46baa67953e44e8420c5ce15c9ed5",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 837,
+        "top": 420,
+        "width": 415,
+        "height": 415
+      },
+      "file": "public/art/entities/treant.webp",
+      "width": 415,
+      "height": 415,
+      "sha256": "324723ffa008f608ab617378e873fb88aa1f124f98fb79ad595a8206d3cecb94",
+      "bytes": 77090,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "ancestral-beast",
+      "usage": "entities",
+      "source": "assets/source/entities-02.png",
+      "sourceSha256": "3cb7394cb04588f229517c54514d9f89c0f46baa67953e44e8420c5ce15c9ed5",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "crop": {
+        "left": 2,
+        "top": 839,
+        "width": 413,
+        "height": 413
+      },
+      "file": "public/art/entities/ancestral-beast.webp",
+      "width": 413,
+      "height": 413,
+      "sha256": "4f00531c0056f5d5508625b9a4edaeb83c9c177afd3a873b93f02e0f4fbb7209",
+      "bytes": 63632,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "generated and visually reviewed; actual-size integration review recorded in QA_EVIDENCE",
+      "version": 1
+    },
+    {
+      "id": "wanderer",
+      "usage": "entities",
+      "source": "assets/source/heavenward-characters-atlas.png",
+      "sourceSha256": "1166b5bcd430de722abf623008fa23631834c53547fbf9bfdeca646ca67926dd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 512,
+        "height": 512
+      },
+      "file": "public/art/entities/wanderer.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "db8e3462c85ebd91983cc68b0c195f7eb63b14c43a7f2658163e520c99bde089",
+      "bytes": 76634,
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "review": "accepted original Wanderer portrait; in-game visual review",
+      "version": 1
+    }
+  ]
+}

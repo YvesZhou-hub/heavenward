@@ -1,0 +1,5 @@
+:HL["/legacy/v1/_next/static/chunks/2n96o8bgtv6g0.css","style"]
+:HL["/legacy/v1/_next/static/chunks/128fa6d4znapd.css","style"]
+:HL["/legacy/v1/_next/static/chunks/43n2v_t1m_ad2.css","style"]
+:HC["/",""]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"M6IIw9zyijKS5sj9dWBLD"}

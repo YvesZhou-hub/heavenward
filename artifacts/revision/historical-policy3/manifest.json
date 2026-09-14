@@ -1,0 +1,37 @@
+{
+  "note": "Preserved before human-0.3.0 / policy 4 rerun; reward generator report has no bot policy.",
+  "files": [
+    {
+      "source": "artifacts/revision-balance.json",
+      "archive": "artifacts/revision/historical-policy3/revision-balance.json",
+      "sha256": "f2c3fdd56c87c3df9f563aaf51432f63ad95d63a28c96e5ccf221837c0bec3b1",
+      "rules": "human-0.2.0",
+      "policy": 3
+    },
+    {
+      "source": "artifacts/revision-balance.md",
+      "archive": "artifacts/revision/historical-policy3/revision-balance.md",
+      "sha256": "821dcf1d454209907ad7b9de32e4ece7f757eef9eec5797a077b56d269267a1b"
+    },
+    {
+      "source": "artifacts/bot-runs-v2.json",
+      "archive": "artifacts/revision/historical-policy3/bot-runs-v2.json",
+      "sha256": "962c5347255ec8a46f7e20ff04f87db06f3fd969f13ef34428aaf8e525d91b81",
+      "rules": "human-0.2.0",
+      "policy": 3
+    },
+    {
+      "source": "artifacts/bot-runs-sacrifice-v2.json",
+      "archive": "artifacts/revision/historical-policy3/bot-runs-sacrifice-v2.json",
+      "sha256": "b4e7f6373d65213856ad48b10b70dbbae8c6c076e16151e9ffe422f39859049c",
+      "rules": "human-0.2.0",
+      "policy": 3
+    },
+    {
+      "source": "artifacts/revision/reward-seed-report.json",
+      "archive": "artifacts/revision/historical-policy3/reward-seed-report.json",
+      "sha256": "d37f11d80cd6143fd46efbde61ada8db05fb1bfbc36d253da4301f3547562fb1",
+      "rules": "human-0.2.0"
+    }
+  ]
+}

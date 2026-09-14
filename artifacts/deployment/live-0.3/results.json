@@ -1,0 +1,20 @@
+{
+  "origin": "https://heavenward.vercel.app",
+  "executedAt": "2026-09-14T06:32:57.856Z",
+  "method": "Fresh isolated profile; ordinary UI only; browser save read for assertions, never injected or edited",
+  "passed": true,
+  "checks": [
+    "Enemy double-click selects, target click commits",
+    "Actual Basic play consumes one card, one energy, one committed action",
+    "End Turn resolves enemies and opens the next player turn",
+    "English, Chinese and Vietnamese preserve gameplay and RNG; all photographed",
+    "Reload and Continue preserve the played turn exactly",
+    "No console errors or JavaScript exceptions"
+  ],
+  "screenshots": [
+    "artifacts/deployment/live-0.3/combat-en.png",
+    "artifacts/deployment/live-0.3/combat-zh-CN.png",
+    "artifacts/deployment/live-0.3/combat-vi.png"
+  ],
+  "errors": []
+}

@@ -1,0 +1,13 @@
+
+> heavenward@0.3.0 validate:content
+> vitest run tests/content.test.ts
+
+
+ RUN  v5.0.0 /Users/yveszhou/Documents/game/heavenward
+
+
+ Test Files  1 passed (1)
+      Tests  12 passed (12)
+   Start at  15:45:28
+   Duration  190ms (transform 64%, tests 22%, import 12%, worker 2%)
+

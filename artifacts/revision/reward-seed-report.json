@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-09-14T04:49:27.662Z",
+  "coreVersion": 3,
+  "sourceSha256": {
+    "src/game/run.ts": "0394cc6f7854f7a5bd9f49c121efc43cde2ad50e9b6dfd200d1d6aa3b3c450b3",
+    "src/game/content.ts": "c202b37caa434e2ede60e7d4817c9563c23da54b96082422f2fb751d8aa98c5a",
+    "src/game/combat.ts": "fd3ede4e89777c5f7fd9be5cb9329df3ee07c0db7adb74ec2096ae0544a2a335",
+    "src/game/rules.ts": "a86791bbd1ecb87f226f11c609a6b844aecbe9fa405f642014bda6d5897b9b9e",
+    "src/game/types.ts": "ef9eaafa429f23e275d8ab8ba8f7e8f0506e5977c7a01104ed7748065d65e374",
+    "src/game/save.ts": "76888af22fef7ee6532f2180e1f7066b81a550bc25c016257d76b52cf32e1efa",
+    "scripts/simulate.ts": "c1eb21a854e268782eefce0f403dfe6d9dc9d0c8c517cc0b6820cb6c94c31876",
+    "scripts/diagnostic-metadata.ts": "f29ae7c54283837742fa9662e769058ac66cefa8db275008982cf10587994120",
+    "scripts/reward-seed-report.ts": "49f08d09e707da40dbacc829f6940d6275967c945751e3c9bb68101071dc428c"
+  },
+  "rulesVersion": "human-0.3.0",
+  "contentVersion": "human-0.3.0",
+  "method": "Deterministic generator sampling only. No combat victories, human duration or balance acceptance is inferred.",
+  "reports": [
+    {
+      "build": "neutral",
+      "nonbasicDeck": [],
+      "seeds": 300,
+      "drawsPerSeed": 12,
+      "offers": 18000,
+      "distinctObserved": 97,
+      "missingDao": [],
+      "offPathOffers": 18000,
+      "offPathShare": 1,
+      "pathCounts": {
+        "earth": 1415,
+        "wood": 1297,
+        "wind": 1525,
+        "strength": 1193,
+        "summoning": 1418,
+        "metal": 1288,
+        "fire": 1171,
+        "refinement": 1392,
+        "blood": 1351,
+        "wisdom": 2179,
+        "formation": 1246,
+        "water": 1354,
+        "sword": 1171
+      },
+      "seedOneSamples": [
+        [
+          "rooted-stance",
+          "stone-rampart",
+          "thorn-familiar",
+          "wind-shears",
+          "heavy-foundations"
+        ],
+        [
+          "shared-standard",
+          "razor-lattice",
+          "three-mountain-fist",
+          "cinder-fuse",
+          "wildfire-thread"
+        ],
+        [
+          "white-hot-edge",
+          "gravel-snare",
+          "reclaim-the-edge",
+          "spring-return",
+          "flowing-guard"
+        ]
+      ]
+    },
+    {
+      "build": "sword",
+      "nonbasicDeck": [
+        "flying-arsenal",
+        "flying-arsenal",
+        "still-sword-heart",
+        "re-refinement"
+      ],
+      "seeds": 300,
+      "drawsPerSeed": 12,
+      "offers": 18000,
+      "distinctObserved": 97,
+      "missingDao": [],
+      "offPathOffers": 13381,
+      "offPathShare": 0.7433888888888889,
+      "pathCounts": {
+        "earth": 1215,
+        "wood": 1097,
+        "wisdom": 1866,
+        "strength": 1038,
+        "summoning": 1211,
+        "sword": 2911,
+        "fire": 1017,
+        "refinement": 1708,
+        "water": 1156,
+        "wind": 1341,
+        "blood": 1154,
+        "formation": 1140,
+        "metal": 1146
+      },
+      "seedOneSamples": [
+        [
+          "gravel-snare",
+          "rooted-stance",
+          "living-sap",
+          "swallow-slip",
+          "fundamentals"
+        ],
+        [
+          "thorn-sentinel",
+          "twin-stars",
+          "measured-practice",
+          "cinder-fuse",
+          "wildfire-thread"
+        ],
+        [
+          "reclaim-the-edge",
+          "ripple-guard",
+          "re-refinement",
+          "rootbind",
+          "flowing-guard"
+        ]
+      ]
+    },
+    {
+      "build": "mixed",
+      "nonbasicDeck": [
+        "ember-brand",
+        "stone-rampart",
+        "spring-return",
+        "exchange-thought"
+      ],
+      "seeds": 300,
+      "drawsPerSeed": 12,
+      "offers": 18000,
+      "distinctObserved": 97,
+      "missingDao": [],
+      "offPathOffers": 10131,
+      "offPathShare": 0.5628333333333333,
+      "pathCounts": {
+        "wood": 1645,
+        "wisdom": 2750,
+        "strength": 1006,
+        "summoning": 1388,
+        "water": 1120,
+        "fire": 1592,
+        "refinement": 1164,
+        "earth": 1882,
+        "wind": 1277,
+        "blood": 1112,
+        "formation": 1027,
+        "metal": 1051,
+        "sword": 986
+      },
+      "seedOneSamples": [
+        [
+          "verdant-harvest",
+          "living-sap",
+          "spring-return",
+          "ragged-banner",
+          "crushing-blow"
+        ],
+        [
+          "reed-wolf-pact",
+          "deep-reservoir",
+          "fundamentals",
+          "cinder-fuse",
+          "wildfire-thread"
+        ],
+        [
+          "ash-insight",
+          "mountain-breaker",
+          "re-refinement",
+          "banked-coals",
+          "flowing-guard"
+        ]
+      ]
+    }
+  ]
+}

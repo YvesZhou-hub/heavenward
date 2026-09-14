@@ -1,0 +1,5 @@
+
+> heavenward@0.3.0 test
+> vitest run --reporter=json --outputFile=artifacts/revision/unit-latest.json
+
+JSON report written to /Users/yveszhou/Documents/game/heavenward/artifacts/revision/unit-latest.json

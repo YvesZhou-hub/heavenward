@@ -1,0 +1,4555 @@
+{
+  "config": {
+    "argv": [
+      "/usr/local/bin/node",
+      "/Users/yveszhou/Documents/game/heavenward/node_modules/.bin/playwright",
+      "test",
+      "--workers=3",
+      "--reporter=json",
+      "--output=output/playwright/verified-rules3"
+    ],
+    "configFile": "/Users/yveszhou/Documents/game/heavenward/playwright.config.ts",
+    "rootDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/yveszhou/Documents/game/heavenward/output/playwright/verified-rules3",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/yveszhou/Documents/game/heavenward/output/playwright/verified-rules3",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/yveszhou/Documents/game/heavenward/output/playwright/verified-rules3",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 3,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "game.spec.ts",
+      "file": "game.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ordinary UI: fresh English, two starting drafts, active combat locale switch and resume",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2399,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:53.137Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-f3f7b10299b5159b5b5b",
+          "file": "game.spec.ts",
+          "line": 82,
+          "column": 5
+        },
+        {
+          "title": "controlled combat fixture: keyboard cancel/play, drag target, preview and real saves",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1074,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:55.803Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-360ab87cbb7263ff4533",
+          "file": "game.spec.ts",
+          "line": 121,
+          "column": 5
+        },
+        {
+          "title": "controlled Elite fixture: actual lethal play opens one reward and acquisition persists",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1061,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:56.892Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-b6321e422119d4acda7c",
+          "file": "game.spec.ts",
+          "line": 145,
+          "column": 5
+        },
+        {
+          "title": "controlled Merchant fixture: visual upgrade picker, pure cancel, transaction and sale limits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2328,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:57.962Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-8df19b1ea6fdbd85cc1b",
+          "file": "game.spec.ts",
+          "line": 155,
+          "column": 5
+        },
+        {
+          "title": "controlled Rest fixtures: capped heal confirmation, pure cancel and one free visual upgrade",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1456,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:00.299Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-1c49727474fb78268676",
+          "file": "game.spec.ts",
+          "line": 198,
+          "column": 5
+        },
+        {
+          "title": "controlled Event and Inheritance fixtures: real choices, acquisition, and skip",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1357,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:01.765Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-4e12a8a226563b9a8138",
+          "file": "game.spec.ts",
+          "line": 214,
+          "column": 5
+        },
+        {
+          "title": "controlled breakthrough fixture: legal Divine reward, foundation drafts and first activation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1667,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:03.131Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-b73046c60c3874352a69",
+          "file": "game.spec.ts",
+          "line": 227,
+          "column": 5
+        },
+        {
+          "title": "controlled active-choice fixture: discard queue saves and resumes without replaying payment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1056,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:04.804Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-ea38ab241ac588e4f289",
+          "file": "game.spec.ts",
+          "line": 249,
+          "column": 5
+        },
+        {
+          "title": "controlled Tidal fixture: automatic Domain state choice and later end-turn state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 918,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:05.869Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-8bb07ef87d7740dc9c1d",
+          "file": "game.spec.ts",
+          "line": 263,
+          "column": 5
+        },
+        {
+          "title": "controlled death fixture: actual lethal action persists terminal death and history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 912,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:06.796Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-00db4e21ce993eb83164",
+          "file": "game.spec.ts",
+          "line": 273,
+          "column": 5
+        },
+        {
+          "title": "controlled final-Tribulation fixture: actual final hit ascends, persists and unlocks content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1183,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:07.712Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-5b257c103cb561ef3e65",
+          "file": "game.spec.ts",
+          "line": 285,
+          "column": 5
+        },
+        {
+          "title": "controlled save fixture: corrupted primary recovers the same committed mirror",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 995,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:08.900Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-11434161b074b33de642",
+          "file": "game.spec.ts",
+          "line": 301,
+          "column": 5
+        },
+        {
+          "title": "controlled multi-tab fixture: committed actions synchronize before the next action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1966,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:09.904Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-84f5d7d77f359371f330",
+          "file": "game.spec.ts",
+          "line": 314,
+          "column": 5
+        },
+        {
+          "title": "controlled storage-failure fixture: quota failure preserves the last committed combat",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1032,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:11.884Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-a0b8d35b1e074d6a464d",
+          "file": "game.spec.ts",
+          "line": 331,
+          "column": 5
+        },
+        {
+          "title": "controlled worst-case screenshots: ten cards, three summons, three enemies, Tidal and statuses in EN/ZH",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9116,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:12.932Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-7ab96cf70d582c2b654b",
+          "file": "game.spec.ts",
+          "line": 380,
+          "column": 5
+        },
+        {
+          "title": "ordinary UI: fresh English, two starting drafts, active combat locale switch and resume",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2711,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:02.729Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-d19c2079c4c228c5537e",
+          "file": "game.spec.ts",
+          "line": 82,
+          "column": 5
+        },
+        {
+          "title": "controlled combat fixture: keyboard cancel/play, drag target, preview and real saves",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1018,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:06.737Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-5d3d8e79cc05b62a6d22",
+          "file": "game.spec.ts",
+          "line": 121,
+          "column": 5
+        },
+        {
+          "title": "controlled Elite fixture: actual lethal play opens one reward and acquisition persists",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 909,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:07.763Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-5c759c1ea83fa727d181",
+          "file": "game.spec.ts",
+          "line": 145,
+          "column": 5
+        },
+        {
+          "title": "controlled Merchant fixture: visual upgrade picker, pure cancel, transaction and sale limits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3078,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:08.680Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-583f26b835a19293f99d",
+          "file": "game.spec.ts",
+          "line": 155,
+          "column": 5
+        },
+        {
+          "title": "controlled Rest fixtures: capped heal confirmation, pure cancel and one free visual upgrade",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2765,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:11.769Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-b9744196473176d23747",
+          "file": "game.spec.ts",
+          "line": 198,
+          "column": 5
+        },
+        {
+          "title": "controlled Event and Inheritance fixtures: real choices, acquisition, and skip",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1249,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:14.551Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-95de215d01b4d4ba3b09",
+          "file": "game.spec.ts",
+          "line": 214,
+          "column": 5
+        },
+        {
+          "title": "controlled breakthrough fixture: legal Divine reward, foundation drafts and first activation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1848,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:15.808Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-8a7217d293ecc486677b",
+          "file": "game.spec.ts",
+          "line": 227,
+          "column": 5
+        },
+        {
+          "title": "controlled active-choice fixture: discard queue saves and resumes without replaying payment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1550,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:17.674Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-ccf1f405af909105213d",
+          "file": "game.spec.ts",
+          "line": 249,
+          "column": 5
+        },
+        {
+          "title": "controlled Tidal fixture: automatic Domain state choice and later end-turn state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1156,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:19.244Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-627b6623e64be8eb33f3",
+          "file": "game.spec.ts",
+          "line": 263,
+          "column": 5
+        },
+        {
+          "title": "controlled death fixture: actual lethal action persists terminal death and history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1312,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:20.427Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-3241293a942ea3d5e6f7",
+          "file": "game.spec.ts",
+          "line": 273,
+          "column": 5
+        },
+        {
+          "title": "controlled final-Tribulation fixture: actual final hit ascends, persists and unlocks content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1097,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:21.748Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-bde5cdd6d509a60a513c",
+          "file": "game.spec.ts",
+          "line": 285,
+          "column": 5
+        },
+        {
+          "title": "controlled save fixture: corrupted primary recovers the same committed mirror",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 867,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:22.853Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-8681acc6e63eed6629fa",
+          "file": "game.spec.ts",
+          "line": 301,
+          "column": 5
+        },
+        {
+          "title": "controlled multi-tab fixture: committed actions synchronize before the next action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1296,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:23.729Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-70e3bd53612c0e035801",
+          "file": "game.spec.ts",
+          "line": 314,
+          "column": 5
+        },
+        {
+          "title": "controlled storage-failure fixture: quota failure preserves the last committed combat",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 895,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:25.033Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-4a88c264dea5f06e79c9",
+          "file": "game.spec.ts",
+          "line": 331,
+          "column": 5
+        },
+        {
+          "title": "controlled worst-case screenshots: ten cards, three summons, three enemies, Tidal and statuses in EN/ZH",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7091,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:25.941Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-64ffc4ee0ee38246663f",
+          "file": "game.spec.ts",
+          "line": 380,
+          "column": 5
+        },
+        {
+          "title": "ordinary UI: fresh English, two starting drafts, active combat locale switch and resume",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4050,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:33.685Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-97a6a43bd3935b0ab9a3",
+          "file": "game.spec.ts",
+          "line": 82,
+          "column": 5
+        },
+        {
+          "title": "controlled combat fixture: keyboard cancel/play, drag target, preview and real saves",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1806,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:38.363Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-9a7daaba5c6d0f669e1d",
+          "file": "game.spec.ts",
+          "line": 121,
+          "column": 5
+        },
+        {
+          "title": "controlled Elite fixture: actual lethal play opens one reward and acquisition persists",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1740,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:40.192Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-781f024ffa4f20fd00ca",
+          "file": "game.spec.ts",
+          "line": 145,
+          "column": 5
+        },
+        {
+          "title": "controlled Merchant fixture: visual upgrade picker, pure cancel, transaction and sale limits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 6225,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:41.948Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-985fe5049bbf5e20edd0",
+          "file": "game.spec.ts",
+          "line": 155,
+          "column": 5
+        },
+        {
+          "title": "controlled Rest fixtures: capped heal confirmation, pure cancel and one free visual upgrade",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4149,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:48.231Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-9ae19709b46944df9d74",
+          "file": "game.spec.ts",
+          "line": 198,
+          "column": 5
+        },
+        {
+          "title": "controlled Event and Inheritance fixtures: real choices, acquisition, and skip",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3709,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:52.434Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-d7405c34912ffacb95e5",
+          "file": "game.spec.ts",
+          "line": 214,
+          "column": 5
+        },
+        {
+          "title": "controlled breakthrough fixture: legal Divine reward, foundation drafts and first activation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3105,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:56.165Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-ab524443682b739174ab",
+          "file": "game.spec.ts",
+          "line": 227,
+          "column": 5
+        },
+        {
+          "title": "controlled active-choice fixture: discard queue saves and resumes without replaying payment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1817,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:59.290Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-02b67066308c5a532961",
+          "file": "game.spec.ts",
+          "line": 249,
+          "column": 5
+        },
+        {
+          "title": "controlled Tidal fixture: automatic Domain state choice and later end-turn state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1544,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:01.116Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-546bf4f3eca1c4540bf3",
+          "file": "game.spec.ts",
+          "line": 263,
+          "column": 5
+        },
+        {
+          "title": "controlled death fixture: actual lethal action persists terminal death and history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1830,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:02.675Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-28d3f5f778e3289de652",
+          "file": "game.spec.ts",
+          "line": 273,
+          "column": 5
+        },
+        {
+          "title": "controlled final-Tribulation fixture: actual final hit ascends, persists and unlocks content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2274,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:04.526Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-a37643a5b6bc224b4ff7",
+          "file": "game.spec.ts",
+          "line": 285,
+          "column": 5
+        },
+        {
+          "title": "controlled save fixture: corrupted primary recovers the same committed mirror",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1909,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:06.819Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-9dee822f3d1015f0d697",
+          "file": "game.spec.ts",
+          "line": 301,
+          "column": 5
+        },
+        {
+          "title": "controlled multi-tab fixture: committed actions synchronize before the next action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3407,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:08.746Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-0644678901457021ea2b",
+          "file": "game.spec.ts",
+          "line": 314,
+          "column": 5
+        },
+        {
+          "title": "controlled storage-failure fixture: quota failure preserves the last committed combat",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1850,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:12.171Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-cdfb0346a0ab0a5687cf",
+          "file": "game.spec.ts",
+          "line": 331,
+          "column": 5
+        },
+        {
+          "title": "controlled worst-case screenshots: ten cards, three summons, three enemies, Tidal and statuses in EN/ZH",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 11271,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:14.046Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b1bb1493a64c9fc3ab6-54683d580a7373edc627",
+          "file": "game.spec.ts",
+          "line": 380,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "incremental.spec.ts",
+      "file": "incremental.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "enemy double-click only selects; Escape and Cancel leave the saved combat unchanged",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1133,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:53.131Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-cbfd5e916890da2886e0",
+          "file": "incremental.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "self double-click commits one play and pays its cost once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 728,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:54.536Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-8eaa77a334b8b9d79961",
+          "file": "incremental.spec.ts",
+          "line": 63,
+          "column": 5
+        },
+        {
+          "title": "wrong targets are reported before cost; zero-energy cards remain draggable and cost0 at0 works",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1064,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:55.270Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-9a29793a856d72119daa",
+          "file": "incremental.spec.ts",
+          "line": 74,
+          "column": 5
+        },
+        {
+          "title": "105-card decks buy, acquire and Skip without replacement or a maximum",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1302,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:56.339Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-5a457e0b1941f4c57a05",
+          "file": "incremental.spec.ts",
+          "line": 92,
+          "column": 5
+        },
+        {
+          "title": "large permanent deck remains browsable in all three locales",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2409,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:57.645Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-0c2519da6c5ed01e6fbe",
+          "file": "incremental.spec.ts",
+          "line": 105,
+          "column": 5
+        },
+        {
+          "title": "major receipt shows committed grants, survives reload, and allows Continue then Skip below the new removal floor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1371,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:00.063Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-1e3b4f98ce9ffc3d4943",
+          "file": "incremental.spec.ts",
+          "line": 121,
+          "column": 5
+        },
+        {
+          "title": "minor stage notice shows from and to with no fabricated stat grant, and dismisses durably",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 939,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:01.443Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-d67492d363803330979c",
+          "file": "incremental.spec.ts",
+          "line": 143,
+          "column": 5
+        },
+        {
+          "title": "enemy double-click only selects; Escape and Cancel leave the saved combat unchanged",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1778,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:22.633Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-3934fd6c3bea15d95641",
+          "file": "incremental.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "self double-click commits one play and pays its cost once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 806,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:25.372Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-7f7f4de3c5a37ed33d6f",
+          "file": "incremental.spec.ts",
+          "line": 63,
+          "column": 5
+        },
+        {
+          "title": "wrong targets are reported before cost; zero-energy cards remain draggable and cost0 at0 works",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1058,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:26.188Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-d1a136a73c3c80cdab88",
+          "file": "incremental.spec.ts",
+          "line": 74,
+          "column": 5
+        },
+        {
+          "title": "105-card decks buy, acquire and Skip without replacement or a maximum",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1442,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:27.258Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-27976ccb3abbff1e8db0",
+          "file": "incremental.spec.ts",
+          "line": 92,
+          "column": 5
+        },
+        {
+          "title": "large permanent deck remains browsable in all three locales",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3872,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:28.714Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-daff66e5e517c8ce5e93",
+          "file": "incremental.spec.ts",
+          "line": 105,
+          "column": 5
+        },
+        {
+          "title": "major receipt shows committed grants, survives reload, and allows Continue then Skip below the new removal floor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1251,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:32.597Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-8cfe131ae5ed9676a8bf",
+          "file": "incremental.spec.ts",
+          "line": 121,
+          "column": 5
+        },
+        {
+          "title": "minor stage notice shows from and to with no fabricated stat grant, and dismisses durably",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 756,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:33.859Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-43a8ef329a2c36f28dda",
+          "file": "incremental.spec.ts",
+          "line": 143,
+          "column": 5
+        },
+        {
+          "title": "enemy double-click only selects; Escape and Cancel leave the saved combat unchanged",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1675,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:35.204Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-4e88478866a1fbed75b9",
+          "file": "incremental.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "self double-click commits one play and pays its cost once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1044,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:37.092Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-4e8de77a1f08cd3c87ca",
+          "file": "incremental.spec.ts",
+          "line": 63,
+          "column": 5
+        },
+        {
+          "title": "wrong targets are reported before cost; zero-energy cards remain draggable and cost0 at0 works",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1932,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:38.160Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-991427a6dbf392edeea8",
+          "file": "incremental.spec.ts",
+          "line": 74,
+          "column": 5
+        },
+        {
+          "title": "105-card decks buy, acquire and Skip without replacement or a maximum",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2556,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:40.113Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-b42441cb2e072104fe43",
+          "file": "incremental.spec.ts",
+          "line": 92,
+          "column": 5
+        },
+        {
+          "title": "large permanent deck remains browsable in all three locales",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10400,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:42.687Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-459bf27a8a0f8a3efd46",
+          "file": "incremental.spec.ts",
+          "line": 105,
+          "column": 5
+        },
+        {
+          "title": "major receipt shows committed grants, survives reload, and allows Continue then Skip below the new removal floor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3122,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:53.133Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-c4b8370fdf34be79b64c",
+          "file": "incremental.spec.ts",
+          "line": 121,
+          "column": 5
+        },
+        {
+          "title": "minor stage notice shows from and to with no fabricated stat grant, and dismisses durably",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1934,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:56.332Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e80b532384a6dd2ba7d3-015f61e50871abb562fa",
+          "file": "incremental.spec.ts",
+          "line": 143,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "resilience.spec.ts",
+      "file": "resilience.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "resilience: intentionally failed artwork requests preserve named cards, rules and actual play",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2081,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:53.142Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "intentional-art-failures.json",
+                      "contentType": "application/json",
+                      "body": "ewogICJmYWlsZWQiOiBbCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2Vudmlyb25tZW50LndlYnAiLAogICAgICAibmV0OjpFUlJfRkFJTEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvcmlwcGxlLWd1YXJkLndlYnAiLAogICAgICAibmV0OjpFUlJfRkFJTEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvaG9uZS10aGUtZWRnZS53ZWJwIiwKICAgICAgIm5ldDo6RVJSX0ZBSUxFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3Rob3JuLWZhbWlsaWFyLndlYnAiLAogICAgICAibmV0OjpFUlJfRkFJTEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvc3dhbGxvdy1zbGlwLndlYnAiLAogICAgICAibmV0OjpFUlJfRkFJTEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvbW91bnRhaW4tc2VhbC53ZWJwIiwKICAgICAgIm5ldDo6RVJSX0ZBSUxFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2hpZGRlbi1zcHJpbmcud2VicCIsCiAgICAgICJuZXQ6OkVSUl9GQUlMRUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9jcnVzaGluZy1ibG93LndlYnAiLAogICAgICAibmV0OjpFUlJfRkFJTEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvcmVhZC10aGUtY3VycmVudC53ZWJwIiwKICAgICAgIm5ldDo6RVJSX0ZBSUxFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2dvbGRlbi1icmVhdGgud2VicCIsCiAgICAgICJuZXQ6OkVSUl9GQUlMRUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9oaWRkZW4tdGh1bmRlci1hcnJheS53ZWJwIiwKICAgICAgIm5ldDo6RVJSX0ZBSUxFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2VudGl0aWVzL3dhbmRlcmVyLndlYnAiLAogICAgICAibmV0OjpFUlJfRkFJTEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvZW50aXRpZXMvcm9hZC1iYW5kaXQud2VicCIsCiAgICAgICJuZXQ6OkVSUl9GQUlMRUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9kZWZlbnNlLndlYnAiLAogICAgICAibmV0OjpFUlJfRkFJTEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvc3RyaWtlLndlYnAiLAogICAgICAibmV0OjpFUlJfRkFJTEVEIgogICAgXQogIF0sCiAgImFsbG93ZWQiOiBbCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9lbnZpcm9ubWVudC53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3JpcHBsZS1ndWFyZC53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2hvbmUtdGhlLWVkZ2Uud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy90aG9ybi1mYW1pbGlhci53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3N3YWxsb3ctc2xpcC53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL21vdW50YWluLXNlYWwud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9oaWRkZW4tc3ByaW5nLndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvY3J1c2hpbmctYmxvdy53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3JlYWQtdGhlLWN1cnJlbnQud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9nb2xkZW4tYnJlYXRoLndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvaGlkZGVuLXRodW5kZXItYXJyYXkud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9lbnRpdGllcy93YW5kZXJlci53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2VudGl0aWVzL3JvYWQtYmFuZGl0LndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvZGVmZW5zZS53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3N0cmlrZS53ZWJwIgogIF0KfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-6edac1bbf668d3e0559c",
+          "file": "resilience.spec.ts",
+          "line": 59,
+          "column": 5
+        },
+        {
+          "title": "resilience: offline after boot supports fresh drafting, combat, locale switching and local commits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2346,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:55.487Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "offline-play-evidence.json",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXZpZ2F0b3JPbkxpbmUiOiBmYWxzZSwKICAicnVudGltZVJlcXVlc3RzIjogW10sCiAgImZhaWxlZERlY29yYXRpdmVBc3NldHMiOiBbCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2hpZGRlbi1zcHJpbmcud2VicCIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9lbWJlci1icmFuZC53ZWJwIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3JhZ2dlZC1iYW5uZXIud2VicCIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9idXJuLWltcHVyaXRpZXMud2VicCIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9yZWVkLXdvbGYtcGFjdC53ZWJwIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTA2LTQwMC1ub3JtYWwuMXgyYXpvcS1idXBfaS53b2ZmMiIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTEwNi00MDAtbm9ybWFsLjBnMnBuZTQ4cTEwZTQud29mZiIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9ibG9vZGxldHRlci53ZWJwIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3JpcHBsZS1ndWFyZC53ZWJwIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3JldHJpZXZlLXRoZS1wYWdlLndlYnAiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvZ29sZGVuLWJyZWF0aC53ZWJwIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3NwcmluZy1yZXR1cm4ud2VicCIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9lbnRpdGllcy93YW5kZXJlci53ZWJwIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2VudGl0aWVzL3Rob3JuLXN0YWxrZXIud2VicCIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9zdHJpa2Uud2VicCIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9kZWZlbnNlLndlYnAiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTAtNDAwLW5vcm1hbC4xb2xiY2FjZDM4NDYzLndvZmYyIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTE1LTQwMC1ub3JtYWwuMGdoNDItY291NTZrbS53b2ZmMiIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExNC02MDAtbm9ybWFsLjJkMW1mdW05al8yeWoud29mZjIiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTItNjAwLW5vcm1hbC4ydnQ4LWprN2s0a3l0LndvZmYyIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTAxLTQwMC1ub3JtYWwuMnZiNzU4bm9jNmlfXy53b2ZmMiIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMi00MDAtbm9ybWFsLjM2a2Utbmd4ejdfcGoud29mZjIiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTMtNDAwLW5vcm1hbC4zYjh6aTRpZnp0LTV0LndvZmYyIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTA5LTQwMC1ub3JtYWwuMGlhMGd5bzBibmpvNC53b2ZmMiIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExNS02MDAtbm9ybWFsLjI0cmpmdXl1Z3p4NWoud29mZjIiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTAtNjAwLW5vcm1hbC4xLS05M2RzZmd1NjNtLndvZmYyIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTE3LTYwMC1ub3JtYWwuMHZyaWJfdWNyb25tby53b2ZmMiIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMS00MDAtbm9ybWFsLjJlLWZ6YWpxN2Fqcmcud29mZjIiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTAtNDAwLW5vcm1hbC4xc3k5azNwY3psdWl0LndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTUtNDAwLW5vcm1hbC4yYTJxYXQ2cS1ocGotLndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTQtNjAwLW5vcm1hbC4zZXN4NzI4bjl1dnJ1LndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTItNjAwLW5vcm1hbC4xc25yc2h3YjIwMzFqLndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMDEtNDAwLW5vcm1hbC4zdWNyajRjLWYtZm8xLndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTItNDAwLW5vcm1hbC4xYWkxNDgxamJfaWdxLndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTMtNDAwLW5vcm1hbC4wMHU1c2lvNy15bGhmLndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMDktNDAwLW5vcm1hbC4xMGVqMW1sMGZlZDUyLndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTUtNjAwLW5vcm1hbC4xZV9hdGRfbXEweDV6LndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTAtNjAwLW5vcm1hbC4zMm1kOGtyLTlkejB6LndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTctNjAwLW5vcm1hbC4yaDNyNHhteXU4ZzY1LndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTEtNDAwLW5vcm1hbC4yNDFlNWZpdDZiY201LndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy12aWV0bmFtZXNlLTQwMC1ub3JtYWwuMTY3MWxfbGlrbHhxOS53b2ZmMiIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLWxhdGluLWV4dC00MDAtbm9ybWFsLjExbXVoNGxnc2pkcnAud29mZjIiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy12aWV0bmFtZXNlLTQwMC1ub3JtYWwuMmF1d3hvbHJqcnNydi53b2ZmIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtbGF0aW4tZXh0LTQwMC1ub3JtYWwuMTAwcjh1ajN5dWFhci53b2ZmIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtOTgtNDAwLW5vcm1hbC4zMmluaHN5NWxya3llLndvZmYyIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtOTEtNDAwLW5vcm1hbC4xZThrYTNvY2M4c3BsLndvZmYyIiwKICAgICAgIm5ldDo6RVJSX0lOVEVSTkVUX0RJU0NPTk5FQ1RFRCIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtOTgtNDAwLW5vcm1hbC4yNjktMWpodHVrbzY5LndvZmYiLAogICAgICAibmV0OjpFUlJfSU5URVJORVRfRElTQ09OTkVDVEVEIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy05MS00MDAtbm9ybWFsLjJrczMzZ3k4NXRtYTEud29mZiIsCiAgICAgICJuZXQ6OkVSUl9JTlRFUk5FVF9ESVNDT05ORUNURUQiCiAgICBdCiAgXSwKICAiY29tbWl0dGVkVHVybiI6IDIKfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-5bd3f7ab4a97666777dc",
+          "file": "resilience.spec.ts",
+          "line": 74,
+          "column": 5
+        },
+        {
+          "title": "resilience: pending audio activation never blocks a new life or combat",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1903,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:57.851Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-8a1fd815958fcb176e03",
+          "file": "resilience.spec.ts",
+          "line": 92,
+          "column": 5
+        },
+        {
+          "title": "compatibility: a genuine frozen-v1 journey continues and survives explicit v2 archival",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1394,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:37:59.762Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "legacy-compatibility.json",
+                      "contentType": "application/json",
+                      "body": "eyJsZWdhY3lWZXJzaW9uIjoxLCJsZWdhY3lSdWxlcyI6Imh1bWFuLTAuMS4wIiwiY29udGludWVkQWN0aW9ucyI6MSwicmV2aXNlZFZlcnNpb24iOjIsIm9yaWdpbmFsUmV0YWluZWQiOnRydWUsImFyY2hpdmVDb3VudCI6MX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-01ac2e3cc15dd1e81e5e",
+          "file": "resilience.spec.ts",
+          "line": 103,
+          "column": 5
+        },
+        {
+          "title": "resilience: intentionally failed artwork requests preserve named cards, rules and actual play",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2487,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:24.210Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "intentional-art-failures.json",
+                      "contentType": "application/json",
+                      "body": "ewogICJmYWlsZWQiOiBbCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2Vudmlyb25tZW50LndlYnAiLAogICAgICAiTlNfRVJST1JfRkFJTFVSRSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3Jvb3RiaW5kLndlYnAiLAogICAgICAiTlNfRVJST1JfRkFJTFVSRSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3N0b3JtLXNjcmlwdC53ZWJwIiwKICAgICAgIk5TX0VSUk9SX0ZBSUxVUkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9ibG9vZGxldHRlci53ZWJwIiwKICAgICAgIk5TX0VSUk9SX0ZBSUxVUkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9jcmltc29uLWZhbmcud2VicCIsCiAgICAgICJOU19FUlJPUl9GQUlMVVJFIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvaGlkZGVuLXNwcmluZy53ZWJwIiwKICAgICAgIk5TX0VSUk9SX0ZBSUxVUkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9zcHJpbmctcmV0dXJuLndlYnAiLAogICAgICAiTlNfRVJST1JfRkFJTFVSRSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3Rob3JuLWZhbWlsaWFyLndlYnAiLAogICAgICAiTlNfRVJST1JfRkFJTFVSRSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2Z1bmRhbWVudGFscy53ZWJwIiwKICAgICAgIk5TX0VSUk9SX0ZBSUxVUkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9nb2xkZW4tYnJlYXRoLndlYnAiLAogICAgICAiTlNfRVJST1JfRkFJTFVSRSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3N0aWxsLXN3b3JkLWhlYXJ0LndlYnAiLAogICAgICAiTlNfRVJST1JfRkFJTFVSRSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2VudGl0aWVzL3dhbmRlcmVyLndlYnAiLAogICAgICAiTlNfRVJST1JfRkFJTFVSRSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2VudGl0aWVzL3JvYWQtYmFuZGl0LndlYnAiLAogICAgICAiTlNfRVJST1JfRkFJTFVSRSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2RlZmVuc2Uud2VicCIsCiAgICAgICJOU19FUlJPUl9GQUlMVVJFIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvc3RyaWtlLndlYnAiLAogICAgICAiTlNfRVJST1JfRkFJTFVSRSIKICAgIF0KICBdLAogICJhbGxvd2VkIjogWwogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvZW52aXJvbm1lbnQud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9yb290YmluZC53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3N0b3JtLXNjcmlwdC53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2Jsb29kbGV0dGVyLndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvY3JpbXNvbi1mYW5nLndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvaGlkZGVuLXNwcmluZy53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3NwcmluZy1yZXR1cm4ud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy90aG9ybi1mYW1pbGlhci53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2Z1bmRhbWVudGFscy53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2dvbGRlbi1icmVhdGgud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9zdGlsbC1zd29yZC1oZWFydC53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2VudGl0aWVzL3dhbmRlcmVyLndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvZW50aXRpZXMvcm9hZC1iYW5kaXQud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9kZWZlbnNlLndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvc3RyaWtlLndlYnAiCiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-113d5beac439ed36161f",
+          "file": "resilience.spec.ts",
+          "line": 59,
+          "column": 5
+        },
+        {
+          "title": "resilience: offline after boot supports fresh drafting, combat, locale switching and local commits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2259,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:27.309Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "offline-play-evidence.json",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXZpZ2F0b3JPbkxpbmUiOiBmYWxzZSwKICAicnVudGltZVJlcXVlc3RzIjogW10sCiAgImZhaWxlZERlY29yYXRpdmVBc3NldHMiOiBbCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2dvbGRlbi1icmVhdGgud2VicCIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvd2luZC1zaGVhcnMud2VicCIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvcmUtcmVmaW5lbWVudC53ZWJwIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9mbHlpbmctYXJzZW5hbC53ZWJwIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9yYWdnZWQtYmFubmVyLndlYnAiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTA2LTQwMC1ub3JtYWwuMXgyYXpvcS1idXBfaS53b2ZmMiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMDYtNDAwLW5vcm1hbC4wZzJwbmU0OHExMGU0LndvZmYiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3RocmVlZm9sZC1uZWVkbGVzLndlYnAiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3NwcmluZy1yZXR1cm4ud2VicCIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvaGlkZGVuLXRodW5kZXItYXJyYXkud2VicCIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvYmxvb2RsZXR0ZXIud2VicCIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvY3J1Y2libGUtc2hlbGwud2VicCIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvZW50aXRpZXMvd2FuZGVyZXIud2VicCIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvZW50aXRpZXMvZ2FsZS10aGllZi53ZWJwIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9kZWZlbnNlLndlYnAiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3N0cmlrZS53ZWJwIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMC00MDAtbm9ybWFsLjFvbGJjYWNkMzg0NjMud29mZjIiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTE1LTQwMC1ub3JtYWwuMGdoNDItY291NTZrbS53b2ZmMiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTItNjAwLW5vcm1hbC4ydnQ4LWprN2s0a3l0LndvZmYyIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExNC02MDAtbm9ybWFsLjJkMW1mdW05al8yeWoud29mZjIiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTEyLTQwMC1ub3JtYWwuMzZrZS1uZ3h6N19wai53b2ZmMiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTEtNDAwLW5vcm1hbC4yZS1memFqcTdhanJnLndvZmYyIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMy00MDAtbm9ybWFsLjNiOHppNGlmenQtNXQud29mZjIiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTA5LTQwMC1ub3JtYWwuMGlhMGd5bzBibmpvNC53b2ZmMiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMDgtNjAwLW5vcm1hbC4wMmNzYnNncWhyZDN5LndvZmYyIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMy02MDAtbm9ybWFsLjB3aGh2aWxhcjU3Z2kud29mZjIiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTE3LTYwMC1ub3JtYWwuMHZyaWJfdWNyb25tby53b2ZmMiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTUtNjAwLW5vcm1hbC4yNHJqZnV5dWd6eDVqLndvZmYyIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMC02MDAtbm9ybWFsLjEtLTkzZHNmZ3U2M20ud29mZjIiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTA0LTQwMC1ub3JtYWwuMXpfdzdjYnU1dmFwdC53b2ZmMiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTAtNDAwLW5vcm1hbC4xc3k5azNwY3psdWl0LndvZmYiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTE1LTQwMC1ub3JtYWwuMmEycWF0NnEtaHBqLS53b2ZmIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMi02MDAtbm9ybWFsLjFzbnJzaHdiMjAzMWoud29mZiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTQtNjAwLW5vcm1hbC4zZXN4NzI4bjl1dnJ1LndvZmYiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTEyLTQwMC1ub3JtYWwuMWFpMTQ4MWpiX2lncS53b2ZmIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMS00MDAtbm9ybWFsLjI0MWU1Zml0NmJjbTUud29mZiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTMtNDAwLW5vcm1hbC4wMHU1c2lvNy15bGhmLndvZmYiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTA5LTQwMC1ub3JtYWwuMTBlajFtbDBmZWQ1Mi53b2ZmIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTEwOC02MDAtbm9ybWFsLjBqY2w4aDU3YjA3aHAud29mZiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTMtNjAwLW5vcm1hbC4zbHNuMWk0b282OWI2LndvZmYiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTE3LTYwMC1ub3JtYWwuMmgzcjR4bXl1OGc2NS53b2ZmIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExNS02MDAtbm9ybWFsLjFlX2F0ZF9tcTB4NXoud29mZiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTAtNjAwLW5vcm1hbC4zMm1kOGtyLTlkejB6LndvZmYiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTA0LTQwMC1ub3JtYWwuM20xZGI5MmdiOGVseS53b2ZmIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLXZpZXRuYW1lc2UtNDAwLW5vcm1hbC4xNjcxbF9saWtseHE5LndvZmYyIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLWxhdGluLWV4dC00MDAtbm9ybWFsLjExbXVoNGxnc2pkcnAud29mZjIiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtdmlldG5hbWVzZS02MDAtbm9ybWFsLjM2anl3cHJwaXloN20ud29mZjIiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtdmlldG5hbWVzZS00MDAtbm9ybWFsLjJhdXd4b2xyanJzcnYud29mZiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy1sYXRpbi1leHQtNDAwLW5vcm1hbC4xMDByOHVqM3l1YWFyLndvZmYiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtdmlldG5hbWVzZS02MDAtbm9ybWFsLjJyd3J2bWFteGdfMV8ud29mZiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy05OC00MDAtbm9ybWFsLjMyaW5oc3k1bHJreWUud29mZjIiLAogICAgICAiTlNfRVJST1JfT0ZGTElORSIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtOTEtNjAwLW5vcm1hbC4wMTJqamUycmVjZGx3LndvZmYyIiwKICAgICAgIk5TX0VSUk9SX09GRkxJTkUiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTkxLTQwMC1ub3JtYWwuMWU4a2Ezb2NjOHNwbC53b2ZmMiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy05OC00MDAtbm9ybWFsLjI2OS0xamh0dWtvNjkud29mZiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy05MS02MDAtbm9ybWFsLjFycW00NjZlNm0wOHAud29mZiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy05MS00MDAtbm9ybWFsLjJrczMzZ3k4NXRtYTEud29mZiIsCiAgICAgICJOU19FUlJPUl9PRkZMSU5FIgogICAgXQogIF0sCiAgImNvbW1pdHRlZFR1cm4iOiAyCn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-52ce4094505991d125ea",
+          "file": "resilience.spec.ts",
+          "line": 74,
+          "column": 5
+        },
+        {
+          "title": "resilience: pending audio activation never blocks a new life or combat",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1811,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:29.577Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-ad0f05c0338f952f6587",
+          "file": "resilience.spec.ts",
+          "line": 92,
+          "column": 5
+        },
+        {
+          "title": "compatibility: a genuine frozen-v1 journey continues and survives explicit v2 archival",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1706,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:31.399Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "legacy-compatibility.json",
+                      "contentType": "application/json",
+                      "body": "eyJsZWdhY3lWZXJzaW9uIjoxLCJsZWdhY3lSdWxlcyI6Imh1bWFuLTAuMS4wIiwiY29udGludWVkQWN0aW9ucyI6MSwicmV2aXNlZFZlcnNpb24iOjIsIm9yaWdpbmFsUmV0YWluZWQiOnRydWUsImFyY2hpdmVDb3VudCI6MX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-2125494f264cc5fb0ba1",
+          "file": "resilience.spec.ts",
+          "line": 103,
+          "column": 5
+        },
+        {
+          "title": "resilience: intentionally failed artwork requests preserve named cards, rules and actual play",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2487,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:58.309Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "intentional-art-failures.json",
+                      "contentType": "application/json",
+                      "body": "ewogICJmYWlsZWQiOiBbCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2Vudmlyb25tZW50LndlYnAiLAogICAgICAiQmxvY2tlZCBieSBXZWIgSW5zcGVjdG9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvc3dhbGxvdy1zbGlwLndlYnAiLAogICAgICAiQmxvY2tlZCBieSBXZWIgSW5zcGVjdG9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvcmFnZ2VkLWJhbm5lci53ZWJwIiwKICAgICAgIkJsb2NrZWQgYnkgV2ViIEluc3BlY3RvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3Rob3JuLXNlbnRpbmVsLndlYnAiLAogICAgICAiQmxvY2tlZCBieSBXZWIgSW5zcGVjdG9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvcmV0cmlldmUtdGhlLXBhZ2Uud2VicCIsCiAgICAgICJCbG9ja2VkIGJ5IFdlYiBJbnNwZWN0b3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9zdGlsbC1zd29yZC1oZWFydC53ZWJwIiwKICAgICAgIkJsb2NrZWQgYnkgV2ViIEluc3BlY3RvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3JlLXJlZmluZW1lbnQud2VicCIsCiAgICAgICJCbG9ja2VkIGJ5IFdlYiBJbnNwZWN0b3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9zaWxlbnQtYXJyYXkud2VicCIsCiAgICAgICJCbG9ja2VkIGJ5IFdlYiBJbnNwZWN0b3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy91bmJyb2tlbi1mbG93LndlYnAiLAogICAgICAiQmxvY2tlZCBieSBXZWIgSW5zcGVjdG9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvcm9vdGVkLXN0YW5jZS53ZWJwIiwKICAgICAgIkJsb2NrZWQgYnkgV2ViIEluc3BlY3RvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2VudGl0aWVzL3dhbmRlcmVyLndlYnAiLAogICAgICAiQmxvY2tlZCBieSBXZWIgSW5zcGVjdG9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvZW50aXRpZXMvZ2FsZS10aGllZi53ZWJwIiwKICAgICAgIkJsb2NrZWQgYnkgV2ViIEluc3BlY3RvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2RlZmVuc2Uud2VicCIsCiAgICAgICJCbG9ja2VkIGJ5IFdlYiBJbnNwZWN0b3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9zdHJpa2Uud2VicCIsCiAgICAgICJCbG9ja2VkIGJ5IFdlYiBJbnNwZWN0b3IiCiAgICBdCiAgXSwKICAiYWxsb3dlZCI6IFsKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2Vudmlyb25tZW50LndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvc3dhbGxvdy1zbGlwLndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvcmFnZ2VkLWJhbm5lci53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3Rob3JuLXNlbnRpbmVsLndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvcmV0cmlldmUtdGhlLXBhZ2Uud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9zdGlsbC1zd29yZC1oZWFydC53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3JlLXJlZmluZW1lbnQud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9zaWxlbnQtYXJyYXkud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy91bmJyb2tlbi1mbG93LndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvcm9vdGVkLXN0YW5jZS53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2VudGl0aWVzL3dhbmRlcmVyLndlYnAiLAogICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvZW50aXRpZXMvZ2FsZS10aGllZi53ZWJwIiwKICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2RlZmVuc2Uud2VicCIsCiAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9zdHJpa2Uud2VicCIKICBdCn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-94f296147640605117c1",
+          "file": "resilience.spec.ts",
+          "line": 59,
+          "column": 5
+        },
+        {
+          "title": "resilience: offline after boot supports fresh drafting, combat, locale switching and local commits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3058,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:00.808Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "offline-play-evidence.json",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXZpZ2F0b3JPbkxpbmUiOiBmYWxzZSwKICAicnVudGltZVJlcXVlc3RzIjogW10sCiAgImZhaWxlZERlY29yYXRpdmVBc3NldHMiOiBbCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3N3YWxsb3ctc2xpcC53ZWJwIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2NydXNoaW5nLWJsb3cud2VicCIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9ibG9vZGxldHRlci53ZWJwIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3RocmVlZm9sZC1uZWVkbGVzLndlYnAiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvc3Rvcm0tc2NyaXB0LndlYnAiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMDYtNDAwLW5vcm1hbC4xeDJhem9xLWJ1cF9pLndvZmYyIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTA2LTQwMC1ub3JtYWwuMGcycG5lNDhxMTBlNC53b2ZmIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL29wZW4tdmVpbi53ZWJwIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3N0aWxsLXN3b3JkLWhlYXJ0LndlYnAiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvY2FyZHMvZmx5aW5nLWFyc2VuYWwud2VicCIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9jYXJkcy9yZWFkLXRoZS1jdXJyZW50LndlYnAiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9hcnQvZW50aXRpZXMvZ2FsZS10aGllZi53ZWJwIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL3N0cmlrZS53ZWJwIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvYXJ0L2NhcmRzL2RlZmVuc2Uud2VicCIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL2FydC9lbnRpdGllcy93YW5kZXJlci53ZWJwIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTEzLTQwMC1ub3JtYWwuM2I4emk0aWZ6dC01dC53b2ZmMiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMS00MDAtbm9ybWFsLjJlLWZ6YWpxN2Fqcmcud29mZjIiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy04MS02MDAtbm9ybWFsLjJqdXF6YWN6eWVoYzQud29mZjIiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTEtNjAwLW5vcm1hbC4yd2RrNHdoMXI4ZWt2LndvZmYyIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTEyLTQwMC1ub3JtYWwuMzZrZS1uZ3h6N19wai53b2ZmMiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTEwOS00MDAtbm9ybWFsLjBpYTBneW8wYm5qbzQud29mZjIiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMDQtNDAwLW5vcm1hbC4xel93N2NidTV2YXB0LndvZmYyIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTE1LTYwMC1ub3JtYWwuMjRyamZ1eXVneng1ai53b2ZmMiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExNS00MDAtbm9ybWFsLjBnaDQyLWNvdTU2a20ud29mZjIiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTItNjAwLW5vcm1hbC4ydnQ4LWprN2s0a3l0LndvZmYyIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTE0LTYwMC1ub3JtYWwuMmQxbWZ1bTlqXzJ5ai53b2ZmMiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMC00MDAtbm9ybWFsLjFvbGJjYWNkMzg0NjMud29mZjIiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy0xMTctNjAwLW5vcm1hbC4wdnJpYl91Y3Jvbm1vLndvZmYyIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTEwLTYwMC1ub3JtYWwuMS0tOTNkc2ZndTYzbS53b2ZmMiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExNS02MDAtbm9ybWFsLjFlX2F0ZF9tcTB4NXoud29mZiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExNS00MDAtbm9ybWFsLjJhMnFhdDZxLWhwai0ud29mZiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTEwNC00MDAtbm9ybWFsLjNtMWRiOTJnYjhlbHkud29mZiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMC02MDAtbm9ybWFsLjMybWQ4a3ItOWR6MHoud29mZiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMC00MDAtbm9ybWFsLjFzeTlrM3Bjemx1aXQud29mZiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExNC02MDAtbm9ybWFsLjNlc3g3MjhuOXV2cnUud29mZiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTExMS00MDAtbm9ybWFsLjI0MWU1Zml0NmJjbTUud29mZiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTgxLTYwMC1ub3JtYWwuMDh2b2JkZ2lmbTR0Yy53b2ZmIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTE3LTYwMC1ub3JtYWwuMmgzcjR4bXl1OGc2NS53b2ZmIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTEyLTYwMC1ub3JtYWwuMXNucnNod2IyMDMxai53b2ZmIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTExLTYwMC1ub3JtYWwuM3AwMTV4NHdnMnU3Yi53b2ZmIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTEzLTQwMC1ub3JtYWwuMDB1NXNpbzcteWxoZi53b2ZmIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTA5LTQwMC1ub3JtYWwuMTBlajFtbDBmZWQ1Mi53b2ZmIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtMTEyLTQwMC1ub3JtYWwuMWFpMTQ4MWpiX2lncS53b2ZmIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtdmlldG5hbWVzZS00MDAtbm9ybWFsLjE2NzFsX2xpa2x4cTkud29mZjIiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy1sYXRpbi1leHQtNDAwLW5vcm1hbC4xMW11aDRsZ3NqZHJwLndvZmYyIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtdmlldG5hbWVzZS02MDAtbm9ybWFsLjM2anl3cHJwaXloN20ud29mZjIiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy1sYXRpbi1leHQtNDAwLW5vcm1hbC4xMDByOHVqM3l1YWFyLndvZmYiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy12aWV0bmFtZXNlLTQwMC1ub3JtYWwuMmF1d3hvbHJqcnNydi53b2ZmIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtdmlldG5hbWVzZS02MDAtbm9ybWFsLjJyd3J2bWFteGdfMV8ud29mZiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTkxLTYwMC1ub3JtYWwuMDEyamplMnJlY2Rsdy53b2ZmMiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTk4LTQwMC1ub3JtYWwuMzJpbmhzeTVscmt5ZS53b2ZmMiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTkxLTQwMC1ub3JtYWwuMWU4a2Ezb2NjOHNwbC53b2ZmMiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdLAogICAgWwogICAgICAiaHR0cDovLzEyNy4wLjAuMTozMjEyL19uZXh0L3N0YXRpYy9tZWRpYS9ub3RvLXNlcmlmLXNjLTk4LTQwMC1ub3JtYWwuMjY5LTFqaHR1a282OS53b2ZmIiwKICAgICAgIldlYktpdCBlbmNvdW50ZXJlZCBhbiBpbnRlcm5hbCBlcnJvciIKICAgIF0sCiAgICBbCiAgICAgICJodHRwOi8vMTI3LjAuMC4xOjMyMTIvX25leHQvc3RhdGljL21lZGlhL25vdG8tc2VyaWYtc2MtOTEtNDAwLW5vcm1hbC4ya3MzM2d5ODV0bWExLndvZmYiLAogICAgICAiV2ViS2l0IGVuY291bnRlcmVkIGFuIGludGVybmFsIGVycm9yIgogICAgXSwKICAgIFsKICAgICAgImh0dHA6Ly8xMjcuMC4wLjE6MzIxMi9fbmV4dC9zdGF0aWMvbWVkaWEvbm90by1zZXJpZi1zYy05MS02MDAtbm9ybWFsLjFycW00NjZlNm0wOHAud29mZiIsCiAgICAgICJXZWJLaXQgZW5jb3VudGVyZWQgYW4gaW50ZXJuYWwgZXJyb3IiCiAgICBdCiAgXSwKICAiY29tbWl0dGVkVHVybiI6IDIKfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-cf1dacb80382a5fa59c2",
+          "file": "resilience.spec.ts",
+          "line": 74,
+          "column": 5
+        },
+        {
+          "title": "resilience: pending audio activation never blocks a new life or combat",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2653,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:03.897Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-5f0136b65a789ca1cc18",
+          "file": "resilience.spec.ts",
+          "line": 92,
+          "column": 5
+        },
+        {
+          "title": "compatibility: a genuine frozen-v1 journey continues and survives explicit v2 archival",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2585,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:06.564Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "legacy-compatibility.json",
+                      "contentType": "application/json",
+                      "body": "eyJsZWdhY3lWZXJzaW9uIjoxLCJsZWdhY3lSdWxlcyI6Imh1bWFuLTAuMS4wIiwiY29udGludWVkQWN0aW9ucyI6MSwicmV2aXNlZFZlcnNpb24iOjIsIm9yaWdpbmFsUmV0YWluZWQiOnRydWUsImFyY2hpdmVDb3VudCI6MX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1cdccb29e536012e9c2-3c3317e993942f553f31",
+          "file": "resilience.spec.ts",
+          "line": 103,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "revision.spec.ts",
+      "file": "revision.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "grade preferences are display-only, persistent and shared with inspection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 930,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:01.175Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-acb297f3960055f043b4",
+          "file": "revision.spec.ts",
+          "line": 33,
+          "column": 5
+        },
+        {
+          "title": "self and enemy drop targets validate before commit; no-energy cards remain draggable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1209,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:02.113Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-6ccc3da686cfddf76d9e",
+          "file": "revision.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "Pursuit feedback follows committed order and discounts never consume inspection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1320,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:03.327Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-0a8624857a19a1fe8917",
+          "file": "revision.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "five rewards persist through inspection, languages and reload; one choice commits once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1761,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:04.651Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-33b5aa52c289e7d6819b",
+          "file": "revision.spec.ts",
+          "line": 59,
+          "column": 5
+        },
+        {
+          "title": "Merchant upgrade and sale pickers preview without mutation and commit once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1569,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:06.419Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-ddbbfdd21ece4a8b0696",
+          "file": "revision.spec.ts",
+          "line": 67,
+          "column": 5
+        },
+        {
+          "title": "Rest full HP shows zero; cancelling either preview preserves mutually exclusive action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 951,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:07.997Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-5eec19f7a14c384c307a",
+          "file": "revision.spec.ts",
+          "line": 76,
+          "column": 5
+        },
+        {
+          "title": "Dao Road renders only immediate branches and completed history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1649,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:08.957Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-dd4473fc5dc813baac39",
+          "file": "revision.spec.ts",
+          "line": 82,
+          "column": 5
+        },
+        {
+          "title": "negative cards and three summons have readable trilingual inspection on laptop and narrow layouts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3671,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:10.621Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-47890566b09c4e155c40",
+          "file": "revision.spec.ts",
+          "line": 88,
+          "column": 5
+        },
+        {
+          "title": "Cloud Warning exposes next heavy threat and has a real preparation turn",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 997,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:14.307Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-67d46ca0dbc31b5fd518",
+          "file": "revision.spec.ts",
+          "line": 95,
+          "column": 5
+        },
+        {
+          "title": "another tab committing the selected card cannot crash stale targeting",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1303,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:15.315Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-b4ecc2fc4627bde892cb",
+          "file": "revision.spec.ts",
+          "line": 100,
+          "column": 5
+        },
+        {
+          "title": "touch inspection is deliberate and cannot play or buy a card",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2266,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:16.625Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-696998e33fe2dd30796a",
+          "file": "revision.spec.ts",
+          "line": 104,
+          "column": 5
+        },
+        {
+          "title": "Cloud Command shows its aggregate threat without being labeled an Attack",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 814,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:18.898Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-b0c04e4c77449c6f8dc0",
+          "file": "revision.spec.ts",
+          "line": 111,
+          "column": 5
+        },
+        {
+          "title": "real touch drags share target and cost validation and cancel on empty space",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1836,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:19.718Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-530e89d31055f1cff0d0",
+          "file": "revision.spec.ts",
+          "line": 115,
+          "column": 5
+        },
+        {
+          "title": "Tidal end-turn confirmation resolves exactly once and closes the modal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 725,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:21.563Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-20709d39a262d8f1b1d7",
+          "file": "revision.spec.ts",
+          "line": 142,
+          "column": 5
+        },
+        {
+          "title": "selection from another combat cannot activate the same permanent card UID",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 805,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:22.294Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-c3c7aa51b0482e470d31",
+          "file": "revision.spec.ts",
+          "line": 151,
+          "column": 5
+        },
+        {
+          "title": "confirmed new life records the old terminal run and opens a new draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 746,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:23.106Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-85ef5cd8ccb4ff58dce6",
+          "file": "revision.spec.ts",
+          "line": 158,
+          "column": 5
+        },
+        {
+          "title": "grade preferences are display-only, persistent and shared with inspection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1255,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:33.055Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-35a0302d94e58cbf3c97",
+          "file": "revision.spec.ts",
+          "line": 33,
+          "column": 5
+        },
+        {
+          "title": "self and enemy drop targets validate before commit; no-energy cards remain draggable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1605,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:34.317Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-6f8e4aa84cffc8515c6a",
+          "file": "revision.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "Pursuit feedback follows committed order and discounts never consume inspection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2113,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:35.933Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-0e201f864f04bebe0f0e",
+          "file": "revision.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "five rewards persist through inspection, languages and reload; one choice commits once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3427,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:38.069Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-8660ea20662464f6f01f",
+          "file": "revision.spec.ts",
+          "line": 59,
+          "column": 5
+        },
+        {
+          "title": "Merchant upgrade and sale pickers preview without mutation and commit once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6306,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:41.512Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-fd5664058b9136165833",
+          "file": "revision.spec.ts",
+          "line": 67,
+          "column": 5
+        },
+        {
+          "title": "Rest full HP shows zero; cancelling either preview preserves mutually exclusive action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4181,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:47.840Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-6a64bded5eaa79f6f225",
+          "file": "revision.spec.ts",
+          "line": 76,
+          "column": 5
+        },
+        {
+          "title": "Dao Road renders only immediate branches and completed history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3641,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:52.069Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-0b4dd2d95bf1cfea77c7",
+          "file": "revision.spec.ts",
+          "line": 82,
+          "column": 5
+        },
+        {
+          "title": "negative cards and three summons have readable trilingual inspection on laptop and narrow layouts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5684,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:38:55.749Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-57509514e3e7aecaa45f",
+          "file": "revision.spec.ts",
+          "line": 88,
+          "column": 5
+        },
+        {
+          "title": "Cloud Warning exposes next heavy threat and has a real preparation turn",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1472,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:01.456Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-d3682269fdac25352a1e",
+          "file": "revision.spec.ts",
+          "line": 95,
+          "column": 5
+        },
+        {
+          "title": "another tab committing the selected card cannot crash stale targeting",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2906,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:02.942Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-071d1736fdd7a16440c8",
+          "file": "revision.spec.ts",
+          "line": 100,
+          "column": 5
+        },
+        {
+          "title": "touch inspection is deliberate and cannot play or buy a card",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Touch-specific browser context is verified in Chromium; keyboard/mouse flows run in every engine.",
+                  "location": {
+                    "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                    "line": 105,
+                    "column": 7
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 569,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:05.866Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Touch-specific browser context is verified in Chromium; keyboard/mouse flows run in every engine.",
+                      "location": {
+                        "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                        "line": 105,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-b968152a1eef99200998",
+          "file": "revision.spec.ts",
+          "line": 104,
+          "column": 5
+        },
+        {
+          "title": "Cloud Command shows its aggregate threat without being labeled an Attack",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1789,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:06.459Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-89b56f209dd9da763252",
+          "file": "revision.spec.ts",
+          "line": 111,
+          "column": 5
+        },
+        {
+          "title": "real touch drags share target and cost validation and cancel on empty space",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Actual touch protocol is verified in Chromium; mouse and keyboard paths run in all three engines.",
+                  "location": {
+                    "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                    "line": 116,
+                    "column": 7
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 359,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:08.270Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Actual touch protocol is verified in Chromium; mouse and keyboard paths run in all three engines.",
+                      "location": {
+                        "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                        "line": 116,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-c0a9cf36119b313ba87f",
+          "file": "revision.spec.ts",
+          "line": 115,
+          "column": 5
+        },
+        {
+          "title": "Tidal end-turn confirmation resolves exactly once and closes the modal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3605,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:08.640Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-b96c901ccad7ee68d825",
+          "file": "revision.spec.ts",
+          "line": 142,
+          "column": 5
+        },
+        {
+          "title": "selection from another combat cannot activate the same permanent card UID",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2571,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:12.271Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-834772e639139c1c10f8",
+          "file": "revision.spec.ts",
+          "line": 151,
+          "column": 5
+        },
+        {
+          "title": "confirmed new life records the old terminal run and opens a new draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1678,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:14.868Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-9f7242c8fb2b8bbf9b28",
+          "file": "revision.spec.ts",
+          "line": 158,
+          "column": 5
+        },
+        {
+          "title": "grade preferences are display-only, persistent and shared with inspection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3058,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:09.173Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-7b7390c2e05077070e13",
+          "file": "revision.spec.ts",
+          "line": 33,
+          "column": 5
+        },
+        {
+          "title": "self and enemy drop targets validate before commit; no-energy cards remain draggable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2856,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:12.249Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-a9aef9dacf5fc8cae116",
+          "file": "revision.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "Pursuit feedback follows committed order and discounts never consume inspection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2702,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:15.140Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-7d68d18e741a67b3465a",
+          "file": "revision.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "five rewards persist through inspection, languages and reload; one choice commits once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3036,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:17.863Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-8d12dc3946620c00fa55",
+          "file": "revision.spec.ts",
+          "line": 59,
+          "column": 5
+        },
+        {
+          "title": "Merchant upgrade and sale pickers preview without mutation and commit once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3325,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:20.910Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-f631c9cdcb409a950d88",
+          "file": "revision.spec.ts",
+          "line": 67,
+          "column": 5
+        },
+        {
+          "title": "Rest full HP shows zero; cancelling either preview preserves mutually exclusive action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1440,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:24.247Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-0136950c6d2c0c3bc962",
+          "file": "revision.spec.ts",
+          "line": 76,
+          "column": 5
+        },
+        {
+          "title": "Dao Road renders only immediate branches and completed history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1624,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:25.707Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-f8d032d84690001db848",
+          "file": "revision.spec.ts",
+          "line": 82,
+          "column": 5
+        },
+        {
+          "title": "negative cards and three summons have readable trilingual inspection on laptop and narrow layouts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5231,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:27.339Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-3ea3d6cf4f809f395130",
+          "file": "revision.spec.ts",
+          "line": 88,
+          "column": 5
+        },
+        {
+          "title": "Cloud Warning exposes next heavy threat and has a real preparation turn",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1139,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:32.580Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-ddc609c42db2c8275cb6",
+          "file": "revision.spec.ts",
+          "line": 95,
+          "column": 5
+        },
+        {
+          "title": "another tab committing the selected card cannot crash stale targeting",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1699,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:33.726Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-27ae3c386d8400fba6af",
+          "file": "revision.spec.ts",
+          "line": 100,
+          "column": 5
+        },
+        {
+          "title": "touch inspection is deliberate and cannot play or buy a card",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Touch-specific browser context is verified in Chromium; keyboard/mouse flows run in every engine.",
+                  "location": {
+                    "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                    "line": 105,
+                    "column": 7
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 208,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:35.430Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Touch-specific browser context is verified in Chromium; keyboard/mouse flows run in every engine.",
+                      "location": {
+                        "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                        "line": 105,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-00e739b9654cb19ec0ad",
+          "file": "revision.spec.ts",
+          "line": 104,
+          "column": 5
+        },
+        {
+          "title": "Cloud Command shows its aggregate threat without being labeled an Attack",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1004,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:35.647Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-bdb32b71100b81347d48",
+          "file": "revision.spec.ts",
+          "line": 111,
+          "column": 5
+        },
+        {
+          "title": "real touch drags share target and cost validation and cancel on empty space",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Actual touch protocol is verified in Chromium; mouse and keyboard paths run in all three engines.",
+                  "location": {
+                    "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                    "line": 116,
+                    "column": 7
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 187,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:36.656Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Actual touch protocol is verified in Chromium; mouse and keyboard paths run in all three engines.",
+                      "location": {
+                        "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                        "line": 116,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-10399ce8b2e894aa1a46",
+          "file": "revision.spec.ts",
+          "line": 115,
+          "column": 5
+        },
+        {
+          "title": "Tidal end-turn confirmation resolves exactly once and closes the modal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1002,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:36.848Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-5f5fa6463a9fa08d41ee",
+          "file": "revision.spec.ts",
+          "line": 142,
+          "column": 5
+        },
+        {
+          "title": "selection from another combat cannot activate the same permanent card UID",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1242,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:37.855Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-dfc69416883a798d138f",
+          "file": "revision.spec.ts",
+          "line": 151,
+          "column": 5
+        },
+        {
+          "title": "confirmed new life records the old terminal run and opens a new draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 927,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T05:39:39.104Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-02c4d0b1afb7dc3cbb5f",
+          "file": "revision.spec.ts",
+          "line": 158,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-14T05:37:52.885Z",
+    "duration": 107314.26400000001,
+    "expected": 122,
+    "skipped": 4,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

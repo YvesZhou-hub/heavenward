@@ -1,0 +1,232 @@
+{
+  "config": {
+    "argv": [
+      "/usr/local/bin/node",
+      "/Users/yveszhou/Documents/game/heavenward/node_modules/.bin/playwright",
+      "test",
+      "tests/browser/revision.spec.ts",
+      "--project=chromium",
+      "--grep",
+      "Pursuit feedback|negative cards",
+      "--output=output/playwright/revision-inspection-retest",
+      "--reporter=list,json"
+    ],
+    "configFile": "/Users/yveszhou/Documents/game/heavenward/playwright.config.ts",
+    "rootDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-inspection-retest",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-inspection-retest",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-inspection-retest",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "revision.spec.ts",
+      "file": "revision.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Pursuit feedback follows committed order and discounts never consume inspection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2023,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:14:58.968Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-0a8624857a19a1fe8917",
+          "file": "revision.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "negative cards and three summons have readable trilingual inspection on laptop and narrow layouts",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 2437,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at /Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts:92:315",
+                    "location": {
+                      "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                      "column": 315,
+                      "line": 92
+                    },
+                    "snippet": "  90 |  c.player.statuses={strength:10,weak:1,protectiveQi:5,swordIntent:3};c.summons=['reed-wolf','thorn-vine','treant'].map((id,i)=>{const d=SUMMONS[id];return{id:`ally-${i}`,defId:id,name:d.name,hp:d.hp,maxHp:d.hp,armor:0,statuses:{},attack:d.attack,automatic:d.automatic} as Summon;});\n  91 |  for(const locale of ['en','zh-CN','vi'] as const){await load(page,r,locale);await expect(page.locator('.hand-area .game-card')).toHaveCount(10);await expect(page.locator('.summon')).toHaveCount(3);await shot(page,`ten-hand-${locale}`);await page.locator('[data-card=\"qi-disorder\"] .inspect-button').click();await expect(page.locator('.inspection')).toBeVisible();await shot(page,`status-inspect-${locale}`);await page.locator('dialog .dialog-heading button').click();await page.locator('.statuses .keyword-trigger').first().focus();await expect(page.locator('.keyword-tooltip')).toBeVisible();const rect=await page.locator('.keyword-tooltip').boundingBox();expect(rect!.x).toBeGreaterThanOrEqual(0);expect(rect!.y).toBeGreaterThanOrEqual(0);await page.keyboard.press('Escape');}\n> 92 |  await page.setViewportSize({width:390,height:844});await load(page,r,'vi');await shot(page,'ten-hand-vi-narrow');await page.locator('[data-card=\"internal-injury\"] .inspect-button').click();await shot(page,'long-status-vi-narrow');expect(await page.locator('body').evaluate(e=>e.scrollWidth<=window.innerWidth+1)).toBe(true);\n     |                                                                                                                                                                                                                                                                                                                           ^\n  93 | });\n  94 |\n  95 | test('Cloud Warning exposes next heavy threat and has a real preparation turn',async({page})=>{"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                        "column": 315,
+                        "line": 92
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n  90 |  c.player.statuses={strength:10,weak:1,protectiveQi:5,swordIntent:3};c.summons=['reed-wolf','thorn-vine','treant'].map((id,i)=>{const d=SUMMONS[id];return{id:`ally-${i}`,defId:id,name:d.name,hp:d.hp,maxHp:d.hp,armor:0,statuses:{},attack:d.attack,automatic:d.automatic} as Summon;});\n  91 |  for(const locale of ['en','zh-CN','vi'] as const){await load(page,r,locale);await expect(page.locator('.hand-area .game-card')).toHaveCount(10);await expect(page.locator('.summon')).toHaveCount(3);await shot(page,`ten-hand-${locale}`);await page.locator('[data-card=\"qi-disorder\"] .inspect-button').click();await expect(page.locator('.inspection')).toBeVisible();await shot(page,`status-inspect-${locale}`);await page.locator('dialog .dialog-heading button').click();await page.locator('.statuses .keyword-trigger').first().focus();await expect(page.locator('.keyword-tooltip')).toBeVisible();const rect=await page.locator('.keyword-tooltip').boundingBox();expect(rect!.x).toBeGreaterThanOrEqual(0);expect(rect!.y).toBeGreaterThanOrEqual(0);await page.keyboard.press('Escape');}\n> 92 |  await page.setViewportSize({width:390,height:844});await load(page,r,'vi');await shot(page,'ten-hand-vi-narrow');await page.locator('[data-card=\"internal-injury\"] .inspect-button').click();await shot(page,'long-status-vi-narrow');expect(await page.locator('body').evaluate(e=>e.scrollWidth<=window.innerWidth+1)).toBe(true);\n     |                                                                                                                                                                                                                                                                                                                           ^\n  93 | });\n  94 |\n  95 | test('Cloud Warning exposes next heavy threat and has a real preparation turn',async({page})=>{\n    at /Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts:92:315"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:15:01.229Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-inspection-retest/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-inspection-retest/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-inspection-retest/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-inspection-retest/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                    "column": 315,
+                    "line": 92
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-47890566b09c4e155c40",
+          "file": "revision.spec.ts",
+          "line": 88,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-14T04:14:58.782Z",
+    "duration": 5003.618,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

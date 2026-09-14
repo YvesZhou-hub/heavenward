@@ -1,0 +1,2653 @@
+CULTIVATION ROGUELIKE DECKBUILDER
+FULL GAME CONCEPT & DESIGN OVERVIEW
+
+
+==================================================
+1. HIGH-LEVEL CONCEPT
+==================================================
+
+This game is a run-based tactical cultivation roguelike deckbuilder set in a Chinese xianxia-inspired world.
+
+The player controls a cultivator who begins at a low cultivation realm and gradually grows stronger by:
+
+- building and refining a deck,
+- learning techniques from different Dao Paths,
+- combining archetypes,
+- gaining cultivation progress,
+- defeating enemies and Elite enemies,
+- surviving Heavenly Tribulations,
+- breaking through cultivation realms,
+- and eventually ascending to a higher World.
+
+A single run represents one cultivator's life and cultivation journey.
+
+If the player loses any combat, the character dies and the run ends.
+
+There are:
+
+- no checkpoints,
+- no mid-run resurrection,
+- no traditional open-world exploration,
+- and no normal RPG quest loop.
+
+The game is inspired by roguelike deckbuilders such as Slay the Spire and cultivation card games such as Yi Xian, but its main identity comes from the interaction between:
+
+- cultivation realms,
+- card grades,
+- Dao Paths,
+- multiple archetypes within each Path,
+- cross-Path synergies,
+- Divine Abilities,
+- Heavenly Tribulations,
+- summons,
+- and World Ascension.
+
+
+==================================================
+2. WORLD STRUCTURE
+==================================================
+
+The game is planned around multiple Worlds.
+
+WORLD 1 — HUMAN REALM
+人界
+
+This is the current development priority.
+
+The player begins at Qi Refining and eventually reaches Spirit Transformation.
+
+The Human Realm progression is:
+
+Qi Refining
+→ Foundation Establishment
+→ Core Formation
+→ Nascent Soul
+→ Spirit Transformation
+→ Ascension Tribulation
+
+After reaching Spirit Transformation, the player does NOT immediately ascend.
+
+The player continues fighting while at Spirit Transformation, gaining and upgrading high-grade cards and completing the final part of the build.
+
+Only after reaching the final stage and defeating the Ascension Tribulation does the player successfully ascend.
+
+The flow is:
+
+Ascension Successful
+→ Human Realm run ends
+→ Return to main menu
+→ Spirit Realm becomes unlocked
+
+
+WORLD 2 — SPIRIT REALM
+灵界
+
+This is future content.
+
+Spirit Realm is a new run, not a direct continuation of the same Human Realm deck.
+
+The player begins the Spirit Realm at approximately Spirit Transformation level.
+
+The future progression is:
+
+Spirit Transformation
+→ Void Refinement
+→ Body Integration
+→ Great Ascension
+→ Final Ascension Tribulation
+→ Immortal Realm
+
+After completing Spirit Realm, World 3 would become available.
+
+
+WORLD 3 — IMMORTAL REALM
+仙界
+
+Future design.
+
+It does not need to be defined yet.
+
+
+IMPORTANT DEVELOPMENT RULE:
+
+For now, development should focus on Human Realm.
+
+Spirit Realm and Immortal Realm are future content.
+
+
+==================================================
+3. CULTIVATION REALMS
+==================================================
+
+The full planned cultivation ladder is:
+
+1. Qi Refining — 炼气
+2. Foundation Establishment — 筑基
+3. Core Formation — 结丹
+4. Nascent Soul — 元婴
+5. Spirit Transformation — 化神
+6. Void Refinement — 炼虚
+7. Body Integration — 合体
+8. Great Ascension — 大乘
+
+Each major realm also contains four minor stages:
+
+Early Stage
+→ Middle Stage
+→ Late Stage
+→ Peak Stage
+
+At the Peak Stage, the player eventually encounters a Heavenly Tribulation (天劫).
+
+Passing a breakthrough Tribulation allows the player to enter the next cultivation realm.
+
+The final Tribulation of a World instead causes Ascension to the next World.
+
+
+==================================================
+4. CARD GRADES
+==================================================
+
+Cards have eight grades corresponding to the eight cultivation realms.
+
+From lowest to highest:
+
+Qi Refining
+→ Ding Grade — 丁
+
+Foundation Establishment
+→ Bing Grade — 丙
+
+Core Formation
+→ Yi Grade — 乙
+
+Nascent Soul
+→ Jia Grade — 甲
+
+Spirit Transformation
+→ Huang Grade — 黄
+
+Void Refinement
+→ Xuan Grade — 玄
+
+Body Integration
+→ Di Grade — 地
+
+Great Ascension
+→ Tian Grade — 天
+
+
+The important rule is:
+
+The card grade corresponding to the player's cultivation realm is the NORMAL grade for that realm, not an absolute hard cap.
+
+For example:
+
+Qi Refining:
+Normal grade = Ding
+
+The player may still upgrade some cards to Bing.
+
+A player may normally use cards up to ONE grade above the grade corresponding to their current realm.
+
+Examples:
+
+Qi Refining:
+- Ding = normal
+- Bing = usable above-realm card
+- Yi or higher = unusable
+
+Foundation Establishment:
+- Bing = normal
+- Yi = usable above-realm card
+- Jia or higher = unusable
+
+Core Formation:
+- Yi = normal
+- Jia = usable above-realm card
+
+Nascent Soul:
+- Jia = normal
+- Huang = usable above-realm card
+
+Spirit Transformation:
+- Huang = normal
+- Xuan = usable above-realm card
+
+
+There is currently NO hard limit on how many above-realm cards a player may possess.
+
+Instead, obtaining these cards requires investment and opportunity cost.
+
+Normal card rewards usually give cards matching the player's current realm.
+
+Cards one grade above the current realm are mainly created through:
+
+- Rest Site upgrades,
+- Merchant upgrades,
+- possibly rare special events later.
+
+This means that if a player manages their HP, money and route very well, they are allowed to become unusually powerful.
+
+
+==================================================
+5. STARTING DECK
+==================================================
+
+The starting deck contains 12 cards:
+
+5 × Strike
+5 × Defense
+2 × chosen Dao Arts
+
+
+Before the run starts, the player receives two card-selection rounds.
+
+Each selection:
+
+Show 5 random starting Dao Arts
+→ Choose 1
+
+After two selections:
+
+10 Basic cards
++
+2 chosen Dao Arts
+=
+12 starting cards
+
+
+STRIKE
+
+Basic Attack
+
+Cost:
+1 Dao Yuan
+
+Effect:
+Deal 5 damage
+
+
+DEFENSE
+
+Basic Defense
+
+Cost:
+1 Dao Yuan
+
+Effect:
+Gain 5 Armor
+
+
+There is no third Basic card anymore.
+
+A cycling card similar to the old Focus concept is better suited as a Wisdom Path Dao Art.
+
+
+==================================================
+6. CARD CATEGORIES
+==================================================
+
+There are four main card categories:
+
+1. Basic Cards
+2. Dao Arts
+3. Immortal Arts
+4. Divine Abilities
+
+
+------------------------------
+BASIC CARDS
+------------------------------
+
+Simple starting cards such as Strike and Defense.
+
+They can have grades and can be upgraded.
+
+
+------------------------------
+DAO ARTS
+道术
+------------------------------
+
+The main cards used to construct builds.
+
+Dao Arts:
+
+- belong to different Dao Paths,
+- support archetypes,
+- have card grades,
+- can be upgraded,
+- form the majority of the player's deck.
+
+
+------------------------------
+IMMORTAL ARTS
+仙术
+------------------------------
+
+Rare and powerful techniques.
+
+They may represent:
+
+- burst attacks,
+- strong defensive techniques,
+- short-duration buffs,
+- unusual tactical effects,
+- powerful combo enablers.
+
+They have card grades and can be upgraded.
+
+They may come from:
+
+- Elite rewards,
+- rare combat rewards,
+- special events,
+- inheritance,
+- rare Merchant offers.
+
+
+------------------------------
+DIVINE ABILITIES
+神通
+------------------------------
+
+Divine Abilities are persistent combat powers.
+
+They exist as cards inside the deck.
+
+The player must:
+
+draw the Divine Ability
+→ pay Dao Yuan
+→ activate it
+
+After activation, its effect remains active until the end of combat.
+
+The card itself then leaves normal card cycling, usually entering the Exhaust Pile.
+
+Divine Abilities:
+
+- have no card grade,
+- cannot be upgraded,
+- may be sold,
+- are powerful,
+- are NOT required to win the game.
+
+A player may deliberately build a deck without using Divine Abilities.
+
+
+MOST IMPORTANT RULE:
+
+Divine Abilities have only ONE acquisition source:
+
+HEAVENLY TRIBULATIONS.
+
+They cannot normally be obtained from:
+
+- Merchants,
+- normal Events,
+- inheritance,
+- normal combat rewards,
+- Elite rewards.
+
+Human Realm supports a maximum of FOUR Divine Ability slots.
+
+The first four major breakthrough Tribulations may each provide one Divine Ability.
+
+The final Ascension Tribulation ends the run and therefore does not need to reward another Divine Ability.
+
+
+==================================================
+7. DAO YUAN
+==================================================
+
+Dao Yuan (道元) is the main combat energy resource.
+
+It refills at the beginning of every Player Turn.
+
+Example early progression:
+
+Qi Refining:
+3 Dao Yuan
+
+Foundation Establishment:
+4 Dao Yuan
+
+Core Formation:
+6 Dao Yuan
+
+Higher cultivation realms may increase it further.
+
+
+Typical card-cost ranges:
+
+Basic Cards:
+around 1 Dao Yuan
+
+Dao Arts:
+around 1–3 Dao Yuan
+
+Immortal Arts:
+around 3–5 Dao Yuan
+
+Divine Abilities:
+around 5–6 Dao Yuan
+
+
+Dao Yuan only exists as a combat resource.
+
+The player does not need to wait outside combat to regenerate it.
+
+
+==================================================
+8. HAND AND CARD PILES
+==================================================
+
+At the beginning of every Player Turn:
+
+Draw 5 cards.
+
+Maximum hand size:
+
+10 cards.
+
+
+Combat uses four main card zones:
+
+- Draw Pile
+- Hand
+- Discard Pile
+- Exhaust Pile
+
+
+If the Draw Pile becomes empty:
+
+Shuffle the Discard Pile
+→ create a new Draw Pile
+
+
+The Exhaust Pile does NOT automatically return to the deck.
+
+Only special effects can interact with it.
+
+
+------------------------------
+HAND OVERFLOW
+------------------------------
+
+If the player's hand is already full and a card attempts to enter the hand:
+
+The card goes to the Discard Pile instead.
+
+This applies to:
+
+- normal Draw,
+- cards generated by Skills,
+- Token cards,
+- Flying Swords,
+- other Add-to-Hand effects.
+
+
+Example:
+
+Hand = 9/10
+
+Generate 2 Flying Swords.
+
+Flying Sword 1:
+→ enters Hand
+
+Flying Sword 2:
+→ enters Discard Pile
+
+
+The player does NOT permanently lose the generated card.
+
+
+==================================================
+9. GENERAL COMBAT KEYWORDS
+==================================================
+
+The game uses several general deckbuilding keywords.
+
+
+------------------------------
+STRENGTH
+------------------------------
+
+Each stack:
+
++1 damage to every Attack hit
+
+Current planned cap:
+
+5 Strength
+
+
+Example:
+
+Strike base damage:
+5
+
+Player has:
+3 Strength
+
+Strike should display:
+
+8 damage
+
+
+Strength applies to each individual hit of a multi-hit Attack.
+
+
+------------------------------
+FORTIFY
+------------------------------
+
+Each stack:
+
++10% Armor gained
+
+Percentage calculations are rounded DOWN.
+
+
+------------------------------
+WEAK
+------------------------------
+
+Attack damage dealt:
+
+-25%
+
+Weak does not affect direct Self-Harm.
+
+
+------------------------------
+VULNERABLE
+------------------------------
+
+External damage received:
+
++50%
+
+Self-Harm is not affected.
+
+
+------------------------------
+POISON
+------------------------------
+
+At the end of the affected unit's Turn:
+
+Take damage equal to current Poison stacks.
+
+Then:
+
+Poison loses 1 stack.
+
+
+Example:
+
+5 Poison
+→ take 5 damage
+→ Poison becomes 4
+
+
+------------------------------
+EXHAUST
+------------------------------
+
+The card enters the Exhaust Pile and leaves normal card cycling for the remainder of combat.
+
+Some Refinement Path cards may later interact with the Exhaust Pile.
+
+
+------------------------------
+RETAIN
+------------------------------
+
+The card remains in the player's hand when the Player Turn ends.
+
+
+------------------------------
+INNATE
+------------------------------
+
+The card is prioritized into the player's opening hand.
+
+
+------------------------------
+DRAW
+------------------------------
+
+Draw additional cards.
+
+
+------------------------------
+DISCARD
+------------------------------
+
+Move cards from Hand to the Discard Pile.
+
+
+==================================================
+10. DYNAMIC CARD INFORMATION
+==================================================
+
+Card values should visually update when combat modifiers change them.
+
+The player should NOT have to mentally calculate hidden damage.
+
+Example:
+
+Strike base damage:
+5
+
+Player has:
+3 Strength
+
+The card should display:
+
+8 damage
+
+NOT:
+
+5 damage and then secretly deal 8 after being used.
+
+
+Target-specific previews should also display the expected result whenever possible.
+
+For multi-hit cards:
+
+5 × 4 damage
+
+is better than simply displaying:
+
+20 damage
+
+because many defensive mechanics interact with each hit separately.
+
+
+==================================================
+11. ACTIVE DISCARD
+==================================================
+
+Discard is separated into different categories.
+
+
+1. ACTIVE DISCARD
+
+The card is discarded because of a player or enemy effect.
+
+This CAN activate special Discard-trigger effects.
+
+
+2. NATURAL END-TURN DISCARD
+
+Cards naturally discarded when the Player Turn ends.
+
+This does NOT count as Active Discard.
+
+
+3. HAND OVERFLOW DISCARD
+
+A card attempts to enter a full hand and is sent directly to the Discard Pile.
+
+This does NOT count as Active Discard.
+
+
+Enemy-forced discard DOES count as Active Discard because the discard is caused by an explicit effect.
+
+
+==================================================
+12. DAMAGE CATEGORIES
+==================================================
+
+The combat system distinguishes several kinds of HP interaction.
+
+
+------------------------------
+ATTACK DAMAGE
+------------------------------
+
+Damage caused by Attack cards.
+
+It may interact with:
+
+- Strength,
+- Weak,
+- Vulnerable,
+- Armor Pierce,
+- Sword Intent,
+- other Attack modifiers.
+
+
+------------------------------
+EXTERNAL DAMAGE
+------------------------------
+
+Real damage that does not necessarily come from an Attack card.
+
+Examples:
+
+- Poison,
+- Tidal Domain attacks,
+- linked damage,
+- certain special effects.
+
+
+------------------------------
+SELF-HARM / DIRECT HP LOSS
+------------------------------
+
+Self-Harm is NOT considered normal damage.
+
+It directly removes HP.
+
+Therefore it bypasses:
+
+- Armor,
+- Damage Reduction,
+- Protective Qi,
+- dodge,
+- Weak,
+- Vulnerable.
+
+This is especially important for Blood Path builds.
+
+
+------------------------------
+SUMMON DAMAGE
+------------------------------
+
+Summons use their own offensive statistics.
+
+They do NOT automatically inherit the player's:
+
+- Strength,
+- Armor Pierce,
+- similar buffs,
+
+unless an effect explicitly says so.
+
+
+------------------------------
+DAMAGE LINK
+------------------------------
+
+Damage transferred through a link is still real damage.
+
+Therefore it may be:
+
+- blocked by Armor,
+- reduced by Damage Reduction,
+- reduced by Protective Qi,
+- dodged if appropriate.
+
+Damage Link is NOT Self-Harm.
+
+
+==================================================
+13. DAMAGE CALCULATION
+==================================================
+
+The general damage-resolution order is:
+
+Base Damage
+
+→ Attacker modifiers
+
+→ Strength / Armor Pierce / card-specific bonuses
+
+→ Weak
+
+→ Vulnerable
+
+→ Damage Reduction
+
+→ Dodge effects
+
+→ Intercept
+
+→ Protective Qi
+
+→ Armor
+
+→ HP Loss
+
+→ On-Hit / On-Damage / On-HP-Loss triggers
+
+→ Death check
+
+
+All percentage-based calculations use FLOOR rounding.
+
+
+==================================================
+14. DAO PATH DESIGN PHILOSOPHY
+==================================================
+
+Every major Dao Path should support multiple archetypes.
+
+A Dao Path should NOT have only one obvious playstyle.
+
+Each archetype should have:
+
+- a unique gameplay loop,
+- its own payoff,
+- supporting cards,
+- bridge cards connecting it to other archetypes.
+
+Cross-Path combinations are encouraged.
+
+The player is never permanently locked into a single Dao Path.
+
+
+==================================================
+15. FIRE PATH
+火道
+==================================================
+
+Fire has two main archetypes.
+
+
+------------------------------
+EXPLOSIVE FLAME
+------------------------------
+
+Focused on single-target burst damage.
+
+Fire cards apply Explosive Flame marks/stacks.
+
+Other Fire attacks can consume those stacks to deal stronger burst damage.
+
+This archetype is especially useful against:
+
+- bosses,
+- Elite enemies,
+- high-priority single targets.
+
+
+------------------------------
+SPREADING FLAME
+------------------------------
+
+Focused on multi-target pressure.
+
+Fire damage can spread from one target to other enemies.
+
+Useful against:
+
+- groups,
+- bosses with minions,
+- summon-heavy enemies.
+
+
+Bridge cards should allow:
+
+Explosive Flame
+↔️
+Spreading Flame
+
+
+==================================================
+16. WOOD PATH
+木道
+==================================================
+
+Wood currently has two main archetypes.
+
+
+------------------------------
+REGROWTH
+------------------------------
+
+Focused on:
+
+- healing,
+- regeneration,
+- sustain,
+- surviving long battles.
+
+
+DIVINE ABILITY EXAMPLE:
+
+ENDLESS VITALITY
+生生不息
+
+After activation:
+
+Heal a small amount at the beginning of every Player Turn.
+
+The effect lasts until combat ends.
+
+
+------------------------------
+SEEDS / ROOTING
+------------------------------
+
+Focused on:
+
+- planting Seeds on enemies,
+- gradual growth,
+- delayed effects,
+- control.
+
+Seeds may eventually trigger:
+
+- damage,
+- healing,
+- debuffs,
+- plant-related effects.
+
+
+------------------------------
+WOOD + SUMMONING SYNERGY
+------------------------------
+
+Wood can combine with the Summoning Path to create plant summons.
+
+Examples:
+
+- vines,
+- flowers,
+- mushrooms,
+- tree spirits,
+- carnivorous plants.
+
+These summons can still interact with Summoning Path archetypes.
+
+
+==================================================
+17. EARTH PATH
+土道
+==================================================
+
+Earth has two archetypes.
+
+
+------------------------------
+FORTIFICATION
+------------------------------
+
+Focused on:
+
+- Armor,
+- Fortify,
+- strong defensive values.
+
+
+------------------------------
+MOUNTAIN BREAKER
+------------------------------
+
+Focused on converting defense into offense.
+
+Example:
+
+Consume all current Armor
+→ deal AoE damage based on Armor consumed
+
+
+The central decision becomes:
+
+Keep Armor and survive
+
+OR
+
+consume Armor and attack
+
+
+==================================================
+18. WATER PATH
+水道
+==================================================
+
+Water has two complementary archetypes.
+
+
+------------------------------
+FLOW
+------------------------------
+
+Focused on Dao Yuan management.
+
+Possible effects include:
+
+- restoring Dao Yuan,
+- reducing card costs,
+- improving Dao Yuan efficiency,
+- increasing maximum Dao Yuan.
+
+
+A Water Divine Ability may permanently increase maximum Dao Yuan for the rest of combat.
+
+
+------------------------------
+TIDAL DOMAIN
+------------------------------
+
+This archetype revolves around:
+
+Tidal Momentum
+
+
+TIDAL MOMENTUM
+
+Certain Water cards generate Tidal Momentum.
+
+Rules:
+
+- no duration,
+- planned maximum around 5.
+
+
+When Tidal Momentum reaches 4:
+
+Finish resolving the current card/effect
+
+→ automatically consume 4 Tidal Momentum
+
+→ summon the Tidal Domain
+
+
+No separate summon card is required.
+
+No extra Dao Yuan cost is required.
+
+
+------------------------------
+TIDAL DOMAIN
+------------------------------
+
+The Tidal Domain is NOT a normal summon.
+
+It:
+
+- has no HP,
+- does not occupy a summon slot,
+- cannot Intercept damage,
+- cannot be sacrificed,
+- cannot be eaten by summon-related enemies,
+- does not receive normal summon buffs.
+
+It visually exists behind or around the player.
+
+
+Immediately after Tidal Domain appears:
+
+the player chooses one of three states.
+
+
+In later turns:
+
+when the player presses End Turn,
+the game asks the player to choose a state again.
+
+
+The Tidal Domain only activates if the player ends the turn with at least:
+
+1 unused Dao Yuan
+
+
+The unused Dao Yuan is NOT consumed.
+
+It is only the activation condition.
+
+
+------------------------------
+RISING TIDE
+------------------------------
+
+At the end of the Player Turn:
+
+Attack the enemy with the lowest current HP.
+
+Damage:
+
+3 + current Tidal Momentum
+
+Then:
+
++1 Tidal Momentum
+
+
+This is the resource-building state.
+
+
+------------------------------
+TRANQUIL SEA
+------------------------------
+
+At the end of the Player Turn:
+
+Do not attack.
+
+Gain Armor:
+
+3 + (2 × current Tidal Momentum)
+
+Then:
+
+-1 Tidal Momentum
+
+
+This is the defensive state.
+
+
+------------------------------
+RAGING TIDE
+------------------------------
+
+At the end of the Player Turn:
+
+Attack the enemy with the highest current HP.
+
+Damage:
+
+4 + (2 × current Tidal Momentum)
+
+Then:
+
+-1 Tidal Momentum
+
+
+This is the offensive state.
+
+
+------------------------------
+WATER INTERNAL SYNERGY
+------------------------------
+
+Flow:
+
+helps the player manage Dao Yuan efficiently.
+
+Tidal Domain:
+
+rewards the player for leaving at least 1 Dao Yuan unused.
+
+Therefore:
+
+Flow
+→ supports
+→ Tidal Domain
+
+
+==================================================
+19. METAL PATH
+金道
+==================================================
+
+Metal represents two concepts:
+
+Sharpness
+and
+Hardness
+
+
+------------------------------
+ARMOR PIERCE
+------------------------------
+
+Armor Pierce represents Metal's sharpness.
+
+Armor Pierce is a stackable buff.
+
+Each stack:
+
++1 Attack damage
+
+Current planned maximum:
+
+6 stacks
+
+Armor Pierce has NO duration.
+
+
+Important rule:
+
+If an Attack hits Armor but causes NO HP loss:
+
+Armor Pierce remains.
+
+
+If an Attack hit reaches HP:
+
+all Armor Pierce stacks are consumed.
+
+
+For multi-hit Attacks:
+
+this is checked hit by hit.
+
+
+Example:
+
+Player has:
+4 Armor Pierce
+
+Attack:
+3 hits × 3 base damage
+
+Enemy:
+10 Armor
+
+
+Hit 1:
+
+3 + 4 = 7 damage
+
+Enemy Armor:
+10 → 3
+
+No HP loss
+
+Armor Pierce remains.
+
+
+Hit 2:
+
+3 + 4 = 7 damage
+
+3 removes remaining Armor
+
+4 reaches HP
+
+Armor Pierce is consumed.
+
+
+Hit 3:
+
+only base damage and other remaining modifiers apply.
+
+
+------------------------------
+PROTECTIVE QI
+罡气护体
+------------------------------
+
+Protective Qi represents Metal's hardness.
+
+Each stack:
+
+reduce every incoming external damage hit by 1
+
+
+Current planned cap:
+
+5
+
+
+At the end of the owner's Turn:
+
+Protective Qi is reduced by half.
+
+Round down.
+
+
+Examples:
+
+5 → 2
+4 → 2
+3 → 1
+2 → 1
+1 → 0
+
+
+Protective Qi is different from Earth Armor.
+
+
+Example:
+
+Enemy attacks:
+
+5 hits × 5 damage
+
+Player has:
+
+3 Protective Qi
+
+
+Each hit:
+
+5 → 2
+
+Total:
+
+25 → 10
+
+
+Against one large hit:
+
+30 damage
+→ 27 damage
+
+
+Therefore:
+
+Earth Armor:
+strong general damage absorption
+
+Metal Protective Qi:
+especially effective against many small hits
+
+
+DIVINE ABILITY EXAMPLE:
+
+INDESTRUCTIBLE GOLDEN BODY
+不坏金身
+
+
+==================================================
+20. SWORD PATH
+剑道
+==================================================
+
+Sword has two archetypes.
+
+
+------------------------------
+SWORD INTENT
+------------------------------
+
+Sword Intent is a persistent combat resource.
+
+Rules:
+
+- no duration,
+- planned cap = 10.
+
+
+Each stack:
+
++1 damage to Sword Attack hits
+
+
+Certain Sword cards may consume all Sword Intent for powerful finishing attacks.
+
+
+A Divine Ability may potentially change:
+
+1 Sword Intent
+=
++1 damage
+
+into:
+
+1 Sword Intent
+=
++2 damage
+
+
+------------------------------
+FLYING SWORDS
+------------------------------
+
+Flying Swords are temporary Token Attack cards.
+
+
+FLYING SWORD
+
+Cost:
+0
+
+Base Damage:
+2
+
+After use:
+Exhaust
+
+
+Flying Swords:
+
+- are not part of the permanent deck,
+- cannot be sold,
+- cannot be permanently upgraded,
+- disappear after combat.
+
+
+There is NO hard limit on how many Flying Swords may be generated in one Player Turn.
+
+The archetype is designed around:
+
+generate many low-damage attacks
+
+→ improve them through buffs and synergies
+
+→ unleash many attacks
+
+
+==================================================
+21. WIND PATH
+风道
+==================================================
+
+Wind has two archetypes.
+
+
+------------------------------
+DISCARD TRIGGER
+------------------------------
+
+Certain Wind cards activate special effects when they are actively discarded.
+
+Active Discard may come from:
+
+- the player,
+- an enemy.
+
+Both count.
+
+
+The following do NOT activate Discard Trigger:
+
+- natural End-Turn discard,
+- hand overflow.
+
+
+This archetype naturally combines with Wisdom Path.
+
+
+------------------------------
+GALE
+------------------------------
+
+Certain Wind cards generate:
+
+Wind Momentum
+
+
+At 3 Wind Momentum:
+
+automatically consume 3
+
+→ trigger Gale
+
+
+Gale deals small AoE damage.
+
+
+Some bridge cards may allow:
+
+Discard Trigger
+→ generate Wind Momentum
+
+
+==================================================
+22. BLOOD PATH
+血道
+==================================================
+
+Blood currently has three archetypes.
+
+
+------------------------------
+LIFESTEAL
+------------------------------
+
+Deal damage while restoring the player's HP.
+
+
+------------------------------
+BLEEDING
+------------------------------
+
+Blood cards apply Bleeding stacks.
+
+When an enemy reaches:
+
+10 Bleeding
+
+automatically:
+
+consume 10 Bleeding
+
+→ deal single-target burst damage
+
+
+------------------------------
+SELF-HARM
+------------------------------
+
+The player deliberately sacrifices their own HP to gain benefits such as:
+
+- damage,
+- buffs,
+- Dao Yuan,
+- card advantage,
+- other effects.
+
+
+Self-Harm directly removes HP.
+
+It cannot be prevented by:
+
+- Armor,
+- Damage Reduction,
+- Protective Qi,
+- dodge.
+
+
+==================================================
+23. SUMMONING / ENSLAVEMENT PATH
+奴道
+==================================================
+
+The player has up to:
+
+3 summon slots
+
+
+Summons have:
+
+- their own HP,
+- their own statistics,
+- special abilities,
+- automatic actions,
+- Command-based actions.
+
+
+Some summons act automatically.
+
+
+Example:
+
+If the owner is attacked:
+
+→ counterattack
+
+
+Another summon may:
+
+If the player breaks an enemy's Armor:
+
+→ perform a follow-up attack
+
+
+Automatic triggers normally have limits to prevent infinite reactions.
+
+
+------------------------------
+NUMERICAL SUPERIORITY
+------------------------------
+
+If the player controls enough summons:
+
+buff the player's team
+
+
+Example:
+
+2 summons:
+minor team buff
+
+3 summons:
+stronger team buff
+
+
+------------------------------
+OVERWHELM
+------------------------------
+
+If the player controls enough summons:
+
+apply debuffs to the enemy team
+
+
+------------------------------
+SACRIFICE
+------------------------------
+
+The player sacrifices multiple summons to create:
+
+- one much stronger summon,
+- or a major combat effect.
+
+
+Example:
+
+Sacrifice 3 summons
+
+→ summon one powerful large entity
+
+
+------------------------------
+IMMORTAL ART EXAMPLE
+------------------------------
+
+OVERWHELM BY NUMBERS
+以众凌寡
+
+Choose one enemy.
+
+Every living summon attacks that enemy simultaneously.
+
+
+==================================================
+24. INTERCEPT
+==================================================
+
+Summons naturally protect their owner through Intercept.
+
+
+Each living summon provides approximately:
+
+20% Intercept
+
+
+Therefore:
+
+1 summon:
+20%
+
+2 summons:
+40%
+
+3 summons:
+60%
+
+
+When the player receives incoming damage:
+
+calculate the intercepted portion
+
+→ divide that damage between living summons
+
+→ remaining damage continues toward the player
+
+
+This gives Summoning builds natural defense.
+
+
+To balance this:
+
+- summon HP should remain limited,
+- summon-healing should not be excessive,
+- repeated summon cards should only moderately restore or increase summon HP,
+- summons remain vulnerable to AoE,
+- some enemies may specialize in anti-summon mechanics.
+
+
+==================================================
+25. STRENGTH PATH
+力道
+==================================================
+
+Strength Path has two archetypes.
+
+
+------------------------------
+BATTLE INTENT
+------------------------------
+
+Focused on:
+
+- Strength,
+- Vulnerable,
+- direct physical offense.
+
+
+This archetype represents straightforward overwhelming physical power.
+
+
+------------------------------
+BRUTE FORCE
+------------------------------
+
+Focused on strengthening Basic cards.
+
+Instead of treating Strike and Defense as cards that should always be removed later:
+
+Brute Force can turn them into the main engine of the deck.
+
+
+Possible effects:
+
+Strike cards gain additional damage.
+
+Defense cards gain additional Armor.
+
+
+Some stronger effects may increase:
+
+card power
+
+AND
+
+Dao Yuan cost
+
+
+This creates a playstyle where basic techniques are refined into extremely powerful direct techniques.
+
+
+==================================================
+26. REFINEMENT PATH
+炼道
+==================================================
+
+Refinement has two archetypes.
+
+
+------------------------------
+REFINING
+------------------------------
+
+Focused on Exhaust.
+
+Exhausting cards can trigger effects such as:
+
+- gaining Armor,
+- drawing cards,
+- increasing damage,
+- healing,
+- gaining temporary Strength,
+- gaining other resources.
+
+
+Stronger versions of these effects should belong to Immortal Arts.
+
+
+------------------------------
+FLYING SWORD + REFINING COMBINATION
+------------------------------
+
+Flying Swords naturally Exhaust after use.
+
+Therefore:
+
+Sword Flying Sword archetype
++
+Refinement Exhaust archetype
+
+creates an intentional cross-Path synergy.
+
+
+A rare Refinement Immortal Art may:
+
+Select up to 5 Attack cards from the Exhaust Pile
+
+→ return them to Hand
+
+
+This can allow:
+
+Generate Flying Swords
+
+→ use Flying Swords
+
+→ Flying Swords Exhaust
+
+→ recover up to 5 Attacks
+
+→ launch another wave
+
+
+This combo can become extremely powerful when prepared correctly.
+
+That is intentional.
+
+
+------------------------------
+RE-REFINEMENT
+------------------------------
+
+Re-Refinement temporarily upgrades card grades during combat.
+
+Example:
+
+Ding card
+
+→ temporarily becomes Bing
+
+
+The temporary grade increase lasts only for the current combat.
+
+After combat:
+
+the card returns to its real permanent grade.
+
+
+Re-Refinement:
+
+- does not permanently upgrade the card,
+- cannot exceed the allowed temporary grade limit,
+- does not transform a card into another card.
+
+
+Card transformation belongs to the Transformation Path.
+
+
+==================================================
+27. FORMATION PATH
+阵道
+==================================================
+
+The main current Formation archetype is:
+
+FORMATION SETUP
+
+
+Formation Path uses Retain as a tool.
+
+However:
+
+Formation Path is NOT simply the "Retain Path."
+
+
+Cards gain special effects when they actually remain in the player's hand through the end of a Player Turn.
+
+
+Examples:
+
+Retained for 1 Turn
+→ gain additional damage
+
+Retained for 2 Turns
+→ reduce cost
+
+Retained for several Turns
+→ unlock an additional effect
+
+
+The fantasy is:
+
+prepare the formation
+
+→ maintain it
+
+→ wait
+
+→ activate it at the correct moment
+
+
+==================================================
+28. WISDOM PATH
+智道
+==================================================
+
+Wisdom focuses on deck control.
+
+Possible mechanics include:
+
+- Draw,
+- Active Discard,
+- recovering cards from Discard,
+- inspecting the top of the Draw Pile,
+- searching for cards,
+- manipulating future draws,
+- reducing randomness.
+
+
+A possible Wisdom Dao Art:
+
+Choose one other card in Hand.
+
+Actively Discard it.
+
+Then:
+
+Draw 1 card.
+
+
+Because this is Active Discard:
+
+it can activate Wind Path Discard Trigger effects.
+
+
+==================================================
+29. OTHER FUTURE DAO PATHS
+==================================================
+
+Other Paths may exist later as enemy mechanics, boss mechanics or future playable Paths.
+
+Examples include:
+
+Void Path — 虚道
+
+Cloud Path — 云道
+
+Soul Path — 魂道
+
+Restriction Path — 禁道
+
+Bone Path — 骨道
+
+Light Path — 光道
+
+Sound Path — 音道
+
+Dark Path — 暗道
+
+Transformation Path — 变化道
+
+Star Path — 星道
+
+Time Path
+
+Poison Path — 毒道
+
+Thunder Path — 雷道
+
+Ice Path — 冰道
+
+
+Not every Path should be playable immediately.
+
+Some can initially exist only for bosses and enemies.
+
+
+==================================================
+30. HEAVENLY TRIBULATIONS
+天劫
+==================================================
+
+Heavenly Tribulations are the main progression gates between cultivation realms.
+
+At the Peak Stage of a realm:
+
+the player eventually faces a Tribulation boss.
+
+
+Tribulation bosses are PRE-DESIGNED.
+
+They are NOT procedurally generated.
+
+
+However:
+
+the game can analyze the player's current build and choose an appropriate boss from the existing boss pool.
+
+
+Possible analysis factors include:
+
+- dominant Dao Path,
+- dominant archetype,
+- Armor reliance,
+- summon reliance,
+- burst reliance,
+- multi-hit reliance,
+- card-type dependence,
+- average card power,
+- number of above-realm cards.
+
+
+The boss should test a weakness in the player's build.
+
+The boss should NOT completely invalidate the build.
+
+
+The goal is:
+
+challenge
+
+NOT
+
+hard counter.
+
+
+==================================================
+31. HEAVENLY OMEN
+==================================================
+
+Before entering a Heavenly Tribulation:
+
+the player receives a warning called a Heavenly Omen.
+
+
+Example:
+
+"Void energy distorts the surroundings.
+Defensive techniques may not remain completely reliable."
+
+
+The warning gives the player information about the type of challenge ahead.
+
+It does NOT reveal the entire boss moveset.
+
+
+==================================================
+32. EXAMPLE TRIBULATION BOSS CONCEPTS
+==================================================
+
+------------------------------
+CLOUD-VOID BEASTMASTER
+------------------------------
+
+Combines:
+
+- Cloud,
+- Void,
+- Summoning.
+
+
+Possible mechanics:
+
+- summon Cloud creatures,
+- gain defensive effects when minions die,
+- share incoming damage with minions,
+- gain a one-hit dodge,
+- use telegraphed Armor-piercing attacks.
+
+
+------------------------------
+BLOOD-LINK CULTIVATOR
+------------------------------
+
+Uses a Damage Link technique.
+
+For a short duration:
+
+Whenever the boss receives damage:
+
+the player receives a percentage of that damage through the link.
+
+
+The boss still receives the full original damage.
+
+
+Damage Link is REAL damage.
+
+Therefore:
+
+- Armor can block it,
+- Damage Reduction can reduce it,
+- Protective Qi can reduce it,
+- dodge effects can potentially avoid it.
+
+
+Damage Link is NOT Self-Harm.
+
+
+------------------------------
+RESTRICTION-SOUL CULTIVATOR
+------------------------------
+
+May use effects such as:
+
+- restricting Attack cards,
+- restricting Skill cards,
+- reducing next-turn Dao Yuan,
+- consuming player summons.
+
+
+A restricted card may still be used.
+
+However:
+
+if the boss survives,
+the player may suffer backlash.
+
+
+If the forbidden card kills the boss:
+
+no backlash occurs.
+
+
+==================================================
+33. DAO ROAD
+==================================================
+
+The run uses a semi-hidden branching node map called the Dao Road.
+
+
+The player normally sees only:
+
+ONE step ahead.
+
+
+If the road branches:
+
+all immediately reachable nodes are visible.
+
+
+Nodes beyond that distance remain hidden.
+
+
+Possible node types include:
+
+- Normal Combat
+- Elite Combat
+- Unknown Event
+- Merchant
+- Rest Site
+- Inheritance
+- Heavenly Tribulation
+
+
+The goal is:
+
+give meaningful route choices
+
+without allowing the player to plan the entire run from the beginning.
+
+
+==================================================
+34. REST SITE
+==================================================
+
+At a Rest Site, the player chooses ONE option.
+
+
+------------------------------
+REST
+------------------------------
+
+Heal approximately:
+
+25% Max HP
+
+
+------------------------------
+UPGRADE
+------------------------------
+
+Upgrade:
+
+1 card for free
+
+
+The player cannot:
+
+heal AND upgrade
+
+during the same Rest Site visit.
+
+
+Rest Site upgrades may allow a card to become one grade above the player's current normal realm grade.
+
+
+Reducing Rest Site upgrades to one is intentional.
+
+It limits rapid power growth through opportunity cost rather than through a hard arbitrary restriction.
+
+
+==================================================
+35. MERCHANT
+==================================================
+
+The Merchant can:
+
+- sell Dao Arts,
+- rarely sell Immortal Arts,
+- buy cards from the player,
+- upgrade cards.
+
+
+The Merchant NEVER sells Divine Abilities.
+
+
+The player may sell up to:
+
+3 permanent deck cards per Merchant visit.
+
+
+The deck cannot fall below the current minimum deck size.
+
+
+Divine Abilities may also be sold.
+
+
+The Merchant currently allows approximately:
+
+2 paid card upgrades per visit.
+
+
+The second upgrade should cost noticeably more than the first.
+
+
+Again:
+
+the goal is opportunity cost,
+not an arbitrary hard power limit.
+
+
+==================================================
+36. DECK SIZE
+==================================================
+
+Current planned deck ranges:
+
+
+Qi Refining:
+Minimum 12
+Maximum 18
+
+
+Foundation Establishment:
+Minimum 14
+Maximum 22
+
+
+Core Formation:
+Minimum 16
+Maximum 26
+
+
+Nascent Soul:
+Minimum 18
+Maximum 30
+
+
+Spirit Transformation:
+Minimum 20
+Maximum 34
+
+
+The player cannot sell cards below the minimum deck size.
+
+
+The purpose is to prevent extremely tiny looping decks while still allowing meaningful deck trimming.
+
+
+==================================================
+37. CARD REWARD LOGIC
+==================================================
+
+Card rewards are NOT completely random.
+
+
+The reward generator may consider:
+
+- current cultivation realm,
+- current Dao Paths,
+- archetypes already present,
+- bridge-card opportunities.
+
+
+Example:
+
+The player already uses many Flying Sword cards.
+
+The game may slightly increase the probability of:
+
+- Flying Sword support,
+- Sword Intent bridge cards,
+- related Sword Dao Arts.
+
+
+This should only be a WEIGHTING bias.
+
+It should NOT force the player to remain inside the same build.
+
+
+The player must still be able to pivot into new Paths or archetypes.
+
+
+==================================================
+38. NORMAL CARD-GRADE REWARDS
+==================================================
+
+Normal card rewards should usually match the player's current cultivation grade.
+
+
+Example:
+
+Spirit Transformation player:
+
+most normal card rewards
+→ Huang Grade
+
+
+Lower-grade cards may still occasionally appear.
+
+Cards one grade above the player's current normal grade should NOT commonly appear from normal rewards.
+
+
+Above-realm cards should mainly come from deliberate investment such as:
+
+- Rest Site upgrades,
+- Merchant upgrades.
+
+
+==================================================
+39. DEATH
+==================================================
+
+If the player loses ANY combat:
+
+the run ends.
+
+
+No checkpoint.
+
+No revival.
+
+
+The Run Summary may display:
+
+- run duration,
+- highest cultivation realm reached,
+- normal combats won,
+- Elite enemies defeated,
+- Tribulations cleared,
+- bosses defeated,
+- cards obtained,
+- Immortal Arts obtained,
+- Divine Abilities obtained,
+- currency earned,
+- main Dao Paths,
+- main archetypes,
+- cause of death.
+
+
+==================================================
+40. META PROGRESSION
+==================================================
+
+The game should NOT use permanent combat-stat progression.
+
+
+No permanent:
+
+- +HP
+- +damage
+- +Strength
+- +Dao Yuan
+- similar direct stat bonuses
+
+
+Instead:
+
+meta progression unlocks CONTENT.
+
+
+Examples:
+
+- new cards,
+- new characters,
+- new events,
+- new bosses,
+- new starting options,
+- cosmetics,
+- card backs,
+- lore,
+- challenge achievements.
+
+
+A History / Collection system can record discoveries across runs.
+
+
+==================================================
+41. DESIGN PHILOSOPHY
+==================================================
+
+The player should become powerful because they made good decisions.
+
+The game should NOT constantly weaken the player simply because the player is performing well.
+
+
+Strong builds should be controlled through:
+
+- opportunity cost,
+- card rarity,
+- money,
+- HP,
+- setup requirements,
+- deck consistency,
+- enemy design,
+- Heavenly Tribulations.
+
+
+The game should allow the player to occasionally create an extremely powerful or nearly broken run.
+
+That is part of the fun of a roguelike deckbuilder.
+
+
+The game should avoid hidden systems such as:
+
+"The player has too many strong cards, so secretly reduce Merchant appearance rates."
+
+or:
+
+"The player's build is strong, so secretly remove Rest Sites."
+
+
+Strong play should be rewarded.
+
+
+==================================================
+42. IMPORTANT CROSS-ARCHETYPE SYNERGIES
+==================================================
+
+------------------------------
+FLYING SWORD + REFINING
+------------------------------
+
+Generate Flying Swords
+
+→ use Flying Swords
+
+→ Flying Swords Exhaust
+
+→ recover Attack cards from Exhaust
+
+→ launch another wave
+
+
+------------------------------
+DISCARD TRIGGER + WISDOM
+------------------------------
+
+Wisdom actively Discards cards
+
+→ Wind Discard Trigger activates
+
+
+------------------------------
+FLOW + TIDAL DOMAIN
+------------------------------
+
+Water improves Dao Yuan efficiency
+
+→ easier to leave 1 Dao Yuan unused
+
+→ Tidal Domain activates
+
+
+------------------------------
+FORTIFICATION + MOUNTAIN BREAKER
+------------------------------
+
+Build large Armor
+
+→ choose whether to keep it
+
+OR
+
+consume it for AoE damage
+
+
+------------------------------
+WOOD + SUMMONING
+------------------------------
+
+Create plant summons
+
+→ use Numerical Superiority
+
+→ use Overwhelm
+
+→ potentially Sacrifice them later
+
+
+------------------------------
+SWORD INTENT + FLYING SWORDS
+------------------------------
+
+Build Sword Intent
+
+→ create many Flying Swords
+
+→ each Flying Sword benefits from Sword-related damage scaling
+
+
+==================================================
+43. CURRENT DEVELOPMENT PRIORITY
+==================================================
+
+The complete game concept contains:
+
+- multiple Worlds,
+- many Dao Paths,
+- many archetypes,
+- many card grades,
+- many Tribulation bosses.
+
+
+However:
+
+THE CURRENT PRIORITY IS HUMAN REALM.
+
+
+Spirit Realm should be developed later.
+
+
+Even Human Realm should initially be implemented through a smaller playable prototype.
+
+
+The most important question right now is:
+
+"Is the combat system actually fun?"
+
+
+Before expanding the game dramatically, the prototype should prove that:
+
+- playing cards feels satisfying,
+- archetypes feel different,
+- cross-Path combinations are interesting,
+- Dao Yuan management matters,
+- deckbuilding decisions matter,
+- Heavenly Tribulations are exciting,
+- combat information is readable,
+- powerful combos feel rewarding.
+
+
+==================================================
+44. CURRENT TEAM FOCUS
+==================================================
+
+The game design can be separated into three major responsibilities:
+
+
+GAME DESIGN / BALANCE
+
+Responsible for:
+
+- Dao Path ideas,
+- archetypes,
+- card concepts,
+- enemy concepts,
+- Tribulation concepts,
+- progression,
+- card grades,
+- economy,
+- balance,
+- playtesting.
+
+
+TECHNICAL / GAMEPLAY
+
+Responsible for:
+
+- implementing the combat systems,
+- card logic,
+- status effects,
+- turn handling,
+- trigger handling,
+- enemy behavior,
+- deck systems,
+- progression systems.
+
+
+VISUAL / UI / ANIMATION
+
+Responsible for:
+
+- card presentation,
+- combat layout,
+- visual effects,
+- animations,
+- enemy presentation,
+- menus,
+- feedback,
+- overall visual clarity.
+
+
+The current document is mainly intended to explain the GAME DESIGN DIRECTION.
+
+It is not a detailed technical implementation specification.
+
+
+==================================================
+45. ONE-SENTENCE PITCH
+==================================================
+
+A cultivation roguelike deckbuilder where every run represents one cultivator's life, players combine multiple Dao Paths and archetypes to create powerful card synergies, survive Heavenly Tribulations, break through cultivation realms, and ultimately ascend from one World to the next.
+
+
+==================================================
+46. CORE IDENTITY IN SHORT FORM
+==================================================
+
+Cultivation Realm progression
+
++
+
+Card Grade progression
+
++
+
+Roguelike deckbuilding
+
++
+
+Multiple archetypes per Dao Path
+
++
+
+Cross-Path synergies
+
++
+
+Heavenly Tribulation bosses
+
++
+
+Divine Abilities
+
++
+
+Summons and Intercept
+
++
+
+Exhaust / Retain / Discard mechanics
+
++
+
+Build-sensitive boss challenges
+
++
+
+World Ascension
+
+
+==================================================
+47. FINAL CURRENT DIRECTION
+==================================================
+
+The long-term game may eventually include:
+
+Human Realm
+→ Spirit Realm
+→ Immortal Realm
+
+However:
+
+CURRENT DEVELOPMENT SHOULD FOCUS ON HUMAN REALM FIRST.
+
+The priority is to create a strong, enjoyable and readable card-combat system before expanding into later Worlds.
+
+Spirit Realm and Immortal Realm are future content.

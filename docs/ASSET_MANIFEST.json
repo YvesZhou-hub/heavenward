@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "promptRecord": "assets/source/generation-record.json",
+  "assets": [
+    {
+      "id": "environment",
+      "source": "assets/source/heavenward-environment.png",
+      "file": "public/art/environment.webp",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "version": 1,
+      "sourceSha256": "824f5cf501473c3b07ab1beff8c85c78dc63d3873cac03bf9ed8584d1feea524",
+      "sha256": "fa38ed96ee9b3008b8a1d4ce286c9f6db56566f1a43898976f3dd649b85daf30",
+      "width": 1672,
+      "height": 941,
+      "bytes": 184216,
+      "review": "benchmark accepted; shared illustration bank",
+      "usage": "menu, battle, event landscape"
+    },
+    {
+      "id": "techniques-atlas",
+      "source": "assets/source/heavenward-techniques-atlas.png",
+      "file": "public/art/techniques.webp",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "version": 1,
+      "sourceSha256": "d08fd076ef1c53f8bd54d73793f2518780457595d226ac606ceab29031ad9ec5",
+      "sha256": "44aa4759c57c5d19632b4b1738bd9e80fd886be3a472fa58fa551c3655cdaf1b",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 555284,
+      "review": "benchmark accepted; shared illustration bank",
+      "usage": "Fallback Path/category atlas retained for future missing identity mappings; shipping cards use dedicated art."
+    },
+    {
+      "id": "characters-atlas",
+      "source": "assets/source/heavenward-characters-atlas.png",
+      "file": "public/art/characters.webp",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by tool",
+      "version": 1,
+      "sourceSha256": "1166b5bcd430de722abf623008fa23631834c53547fbf9bfdeca646ca67926dd",
+      "sha256": "4911c4602655be3bf000292e089f9735d0cbeb1e9abfe42c2c8c38abf4ef850e",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 463240,
+      "review": "benchmark accepted; shared illustration bank",
+      "usage": "Original Wanderer source and fallback portrait atlas; shipping enemies/summons use dedicated art."
+    }
+  ],
+  "scope": "Original environment and fallback visual benchmark; dedicated production coverage lives in the linked manifest.",
+  "productionManifest": "docs/PRODUCTION_ASSET_MANIFEST.json",
+  "productionIdentityMap": "src/game/art-index.json"
+}

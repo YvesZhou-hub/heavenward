@@ -1,0 +1,607 @@
+{
+  "config": {
+    "argv": [
+      "/usr/local/bin/node",
+      "/Users/yveszhou/Documents/game/heavenward/node_modules/.bin/playwright",
+      "test",
+      "tests/browser/revision.spec.ts",
+      "--project=chromium",
+      "--output=output/playwright/revision-new",
+      "--reporter=list,json"
+    ],
+    "configFile": "/Users/yveszhou/Documents/game/heavenward/playwright.config.ts",
+    "rootDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-new",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-new",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-new",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/yveszhou/Documents/game/heavenward/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "revision.spec.ts",
+      "file": "revision.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "grade preferences are display-only, persistent and shared with inspection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1156,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:03:12.342Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-acb297f3960055f043b4",
+          "file": "revision.spec.ts",
+          "line": 33,
+          "column": 5
+        },
+        {
+          "title": "self and enemy drop targets validate before commit; no-energy cards remain draggable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1069,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:03:13.786Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-6ccc3da686cfddf76d9e",
+          "file": "revision.spec.ts",
+          "line": 43,
+          "column": 5
+        },
+        {
+          "title": "Pursuit feedback follows committed order and discounts never consume inspection",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30794,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                        "column": 202,
+                        "line": 53
+                      },
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Close', exact: true }).first()\u001b[22m\n\n\n  51 |\n  52 | test('Pursuit feedback follows committed order and discounts never consume inspection',async({page})=>{\n> 53 |  await load(page,fixture());const before=(await saved(page)).run!;await page.locator('[data-card=\"wind-step\"] .inspect-button').click();await page.getByRole('button',{name:'Close',exact:true}).first().click();expect((await saved(page)).run).toEqual(before);\n     |                                                                                                                                                                                                          ^\n  54 |  await commitPlay(page,'wind-step',true);await expect(page.locator('[data-card=\"wind-slash\"] .card-cost')).toHaveText('0');await expect(page.locator('[data-card=\"wind-slash\"] .pursuit-state')).toContainText('Condition met');\n  55 |  await commitPlay(page,'strike');await expect(page.locator('[data-card=\"chasing-blade\"] .pursuit-state')).toContainText('Condition met');\n  56 |  await shot(page,'pursuit-ready');await commitPlay(page,'chasing-blade');const c=(await saved(page)).run!.combat!;expect(c.playHistory.map(p=>p.ordinal)).toEqual([1,2,3]);expect(c.playHistory[2].actualCost).toBe(0);expect(c.nextWindDiscount).toBe(0);\n    at /Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts:53:202"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:03:14.859Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-new/revision-Pursuit-feedback--dff4d-ts-never-consume-inspection-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-new/revision-Pursuit-feedback--dff4d-ts-never-consume-inspection-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-new/revision-Pursuit-feedback--dff4d-ts-never-consume-inspection-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-new/revision-Pursuit-feedback--dff4d-ts-never-consume-inspection-chromium/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-0a8624857a19a1fe8917",
+          "file": "revision.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "five rewards persist through inspection, languages and reload; one choice commits once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1587,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:03:45.957Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-33b5aa52c289e7d6819b",
+          "file": "revision.spec.ts",
+          "line": 59,
+          "column": 5
+        },
+        {
+          "title": "Merchant upgrade and sale pickers preview without mutation and commit once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1268,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:03:47.622Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-ddbbfdd21ece4a8b0696",
+          "file": "revision.spec.ts",
+          "line": 67,
+          "column": 5
+        },
+        {
+          "title": "Rest full HP shows zero; cancelling either preview preserves mutually exclusive action",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 797,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:03:48.894Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-5eec19f7a14c384c307a",
+          "file": "revision.spec.ts",
+          "line": 76,
+          "column": 5
+        },
+        {
+          "title": "Dao Road renders only immediate branches and completed history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1148,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:03:49.696Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-dd4473fc5dc813baac39",
+          "file": "revision.spec.ts",
+          "line": 82,
+          "column": 5
+        },
+        {
+          "title": "negative cards and three summons have readable trilingual inspection on laptop and narrow layouts",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 10897,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.inspection')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.inspection') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('.inspection')\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.inspection')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.inspection') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('.inspection')\u001b[22m\n\n    at /Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts:91:351",
+                    "location": {
+                      "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                      "column": 351,
+                      "line": 91
+                    },
+                    "snippet": "  89 |  const r=fixture();const c=r.combat!;c.draw.unshift(...c.hand.splice(7));c.hand.push({uid:'temp-qi',defId:'qi-disorder',grade:0,retained:0},{uid:'temp-injury',defId:'internal-injury',grade:0,retained:0},{uid:'temp-heart',defId:'heart-demon',grade:0,retained:0});\n  90 |  c.player.statuses={strength:10,weak:1,protectiveQi:5,swordIntent:3};c.summons=['reed-wolf','thorn-vine','treant'].map((id,i)=>{const d=SUMMONS[id];return{id:`ally-${i}`,defId:id,name:d.name,hp:d.hp,maxHp:d.hp,armor:0,statuses:{},attack:d.attack,automatic:d.automatic} as Summon;});\n> 91 |  for(const locale of ['en','zh-CN','vi'] as const){await load(page,r,locale);await expect(page.locator('.hand-area .game-card')).toHaveCount(10);await expect(page.locator('.summon')).toHaveCount(3);await shot(page,`ten-hand-${locale}`);await page.locator('[data-card=\"qi-disorder\"] .inspect-button').click();await expect(page.locator('.inspection')).toBeVisible();await shot(page,`status-inspect-${locale}`);await page.locator('dialog .dialog-heading button').click();await page.locator('.statuses .keyword-trigger').first().focus();await expect(page.locator('.keyword-tooltip')).toBeVisible();const rect=await page.locator('.keyword-tooltip').boundingBox();expect(rect!.x).toBeGreaterThanOrEqual(0);expect(rect!.y).toBeGreaterThanOrEqual(0);await page.keyboard.press('Escape');}\n     |                                                                                                                                                                                                                                                                                                                                                               ^\n  92 |  await page.setViewportSize({width:390,height:844});await load(page,r,'vi');await shot(page,'ten-hand-vi-narrow');await page.locator('[data-card=\"internal-injury\"] .inspect-button').click();await shot(page,'long-status-vi-narrow');expect(await page.locator('body').evaluate(e=>e.scrollWidth<=window.innerWidth+1)).toBe(true);\n  93 | });\n  94 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                        "column": 351,
+                        "line": 91
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.inspection')\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.inspection') with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('.inspection')\u001b[22m\n\n\n  89 |  const r=fixture();const c=r.combat!;c.draw.unshift(...c.hand.splice(7));c.hand.push({uid:'temp-qi',defId:'qi-disorder',grade:0,retained:0},{uid:'temp-injury',defId:'internal-injury',grade:0,retained:0},{uid:'temp-heart',defId:'heart-demon',grade:0,retained:0});\n  90 |  c.player.statuses={strength:10,weak:1,protectiveQi:5,swordIntent:3};c.summons=['reed-wolf','thorn-vine','treant'].map((id,i)=>{const d=SUMMONS[id];return{id:`ally-${i}`,defId:id,name:d.name,hp:d.hp,maxHp:d.hp,armor:0,statuses:{},attack:d.attack,automatic:d.automatic} as Summon;});\n> 91 |  for(const locale of ['en','zh-CN','vi'] as const){await load(page,r,locale);await expect(page.locator('.hand-area .game-card')).toHaveCount(10);await expect(page.locator('.summon')).toHaveCount(3);await shot(page,`ten-hand-${locale}`);await page.locator('[data-card=\"qi-disorder\"] .inspect-button').click();await expect(page.locator('.inspection')).toBeVisible();await shot(page,`status-inspect-${locale}`);await page.locator('dialog .dialog-heading button').click();await page.locator('.statuses .keyword-trigger').first().focus();await expect(page.locator('.keyword-tooltip')).toBeVisible();const rect=await page.locator('.keyword-tooltip').boundingBox();expect(rect!.x).toBeGreaterThanOrEqual(0);expect(rect!.y).toBeGreaterThanOrEqual(0);await page.keyboard.press('Escape');}\n     |                                                                                                                                                                                                                                                                                                                                                               ^\n  92 |  await page.setViewportSize({width:390,height:844});await load(page,r,'vi');await shot(page,'ten-hand-vi-narrow');await page.locator('[data-card=\"internal-injury\"] .inspect-button').click();await shot(page,'long-status-vi-narrow');expect(await page.locator('body').evaluate(e=>e.scrollWidth<=window.innerWidth+1)).toBe(true);\n  93 | });\n  94 |\n    at /Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts:91:351"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:03:50.847Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-new/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-new/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-new/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/yveszhou/Documents/game/heavenward/output/playwright/revision-new/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts",
+                    "column": 351,
+                    "line": 91
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-47890566b09c4e155c40",
+          "file": "revision.spec.ts",
+          "line": 88,
+          "column": 5
+        },
+        {
+          "title": "Cloud Warning exposes next heavy threat and has a real preparation turn",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 892,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:04:02.048Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-67d46ca0dbc31b5fd518",
+          "file": "revision.spec.ts",
+          "line": 95,
+          "column": 5
+        },
+        {
+          "title": "another tab committing the selected card cannot crash stale targeting",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 945,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:04:03.021Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-b4ecc2fc4627bde892cb",
+          "file": "revision.spec.ts",
+          "line": 100,
+          "column": 5
+        },
+        {
+          "title": "touch inspection is deliberate and cannot play or buy a card",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1500,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:04:03.970Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-696998e33fe2dd30796a",
+          "file": "revision.spec.ts",
+          "line": 104,
+          "column": 5
+        },
+        {
+          "title": "Cloud Command shows its aggregate threat without being labeled an Attack",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 614,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T04:04:05.474Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220a107f9fc0395c360-b0c04e4c77449c6f8dc0",
+          "file": "revision.spec.ts",
+          "line": 111,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-14T04:03:12.086Z",
+    "duration": 54034.869,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

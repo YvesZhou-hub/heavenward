@@ -1,0 +1,1158 @@
+{
+  "rules": "human-0.2.0",
+  "content": "human-0.2.0",
+  "policyRevision": 3,
+  "timing": "computeMs measures machine runtime, not human play duration",
+  "source": "ordinary automated runs; no modified stats, fixtures or hidden-draw policy",
+  "policy": "visible-hand/Intent bot that prioritizes offered Ancestral Offering; not human playtest evidence",
+  "runs": 4,
+  "wins": 4,
+  "losses": 0,
+  "diagnosticFailures": 0,
+  "acquiredArchetypes": [
+    "battle",
+    "bleeding",
+    "brute",
+    "calculation",
+    "command",
+    "discard",
+    "exhaust",
+    "explosive",
+    "flow",
+    "flying",
+    "fortification",
+    "gale",
+    "intent",
+    "lifesteal",
+    "mountain",
+    "numbers",
+    "overwhelm",
+    "plants",
+    "protective",
+    "pursuit",
+    "recover",
+    "regrowth",
+    "sacrifice",
+    "seeds",
+    "selfharm",
+    "setup",
+    "tide"
+  ],
+  "observedArchetypes": [
+    "battle",
+    "bleeding",
+    "brute",
+    "calculation",
+    "command",
+    "discard",
+    "exhaust",
+    "explosive",
+    "flow",
+    "flying",
+    "fortification",
+    "gale",
+    "intent",
+    "lifesteal",
+    "mountain",
+    "numbers",
+    "overwhelm",
+    "pierce",
+    "plants",
+    "protective",
+    "pursuit",
+    "recover",
+    "regrowth",
+    "rerefine",
+    "sacrifice",
+    "seeds",
+    "selfharm",
+    "setup",
+    "spreading",
+    "tide"
+  ],
+  "results": [
+    {
+      "seed": 1009,
+      "strategy": "living-fortress",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 120,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 32,
+        "gold": 1093
+      },
+      "turns": 64,
+      "actions": 478,
+      "acquiredArchetypes": [
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "plants",
+        "protective",
+        "regrowth",
+        "seeds",
+        "tide"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "bleeding",
+        "brute",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "pierce",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "rerefine",
+        "seeds",
+        "selfharm",
+        "setup",
+        "spreading",
+        "tide"
+      ],
+      "playedCards": [
+        "ancient-grove",
+        "burn-impurities",
+        "cinder-fuse",
+        "crimson-fang",
+        "crucible-shell",
+        "deep-reservoir",
+        "defense",
+        "earthen-fist",
+        "encirclement",
+        "endless-vitality",
+        "flying-arsenal",
+        "flying-sword",
+        "gravel-snare",
+        "heart-demon",
+        "indestructible-golden-body",
+        "living-sap",
+        "mountain-breaker",
+        "reed-wolf-pact",
+        "ripple-guard",
+        "rootbind",
+        "rooted-stance",
+        "still-sword-heart",
+        "stone-rampart",
+        "stone-skin",
+        "strike",
+        "sword-heart-awakened",
+        "thousand-sword-dawn",
+        "wind-shears",
+        "world-bearing-mountain"
+      ],
+      "eventCodes": [
+        "armor",
+        "cloudCommand",
+        "cloudFollowup",
+        "cloudWait",
+        "damage",
+        "death",
+        "dodge",
+        "enemyIntent",
+        "exhaust",
+        "flyingSwords",
+        "gale",
+        "heal",
+        "intercept",
+        "playCard",
+        "power",
+        "seedBloom",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "summon",
+        "tidal",
+        "tidalAwakens",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "defense",
+          "grade": 0
+        },
+        {
+          "id": "defense",
+          "grade": 0
+        },
+        {
+          "id": "flying-arsenal",
+          "grade": 0
+        },
+        {
+          "id": "mountain-breaker",
+          "grade": 0
+        },
+        {
+          "id": "rootbind",
+          "grade": 0
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 0
+        },
+        {
+          "id": "deep-reservoir",
+          "grade": 0
+        },
+        {
+          "id": "ancient-grove",
+          "grade": 1
+        },
+        {
+          "id": "thousand-sword-dawn",
+          "grade": 0
+        },
+        {
+          "id": "indestructible-golden-body",
+          "grade": 0
+        },
+        {
+          "id": "crimson-fang",
+          "grade": 1
+        },
+        {
+          "id": "earthen-fist",
+          "grade": 1
+        },
+        {
+          "id": "encirclement",
+          "grade": 1
+        },
+        {
+          "id": "rooted-stance",
+          "grade": 1
+        },
+        {
+          "id": "sword-heart-awakened",
+          "grade": 0
+        },
+        {
+          "id": "mountain-breaker",
+          "grade": 2
+        },
+        {
+          "id": "still-sword-heart",
+          "grade": 2
+        },
+        {
+          "id": "crucible-shell",
+          "grade": 2
+        },
+        {
+          "id": "burn-impurities",
+          "grade": 2
+        },
+        {
+          "id": "ripple-guard",
+          "grade": 2
+        },
+        {
+          "id": "wind-shears",
+          "grade": 2
+        },
+        {
+          "id": "stone-skin",
+          "grade": 2
+        },
+        {
+          "id": "cinder-fuse",
+          "grade": 2
+        },
+        {
+          "id": "endless-vitality",
+          "grade": 0
+        },
+        {
+          "id": "crucible-shell",
+          "grade": 3
+        },
+        {
+          "id": "living-sap",
+          "grade": 3
+        },
+        {
+          "id": "world-bearing-mountain",
+          "grade": 3
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 3
+        },
+        {
+          "id": "sky-splitting-gale",
+          "grade": 0
+        },
+        {
+          "id": "gravel-snare",
+          "grade": 4
+        },
+        {
+          "id": "gravel-snare",
+          "grade": 4
+        },
+        {
+          "id": "rootbind",
+          "grade": 4
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 4
+        },
+        {
+          "id": "rooted-stance",
+          "grade": 4
+        }
+      ],
+      "computeMs": 330,
+      "failure": null
+    },
+    {
+      "seed": 8928,
+      "strategy": "living-fortress",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 119,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 36,
+        "gold": 1133
+      },
+      "turns": 85,
+      "actions": 570,
+      "acquiredArchetypes": [
+        "battle",
+        "bleeding",
+        "calculation",
+        "command",
+        "discard",
+        "flow",
+        "flying",
+        "fortification",
+        "intent",
+        "numbers",
+        "overwhelm",
+        "plants",
+        "regrowth",
+        "sacrifice",
+        "seeds",
+        "tide"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "bleeding",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "pierce",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "rerefine",
+        "sacrifice",
+        "seeds",
+        "selfharm",
+        "setup",
+        "spreading",
+        "tide"
+      ],
+      "playedCards": [
+        "ancestral-offering",
+        "beast-command",
+        "bloodletter",
+        "defense",
+        "empty-sleeve",
+        "encirclement",
+        "endless-vitality",
+        "flying-sword",
+        "iron-crane-pact",
+        "living-sap",
+        "read-the-current",
+        "reed-wolf-pact",
+        "retrieve-the-page",
+        "ripple-guard",
+        "rootbind",
+        "rooted-stance",
+        "sea-without-shore",
+        "severing-arc",
+        "still-sword-heart",
+        "stone-rampart",
+        "stone-skin",
+        "strike",
+        "swallow-slip",
+        "sword-heart-awakened",
+        "thorn-familiar",
+        "thorn-sentinel",
+        "thousand-spirit-sovereign",
+        "three-mountain-fist",
+        "twin-stars",
+        "verdant-harvest"
+      ],
+      "eventCodes": [
+        "activeDiscard",
+        "armor",
+        "bleedingBurst",
+        "cloudCommand",
+        "cloudFollowup",
+        "cloudWait",
+        "damage",
+        "death",
+        "directLoss",
+        "dodge",
+        "enemyIntent",
+        "exhaust",
+        "flyingSwords",
+        "heal",
+        "intercept",
+        "playCard",
+        "power",
+        "sacrifice",
+        "seedBloom",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "summon",
+        "tidal",
+        "tidalAwakens",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "thorn-sentinel",
+          "grade": 0
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 2
+        },
+        {
+          "id": "iron-crane-pact",
+          "grade": 0
+        },
+        {
+          "id": "encirclement",
+          "grade": 0
+        },
+        {
+          "id": "sea-without-shore",
+          "grade": 0
+        },
+        {
+          "id": "still-sword-heart",
+          "grade": 1
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 1
+        },
+        {
+          "id": "beast-command",
+          "grade": 1
+        },
+        {
+          "id": "beast-command",
+          "grade": 1
+        },
+        {
+          "id": "endless-vitality",
+          "grade": 0
+        },
+        {
+          "id": "rooted-stance",
+          "grade": 2
+        },
+        {
+          "id": "living-sap",
+          "grade": 2
+        },
+        {
+          "id": "read-the-current",
+          "grade": 2
+        },
+        {
+          "id": "swallow-slip",
+          "grade": 2
+        },
+        {
+          "id": "bloodletter",
+          "grade": 2
+        },
+        {
+          "id": "three-mountain-fist",
+          "grade": 2
+        },
+        {
+          "id": "verdant-harvest",
+          "grade": 2
+        },
+        {
+          "id": "rootbind",
+          "grade": 2
+        },
+        {
+          "id": "empty-sleeve",
+          "grade": 2
+        },
+        {
+          "id": "thousand-spirit-sovereign",
+          "grade": 0
+        },
+        {
+          "id": "verdant-harvest",
+          "grade": 3
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 3
+        },
+        {
+          "id": "living-sap",
+          "grade": 3
+        },
+        {
+          "id": "spring-return",
+          "grade": 3
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 3
+        },
+        {
+          "id": "sword-heart-awakened",
+          "grade": 0
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 4
+        },
+        {
+          "id": "ancestral-offering",
+          "grade": 4
+        },
+        {
+          "id": "twin-stars",
+          "grade": 4
+        },
+        {
+          "id": "thorn-sentinel",
+          "grade": 4
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 4
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 4
+        },
+        {
+          "id": "stone-skin",
+          "grade": 4
+        },
+        {
+          "id": "severing-arc",
+          "grade": 4
+        }
+      ],
+      "computeMs": 398,
+      "failure": null
+    },
+    {
+      "seed": 16847,
+      "strategy": "living-fortress",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 120,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 39,
+        "gold": 1117
+      },
+      "turns": 95,
+      "actions": 466,
+      "acquiredArchetypes": [
+        "battle",
+        "brute",
+        "command",
+        "discard",
+        "exhaust",
+        "fortification",
+        "mountain",
+        "numbers",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "sacrifice",
+        "seeds",
+        "selfharm"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "bleeding",
+        "brute",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "mountain",
+        "numbers",
+        "pierce",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "rerefine",
+        "sacrifice",
+        "seeds",
+        "selfharm",
+        "setup",
+        "spreading"
+      ],
+      "playedCards": [
+        "ancestral-offering",
+        "burn-impurities",
+        "crucible-shell",
+        "defense",
+        "earthen-fist",
+        "empty-sleeve",
+        "endless-vitality",
+        "gravel-snare",
+        "heart-demon",
+        "indestructible-golden-body",
+        "iron-crane-pact",
+        "living-furnace",
+        "measured-practice",
+        "mountain-breaker",
+        "open-vein",
+        "overwhelm-by-numbers",
+        "reed-wolf-pact",
+        "rooted-stance",
+        "stone-skin",
+        "strike",
+        "thorn-familiar",
+        "thorn-sentinel",
+        "thousand-spirit-sovereign",
+        "three-mountain-fist",
+        "unshaken-resolve",
+        "verdant-harvest",
+        "wind-slash",
+        "wind-step"
+      ],
+      "eventCodes": [
+        "activeDiscard",
+        "armor",
+        "backlash",
+        "cloudCommand",
+        "cloudFollowup",
+        "cloudWait",
+        "damage",
+        "death",
+        "devour",
+        "directLoss",
+        "dodge",
+        "enemyIntent",
+        "energyLoss",
+        "exhaust",
+        "heal",
+        "intercept",
+        "playCard",
+        "power",
+        "sacrifice",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "summon",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "thorn-familiar",
+          "grade": 0
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 0
+        },
+        {
+          "id": "stone-skin",
+          "grade": 0
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 0
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 0
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 0
+        },
+        {
+          "id": "overwhelm-by-numbers",
+          "grade": 0
+        },
+        {
+          "id": "thousand-spirit-sovereign",
+          "grade": 0
+        },
+        {
+          "id": "rooted-stance",
+          "grade": 1
+        },
+        {
+          "id": "stone-skin",
+          "grade": 1
+        },
+        {
+          "id": "ancestral-offering",
+          "grade": 1
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 1
+        },
+        {
+          "id": "living-furnace",
+          "grade": 0
+        },
+        {
+          "id": "ancestral-offering",
+          "grade": 2
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 2
+        },
+        {
+          "id": "earthen-fist",
+          "grade": 2
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 2
+        },
+        {
+          "id": "gravel-snare",
+          "grade": 2
+        },
+        {
+          "id": "open-vein",
+          "grade": 2
+        },
+        {
+          "id": "endless-vitality",
+          "grade": 0
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 3
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 3
+        },
+        {
+          "id": "measured-practice",
+          "grade": 3
+        },
+        {
+          "id": "unshaken-resolve",
+          "grade": 3
+        },
+        {
+          "id": "thorn-sentinel",
+          "grade": 3
+        },
+        {
+          "id": "indestructible-golden-body",
+          "grade": 0
+        },
+        {
+          "id": "crucible-shell",
+          "grade": 4
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 4
+        },
+        {
+          "id": "iron-crane-pact",
+          "grade": 4
+        },
+        {
+          "id": "reclaim-the-edge",
+          "grade": 4
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 4
+        },
+        {
+          "id": "mountain-breaker",
+          "grade": 4
+        },
+        {
+          "id": "stone-skin",
+          "grade": 4
+        },
+        {
+          "id": "verdant-harvest",
+          "grade": 4
+        }
+      ],
+      "computeMs": 347,
+      "failure": null
+    },
+    {
+      "seed": 24766,
+      "strategy": "living-fortress",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 120,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 39,
+        "gold": 1133
+      },
+      "turns": 105,
+      "actions": 566,
+      "acquiredArchetypes": [
+        "brute",
+        "calculation",
+        "command",
+        "explosive",
+        "flow",
+        "fortification",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "plants",
+        "pursuit",
+        "regrowth",
+        "sacrifice",
+        "selfharm",
+        "setup",
+        "tide"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "brute",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "pierce",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "rerefine",
+        "sacrifice",
+        "seeds",
+        "selfharm",
+        "setup",
+        "spreading",
+        "tide"
+      ],
+      "playedCards": [
+        "ancestral-offering",
+        "beast-command",
+        "blood-oath",
+        "cinder-fuse",
+        "clear-channel",
+        "crimson-fang",
+        "defense",
+        "earthen-fist",
+        "ebb-cut",
+        "encirclement",
+        "endless-vitality",
+        "fundamentals",
+        "heart-demon",
+        "iron-crane-pact",
+        "master-strategist",
+        "mountain-breaker",
+        "mountain-seal",
+        "patient-circle",
+        "reed-wolf-pact",
+        "severing-arc",
+        "shared-standard",
+        "silent-array",
+        "sky-splitting-gale",
+        "still-sword-heart",
+        "stone-rampart",
+        "stone-skin",
+        "strike",
+        "sword-heart-awakened",
+        "thorn-familiar",
+        "thorn-sentinel",
+        "thousand-spirit-sovereign",
+        "wind-slash"
+      ],
+      "eventCodes": [
+        "armor",
+        "cloudCommand",
+        "cloudFollowup",
+        "cloudWait",
+        "damage",
+        "death",
+        "directLoss",
+        "dodge",
+        "enemyIntent",
+        "exhaust",
+        "heal",
+        "intercept",
+        "playCard",
+        "power",
+        "sacrifice",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "summon",
+        "summonFull",
+        "tidal",
+        "tidalAwakens",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "still-sword-heart",
+          "grade": 0
+        },
+        {
+          "id": "crimson-fang",
+          "grade": 0
+        },
+        {
+          "id": "mountain-breaker",
+          "grade": 0
+        },
+        {
+          "id": "thousand-spirit-sovereign",
+          "grade": 0
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 1
+        },
+        {
+          "id": "beast-command",
+          "grade": 1
+        },
+        {
+          "id": "stone-skin",
+          "grade": 1
+        },
+        {
+          "id": "fundamentals",
+          "grade": 1
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 1
+        },
+        {
+          "id": "earthen-fist",
+          "grade": 1
+        },
+        {
+          "id": "endless-vitality",
+          "grade": 0
+        },
+        {
+          "id": "cinder-fuse",
+          "grade": 2
+        },
+        {
+          "id": "crimson-fang",
+          "grade": 2
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 2
+        },
+        {
+          "id": "fundamentals",
+          "grade": 2
+        },
+        {
+          "id": "cinder-fuse",
+          "grade": 2
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 2
+        },
+        {
+          "id": "ancestral-offering",
+          "grade": 2
+        },
+        {
+          "id": "sky-splitting-gale",
+          "grade": 0
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 3
+        },
+        {
+          "id": "encirclement",
+          "grade": 3
+        },
+        {
+          "id": "blood-oath",
+          "grade": 3
+        },
+        {
+          "id": "mountain-seal",
+          "grade": 3
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 3
+        },
+        {
+          "id": "iron-crane-pact",
+          "grade": 3
+        },
+        {
+          "id": "sword-heart-awakened",
+          "grade": 0
+        },
+        {
+          "id": "stone-skin",
+          "grade": 4
+        },
+        {
+          "id": "ebb-cut",
+          "grade": 4
+        },
+        {
+          "id": "patient-circle",
+          "grade": 4
+        },
+        {
+          "id": "clear-channel",
+          "grade": 4
+        },
+        {
+          "id": "master-strategist",
+          "grade": 4
+        },
+        {
+          "id": "shared-standard",
+          "grade": 4
+        },
+        {
+          "id": "beast-command",
+          "grade": 4
+        },
+        {
+          "id": "severing-arc",
+          "grade": 4
+        }
+      ],
+      "computeMs": 425,
+      "failure": null
+    }
+  ]
+}

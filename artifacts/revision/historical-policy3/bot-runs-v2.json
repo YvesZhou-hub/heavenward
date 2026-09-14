@@ -1,0 +1,2211 @@
+{
+  "rules": "human-0.2.0",
+  "content": "human-0.2.0",
+  "policyRevision": 3,
+  "timing": "computeMs measures machine runtime, not human play duration",
+  "source": "ordinary automated runs; no modified stats, fixtures or hidden-draw policy",
+  "policy": "heuristic visible-hand/Intent bot; not human playtest evidence",
+  "runs": 8,
+  "wins": 8,
+  "losses": 0,
+  "diagnosticFailures": 0,
+  "acquiredArchetypes": [
+    "battle",
+    "bleeding",
+    "brute",
+    "calculation",
+    "command",
+    "discard",
+    "exhaust",
+    "explosive",
+    "flow",
+    "flying",
+    "fortification",
+    "gale",
+    "intent",
+    "lifesteal",
+    "mountain",
+    "numbers",
+    "overwhelm",
+    "pierce",
+    "plants",
+    "protective",
+    "pursuit",
+    "recover",
+    "regrowth",
+    "rerefine",
+    "seeds",
+    "selfharm",
+    "setup",
+    "spreading",
+    "tide"
+  ],
+  "observedArchetypes": [
+    "battle",
+    "bleeding",
+    "brute",
+    "calculation",
+    "command",
+    "discard",
+    "exhaust",
+    "explosive",
+    "flow",
+    "flying",
+    "fortification",
+    "gale",
+    "intent",
+    "lifesteal",
+    "mountain",
+    "numbers",
+    "overwhelm",
+    "pierce",
+    "plants",
+    "protective",
+    "pursuit",
+    "recover",
+    "regrowth",
+    "rerefine",
+    "sacrifice",
+    "seeds",
+    "selfharm",
+    "setup",
+    "spreading",
+    "tide"
+  ],
+  "results": [
+    {
+      "seed": 1009,
+      "strategy": "ember-blade",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 99,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 32,
+        "gold": 1117
+      },
+      "turns": 55,
+      "actions": 466,
+      "acquiredArchetypes": [
+        "battle",
+        "bleeding",
+        "brute",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "plants",
+        "recover",
+        "regrowth",
+        "spreading",
+        "tide"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "bleeding",
+        "brute",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "pierce",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "rerefine",
+        "sacrifice",
+        "seeds",
+        "selfharm",
+        "setup",
+        "spreading",
+        "tide"
+      ],
+      "playedCards": [
+        "bloodletter",
+        "cinder-fuse",
+        "crimson-fang",
+        "defense",
+        "encirclement",
+        "endless-vitality",
+        "flying-arsenal",
+        "flying-sword",
+        "fundamentals",
+        "heavy-foundations",
+        "hidden-spring",
+        "living-furnace",
+        "living-sap",
+        "mountain-breaker",
+        "reclaim-the-edge",
+        "reed-wolf-pact",
+        "ripple-guard",
+        "severing-arc",
+        "still-sword-heart",
+        "storm-script",
+        "strike",
+        "sword-heart-awakened",
+        "thorn-familiar",
+        "thousand-spirit-sovereign",
+        "three-mountain-fist",
+        "twin-stars",
+        "unshaken-resolve"
+      ],
+      "eventCodes": [
+        "armor",
+        "backlash",
+        "cloudCommand",
+        "cloudFollowup",
+        "cloudWait",
+        "damage",
+        "death",
+        "devour",
+        "dodge",
+        "enemyIntent",
+        "energyLoss",
+        "exhaust",
+        "flyingSwords",
+        "gale",
+        "heal",
+        "intercept",
+        "overflow",
+        "playCard",
+        "power",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "summon",
+        "tidal",
+        "tidalAwakens",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "defense",
+          "grade": 0
+        },
+        {
+          "id": "defense",
+          "grade": 0
+        },
+        {
+          "id": "flying-arsenal",
+          "grade": 1
+        },
+        {
+          "id": "ripple-guard",
+          "grade": 0
+        },
+        {
+          "id": "twin-stars",
+          "grade": 0
+        },
+        {
+          "id": "heavy-foundations",
+          "grade": 0
+        },
+        {
+          "id": "wildfire-thread",
+          "grade": 0
+        },
+        {
+          "id": "still-sword-heart",
+          "grade": 0
+        },
+        {
+          "id": "wildfire-thread",
+          "grade": 0
+        },
+        {
+          "id": "sword-heart-awakened",
+          "grade": 0
+        },
+        {
+          "id": "still-sword-heart",
+          "grade": 1
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 1
+        },
+        {
+          "id": "severing-arc",
+          "grade": 1
+        },
+        {
+          "id": "endless-vitality",
+          "grade": 0
+        },
+        {
+          "id": "cinder-fuse",
+          "grade": 2
+        },
+        {
+          "id": "still-sword-heart",
+          "grade": 2
+        },
+        {
+          "id": "living-sap",
+          "grade": 2
+        },
+        {
+          "id": "mountain-breaker",
+          "grade": 2
+        },
+        {
+          "id": "encirclement",
+          "grade": 2
+        },
+        {
+          "id": "reclaim-the-edge",
+          "grade": 2
+        },
+        {
+          "id": "fundamentals",
+          "grade": 2
+        },
+        {
+          "id": "thousand-spirit-sovereign",
+          "grade": 0
+        },
+        {
+          "id": "still-sword-heart",
+          "grade": 3
+        },
+        {
+          "id": "three-mountain-fist",
+          "grade": 3
+        },
+        {
+          "id": "bloodletter",
+          "grade": 3
+        },
+        {
+          "id": "storm-script",
+          "grade": 3
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 3
+        },
+        {
+          "id": "hidden-spring",
+          "grade": 3
+        },
+        {
+          "id": "living-furnace",
+          "grade": 0
+        },
+        {
+          "id": "crimson-fang",
+          "grade": 4
+        },
+        {
+          "id": "unshaken-resolve",
+          "grade": 4
+        },
+        {
+          "id": "flying-arsenal",
+          "grade": 4
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 4
+        },
+        {
+          "id": "heavy-foundations",
+          "grade": 4
+        }
+      ],
+      "computeMs": 351,
+      "failure": null
+    },
+    {
+      "seed": 8928,
+      "strategy": "living-fortress",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 120,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 36,
+        "gold": 1133
+      },
+      "turns": 86,
+      "actions": 565,
+      "acquiredArchetypes": [
+        "battle",
+        "bleeding",
+        "calculation",
+        "command",
+        "discard",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "intent",
+        "numbers",
+        "overwhelm",
+        "regrowth",
+        "seeds",
+        "setup",
+        "tide"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "bleeding",
+        "brute",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "pierce",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "rerefine",
+        "sacrifice",
+        "seeds",
+        "selfharm",
+        "setup",
+        "spreading",
+        "tide"
+      ],
+      "playedCards": [
+        "beast-command",
+        "bloodletter",
+        "defense",
+        "ember-brand",
+        "empty-sleeve",
+        "encirclement",
+        "endless-vitality",
+        "flying-sword",
+        "iron-crane-pact",
+        "living-sap",
+        "phantom-lattice",
+        "read-the-current",
+        "reed-wolf-pact",
+        "retrieve-the-page",
+        "ripple-guard",
+        "rootbind",
+        "rooted-stance",
+        "sea-without-shore",
+        "shared-standard",
+        "still-sword-heart",
+        "stone-rampart",
+        "strike",
+        "swallow-slip",
+        "sword-heart-awakened",
+        "thorn-sentinel",
+        "thousand-spirit-sovereign",
+        "three-mountain-fist",
+        "twin-stars",
+        "verdant-harvest"
+      ],
+      "eventCodes": [
+        "activeDiscard",
+        "armor",
+        "bleedingBurst",
+        "cloudCommand",
+        "cloudFollowup",
+        "cloudWait",
+        "damage",
+        "death",
+        "directLoss",
+        "dodge",
+        "enemyIntent",
+        "exhaust",
+        "flyingSwords",
+        "heal",
+        "intercept",
+        "playCard",
+        "power",
+        "seedBloom",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "summon",
+        "tidal",
+        "tidalAwakens",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "thorn-sentinel",
+          "grade": 0
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 2
+        },
+        {
+          "id": "iron-crane-pact",
+          "grade": 0
+        },
+        {
+          "id": "encirclement",
+          "grade": 0
+        },
+        {
+          "id": "sea-without-shore",
+          "grade": 0
+        },
+        {
+          "id": "still-sword-heart",
+          "grade": 1
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 1
+        },
+        {
+          "id": "beast-command",
+          "grade": 1
+        },
+        {
+          "id": "beast-command",
+          "grade": 1
+        },
+        {
+          "id": "endless-vitality",
+          "grade": 0
+        },
+        {
+          "id": "rooted-stance",
+          "grade": 2
+        },
+        {
+          "id": "living-sap",
+          "grade": 2
+        },
+        {
+          "id": "read-the-current",
+          "grade": 2
+        },
+        {
+          "id": "swallow-slip",
+          "grade": 2
+        },
+        {
+          "id": "bloodletter",
+          "grade": 2
+        },
+        {
+          "id": "three-mountain-fist",
+          "grade": 2
+        },
+        {
+          "id": "verdant-harvest",
+          "grade": 2
+        },
+        {
+          "id": "rootbind",
+          "grade": 2
+        },
+        {
+          "id": "empty-sleeve",
+          "grade": 2
+        },
+        {
+          "id": "thousand-spirit-sovereign",
+          "grade": 0
+        },
+        {
+          "id": "verdant-harvest",
+          "grade": 3
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 3
+        },
+        {
+          "id": "living-sap",
+          "grade": 3
+        },
+        {
+          "id": "spring-return",
+          "grade": 3
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 3
+        },
+        {
+          "id": "sword-heart-awakened",
+          "grade": 0
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 4
+        },
+        {
+          "id": "twin-stars",
+          "grade": 4
+        },
+        {
+          "id": "thorn-sentinel",
+          "grade": 4
+        },
+        {
+          "id": "ember-brand",
+          "grade": 4
+        },
+        {
+          "id": "phantom-lattice",
+          "grade": 4
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 4
+        },
+        {
+          "id": "shared-standard",
+          "grade": 4
+        },
+        {
+          "id": "stone-skin",
+          "grade": 4
+        }
+      ],
+      "computeMs": 411,
+      "failure": null
+    },
+    {
+      "seed": 16847,
+      "strategy": "tide-reader",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 110,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 36,
+        "gold": 1133
+      },
+      "turns": 89,
+      "actions": 663,
+      "acquiredArchetypes": [
+        "battle",
+        "bleeding",
+        "brute",
+        "calculation",
+        "discard",
+        "exhaust",
+        "flow",
+        "fortification",
+        "gale",
+        "mountain",
+        "numbers",
+        "plants",
+        "pursuit",
+        "regrowth",
+        "selfharm",
+        "setup"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "bleeding",
+        "brute",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "mountain",
+        "numbers",
+        "pierce",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "rerefine",
+        "sacrifice",
+        "seeds",
+        "selfharm",
+        "setup",
+        "spreading",
+        "tide"
+      ],
+      "playedCards": [
+        "battle-roar",
+        "blood-scripture",
+        "bloodletter",
+        "chasing-blade",
+        "clear-channel",
+        "defense",
+        "empty-sleeve",
+        "heart-demon",
+        "heaven-earth-array",
+        "hidden-spring",
+        "inner-sight",
+        "living-furnace",
+        "living-sap",
+        "reed-wolf-pact",
+        "retrieve-the-page",
+        "rooted-stance",
+        "sea-without-shore",
+        "seek-the-blade",
+        "sky-splitting-gale",
+        "storm-script",
+        "strike",
+        "thorn-familiar",
+        "unshaken-resolve",
+        "white-hot-edge",
+        "wind-shrine",
+        "wind-step",
+        "world-bearing-mountain"
+      ],
+      "eventCodes": [
+        "activeDiscard",
+        "armor",
+        "backlash",
+        "bleedingBurst",
+        "cloudCommand",
+        "cloudFollowup",
+        "cloudWait",
+        "damage",
+        "death",
+        "devour",
+        "dodge",
+        "enemyIntent",
+        "energyLoss",
+        "exhaust",
+        "gale",
+        "heal",
+        "intercept",
+        "playCard",
+        "power",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "summon",
+        "summonRefresh",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "reed-wolf-pact",
+          "grade": 0
+        },
+        {
+          "id": "empty-sleeve",
+          "grade": 0
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 0
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 0
+        },
+        {
+          "id": "storm-script",
+          "grade": 0
+        },
+        {
+          "id": "sky-splitting-gale",
+          "grade": 0
+        },
+        {
+          "id": "inner-sight",
+          "grade": 1
+        },
+        {
+          "id": "world-bearing-mountain",
+          "grade": 1
+        },
+        {
+          "id": "wind-step",
+          "grade": 1
+        },
+        {
+          "id": "battle-roar",
+          "grade": 1
+        },
+        {
+          "id": "wind-shrine",
+          "grade": 1
+        },
+        {
+          "id": "living-furnace",
+          "grade": 0
+        },
+        {
+          "id": "retrieve-the-page",
+          "grade": 2
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 2
+        },
+        {
+          "id": "inner-sight",
+          "grade": 2
+        },
+        {
+          "id": "hidden-spring",
+          "grade": 2
+        },
+        {
+          "id": "chasing-blade",
+          "grade": 2
+        },
+        {
+          "id": "storm-script",
+          "grade": 2
+        },
+        {
+          "id": "living-sap",
+          "grade": 2
+        },
+        {
+          "id": "bloodletter",
+          "grade": 2
+        },
+        {
+          "id": "blood-scripture",
+          "grade": 0
+        },
+        {
+          "id": "clear-channel",
+          "grade": 3
+        },
+        {
+          "id": "empty-sleeve",
+          "grade": 3
+        },
+        {
+          "id": "storm-script",
+          "grade": 3
+        },
+        {
+          "id": "unshaken-resolve",
+          "grade": 3
+        },
+        {
+          "id": "seek-the-blade",
+          "grade": 3
+        },
+        {
+          "id": "sea-without-shore",
+          "grade": 0
+        },
+        {
+          "id": "inner-sight",
+          "grade": 5
+        },
+        {
+          "id": "inner-sight",
+          "grade": 4
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 4
+        },
+        {
+          "id": "white-hot-edge",
+          "grade": 4
+        },
+        {
+          "id": "clear-channel",
+          "grade": 4
+        },
+        {
+          "id": "heaven-earth-array",
+          "grade": 4
+        },
+        {
+          "id": "hidden-spring",
+          "grade": 4
+        }
+      ],
+      "computeMs": 529,
+      "failure": null
+    },
+    {
+      "seed": 24766,
+      "strategy": "blade-furnace",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 120,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 39,
+        "gold": 1133
+      },
+      "turns": 64,
+      "actions": 610,
+      "acquiredArchetypes": [
+        "battle",
+        "brute",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "pierce",
+        "plants",
+        "protective",
+        "recover",
+        "setup"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "bleeding",
+        "brute",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "pierce",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "rerefine",
+        "sacrifice",
+        "seeds",
+        "selfharm",
+        "setup",
+        "spreading"
+      ],
+      "playedCards": [
+        "battle-roar",
+        "burn-impurities",
+        "cinder-fuse",
+        "crimson-fang",
+        "crucible-shell",
+        "deep-reservoir",
+        "defense",
+        "flying-arsenal",
+        "flying-sword",
+        "fundamentals",
+        "hidden-thunder-array",
+        "hone-the-edge",
+        "indestructible-golden-body",
+        "last-word",
+        "living-furnace",
+        "mountain-seal",
+        "phantom-lattice",
+        "reclaim-the-edge",
+        "seven-star-array",
+        "silent-array",
+        "still-sword-heart",
+        "stone-rampart",
+        "strike",
+        "sword-foundry",
+        "sword-heart-awakened",
+        "thorn-familiar",
+        "thousand-spirit-sovereign",
+        "threefold-needles"
+      ],
+      "eventCodes": [
+        "activeDiscard",
+        "armor",
+        "cloudCommand",
+        "cloudFollowup",
+        "cloudWait",
+        "damage",
+        "death",
+        "dodge",
+        "enemyIntent",
+        "exhaust",
+        "flyingSwords",
+        "heal",
+        "intercept",
+        "overflow",
+        "playCard",
+        "power",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "summon",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "still-sword-heart",
+          "grade": 0
+        },
+        {
+          "id": "crimson-fang",
+          "grade": 0
+        },
+        {
+          "id": "seven-star-array",
+          "grade": 0
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 0
+        },
+        {
+          "id": "living-furnace",
+          "grade": 0
+        },
+        {
+          "id": "seven-star-array",
+          "grade": 1
+        },
+        {
+          "id": "phantom-lattice",
+          "grade": 1
+        },
+        {
+          "id": "burn-impurities",
+          "grade": 1
+        },
+        {
+          "id": "fundamentals",
+          "grade": 1
+        },
+        {
+          "id": "crucible-shell",
+          "grade": 1
+        },
+        {
+          "id": "reclaim-the-edge",
+          "grade": 1
+        },
+        {
+          "id": "thousand-spirit-sovereign",
+          "grade": 0
+        },
+        {
+          "id": "cinder-fuse",
+          "grade": 2
+        },
+        {
+          "id": "burn-impurities",
+          "grade": 2
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 2
+        },
+        {
+          "id": "cinder-fuse",
+          "grade": 2
+        },
+        {
+          "id": "flying-arsenal",
+          "grade": 2
+        },
+        {
+          "id": "seven-star-array",
+          "grade": 2
+        },
+        {
+          "id": "sword-heart-awakened",
+          "grade": 0
+        },
+        {
+          "id": "last-word",
+          "grade": 3
+        },
+        {
+          "id": "mountain-seal",
+          "grade": 3
+        },
+        {
+          "id": "burn-impurities",
+          "grade": 3
+        },
+        {
+          "id": "battle-roar",
+          "grade": 3
+        },
+        {
+          "id": "last-word",
+          "grade": 3
+        },
+        {
+          "id": "crucible-shell",
+          "grade": 3
+        },
+        {
+          "id": "indestructible-golden-body",
+          "grade": 0
+        },
+        {
+          "id": "seven-star-array",
+          "grade": 4
+        },
+        {
+          "id": "seven-star-array",
+          "grade": 4
+        },
+        {
+          "id": "deep-reservoir",
+          "grade": 4
+        },
+        {
+          "id": "threefold-needles",
+          "grade": 4
+        },
+        {
+          "id": "mountain-seal",
+          "grade": 4
+        },
+        {
+          "id": "silent-array",
+          "grade": 4
+        },
+        {
+          "id": "crucible-shell",
+          "grade": 4
+        },
+        {
+          "id": "sword-foundry",
+          "grade": 4
+        }
+      ],
+      "computeMs": 582,
+      "failure": null
+    },
+    {
+      "seed": 32685,
+      "strategy": "ember-blade",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 114,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 39,
+        "gold": 1133
+      },
+      "turns": 35,
+      "actions": 445,
+      "acquiredArchetypes": [
+        "battle",
+        "brute",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "gale",
+        "intent",
+        "lifesteal",
+        "numbers",
+        "overwhelm",
+        "plants",
+        "regrowth",
+        "selfharm",
+        "setup"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "bleeding",
+        "brute",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "pierce",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "rerefine",
+        "sacrifice",
+        "seeds",
+        "selfharm",
+        "setup",
+        "tide"
+      ],
+      "playedCards": [
+        "battle-roar",
+        "beast-command",
+        "blood-scripture",
+        "crimson-fang",
+        "crucible-shell",
+        "crushing-blow",
+        "defense",
+        "ember-brand",
+        "encirclement",
+        "flying-arsenal",
+        "flying-sword",
+        "fundamentals",
+        "intentional-forgetting",
+        "living-sap",
+        "open-vein",
+        "phantom-lattice",
+        "read-the-current",
+        "sea-without-shore",
+        "seven-star-array",
+        "sky-unbound",
+        "still-sword-heart",
+        "strike",
+        "sword-heart-awakened",
+        "thorn-familiar",
+        "thorn-sentinel",
+        "thousand-sword-dawn",
+        "three-mountain-fist",
+        "twin-stars",
+        "unshaken-resolve"
+      ],
+      "eventCodes": [
+        "activeDiscard",
+        "armor",
+        "backlash",
+        "cloudCommand",
+        "cloudFollowup",
+        "cloudWait",
+        "damage",
+        "death",
+        "directLoss",
+        "dodge",
+        "enemyIntent",
+        "exhaust",
+        "flyingSwords",
+        "heal",
+        "intercept",
+        "overflow",
+        "playCard",
+        "power",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "summon",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "still-sword-heart",
+          "grade": 0
+        },
+        {
+          "id": "flying-arsenal",
+          "grade": 0
+        },
+        {
+          "id": "crushing-blow",
+          "grade": 0
+        },
+        {
+          "id": "ember-brand",
+          "grade": 0
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 0
+        },
+        {
+          "id": "battle-roar",
+          "grade": 0
+        },
+        {
+          "id": "sword-heart-awakened",
+          "grade": 0
+        },
+        {
+          "id": "still-sword-heart",
+          "grade": 1
+        },
+        {
+          "id": "seven-star-array",
+          "grade": 1
+        },
+        {
+          "id": "thousand-sword-dawn",
+          "grade": 1
+        },
+        {
+          "id": "flying-arsenal",
+          "grade": 1
+        },
+        {
+          "id": "blood-scripture",
+          "grade": 0
+        },
+        {
+          "id": "crimson-fang",
+          "grade": 2
+        },
+        {
+          "id": "battle-roar",
+          "grade": 2
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 2
+        },
+        {
+          "id": "encirclement",
+          "grade": 2
+        },
+        {
+          "id": "twin-stars",
+          "grade": 2
+        },
+        {
+          "id": "crimson-fang",
+          "grade": 2
+        },
+        {
+          "id": "sea-without-shore",
+          "grade": 0
+        },
+        {
+          "id": "sky-unbound",
+          "grade": 3
+        },
+        {
+          "id": "open-vein",
+          "grade": 3
+        },
+        {
+          "id": "read-the-current",
+          "grade": 3
+        },
+        {
+          "id": "phantom-lattice",
+          "grade": 3
+        },
+        {
+          "id": "still-sword-heart",
+          "grade": 3
+        },
+        {
+          "id": "fundamentals",
+          "grade": 3
+        },
+        {
+          "id": "sky-splitting-gale",
+          "grade": 0
+        },
+        {
+          "id": "three-mountain-fist",
+          "grade": 4
+        },
+        {
+          "id": "crucible-shell",
+          "grade": 4
+        },
+        {
+          "id": "spring-return",
+          "grade": 4
+        },
+        {
+          "id": "beast-command",
+          "grade": 4
+        },
+        {
+          "id": "unshaken-resolve",
+          "grade": 4
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 4
+        },
+        {
+          "id": "three-mountain-fist",
+          "grade": 4
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 4
+        }
+      ],
+      "computeMs": 308,
+      "failure": null
+    },
+    {
+      "seed": 40604,
+      "strategy": "living-fortress",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 120,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 39,
+        "gold": 1133
+      },
+      "turns": 122,
+      "actions": 609,
+      "acquiredArchetypes": [
+        "battle",
+        "calculation",
+        "explosive",
+        "flow",
+        "fortification",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "pierce",
+        "plants",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "seeds",
+        "selfharm",
+        "setup"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "bleeding",
+        "brute",
+        "calculation",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "pierce",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "sacrifice",
+        "seeds",
+        "selfharm",
+        "setup",
+        "spreading",
+        "tide"
+      ],
+      "playedCards": [
+        "banked-coals",
+        "battle-roar",
+        "blood-scripture",
+        "clear-channel",
+        "crimson-fang",
+        "defense",
+        "earthen-fist",
+        "endless-vitality",
+        "five-weapons-return",
+        "gravel-snare",
+        "heaven-earth-array",
+        "living-sap",
+        "master-strategist",
+        "mountain-breaker",
+        "rootbind",
+        "rooted-stance",
+        "shattering-chisel",
+        "stone-rampart",
+        "strike",
+        "sword-heart-awakened",
+        "thorn-familiar",
+        "thorn-sentinel",
+        "thousand-spirit-sovereign",
+        "verdant-harvest"
+      ],
+      "eventCodes": [
+        "armor",
+        "backlash",
+        "cloudCommand",
+        "cloudFollowup",
+        "cloudWait",
+        "damage",
+        "death",
+        "devour",
+        "dodge",
+        "enemyIntent",
+        "energyLoss",
+        "exhaust",
+        "heal",
+        "intercept",
+        "playCard",
+        "power",
+        "seedBloom",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "summon",
+        "summonRefresh",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "thorn-familiar",
+          "grade": 0
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 0
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 0
+        },
+        {
+          "id": "rooted-stance",
+          "grade": 0
+        },
+        {
+          "id": "thousand-spirit-sovereign",
+          "grade": 0
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 1
+        },
+        {
+          "id": "crimson-fang",
+          "grade": 1
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 1
+        },
+        {
+          "id": "verdant-harvest",
+          "grade": 1
+        },
+        {
+          "id": "master-strategist",
+          "grade": 1
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 1
+        },
+        {
+          "id": "blood-scripture",
+          "grade": 0
+        },
+        {
+          "id": "crimson-fang",
+          "grade": 2
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 2
+        },
+        {
+          "id": "rooted-stance",
+          "grade": 2
+        },
+        {
+          "id": "battle-roar",
+          "grade": 2
+        },
+        {
+          "id": "heaven-earth-array",
+          "grade": 2
+        },
+        {
+          "id": "mountain-breaker",
+          "grade": 2
+        },
+        {
+          "id": "sword-heart-awakened",
+          "grade": 0
+        },
+        {
+          "id": "crimson-fang",
+          "grade": 3
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 3
+        },
+        {
+          "id": "verdant-harvest",
+          "grade": 3
+        },
+        {
+          "id": "earthen-fist",
+          "grade": 3
+        },
+        {
+          "id": "five-weapons-return",
+          "grade": 3
+        },
+        {
+          "id": "clear-channel",
+          "grade": 3
+        },
+        {
+          "id": "endless-vitality",
+          "grade": 0
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 4
+        },
+        {
+          "id": "gravel-snare",
+          "grade": 4
+        },
+        {
+          "id": "wind-step",
+          "grade": 4
+        },
+        {
+          "id": "banked-coals",
+          "grade": 4
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 4
+        },
+        {
+          "id": "rootbind",
+          "grade": 4
+        },
+        {
+          "id": "spring-return",
+          "grade": 4
+        },
+        {
+          "id": "rootbind",
+          "grade": 4
+        }
+      ],
+      "computeMs": 721,
+      "failure": null
+    },
+    {
+      "seed": 48523,
+      "strategy": "tide-reader",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 120,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 37,
+        "gold": 1125
+      },
+      "turns": 105,
+      "actions": 1259,
+      "acquiredArchetypes": [
+        "brute",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "fortification",
+        "gale",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "plants",
+        "pursuit",
+        "regrowth",
+        "selfharm",
+        "setup"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "bleeding",
+        "brute",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "overwhelm",
+        "pierce",
+        "plants",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "rerefine",
+        "seeds",
+        "selfharm",
+        "setup",
+        "spreading",
+        "tide"
+      ],
+      "playedCards": [
+        "beast-command",
+        "blood-scripture",
+        "crimson-fang",
+        "defense",
+        "empty-sleeve",
+        "exchange-thought",
+        "feast-of-scars",
+        "flowing-guard",
+        "flying-sword",
+        "furnace-heart",
+        "gravel-snare",
+        "intentional-forgetting",
+        "living-furnace",
+        "mountain-breaker",
+        "open-vein",
+        "ragged-banner",
+        "reed-wolf-pact",
+        "sea-without-shore",
+        "seek-the-blade",
+        "seven-star-array",
+        "sky-splitting-gale",
+        "spring-return",
+        "stone-rampart",
+        "strike",
+        "swallow-slip",
+        "thorn-familiar",
+        "unshaken-resolve",
+        "wind-step"
+      ],
+      "eventCodes": [
+        "activeDiscard",
+        "armor",
+        "backlash",
+        "cloudCommand",
+        "cloudFollowup",
+        "cloudWait",
+        "damage",
+        "death",
+        "devour",
+        "directLoss",
+        "dodge",
+        "enemyIntent",
+        "energyLoss",
+        "exhaust",
+        "flyingSwords",
+        "heal",
+        "intercept",
+        "overflow",
+        "playCard",
+        "power",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "summon",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "crimson-fang",
+          "grade": 0
+        },
+        {
+          "id": "empty-sleeve",
+          "grade": 0
+        },
+        {
+          "id": "wind-step",
+          "grade": 0
+        },
+        {
+          "id": "empty-sleeve",
+          "grade": 0
+        },
+        {
+          "id": "seek-the-blade",
+          "grade": 0
+        },
+        {
+          "id": "sky-splitting-gale",
+          "grade": 0
+        },
+        {
+          "id": "intentional-forgetting",
+          "grade": 1
+        },
+        {
+          "id": "seek-the-blade",
+          "grade": 1
+        },
+        {
+          "id": "empty-sleeve",
+          "grade": 1
+        },
+        {
+          "id": "living-furnace",
+          "grade": 0
+        },
+        {
+          "id": "ragged-banner",
+          "grade": 3
+        },
+        {
+          "id": "empty-sleeve",
+          "grade": 2
+        },
+        {
+          "id": "spring-return",
+          "grade": 2
+        },
+        {
+          "id": "furnace-heart",
+          "grade": 2
+        },
+        {
+          "id": "open-vein",
+          "grade": 2
+        },
+        {
+          "id": "gravel-snare",
+          "grade": 2
+        },
+        {
+          "id": "intentional-forgetting",
+          "grade": 2
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 2
+        },
+        {
+          "id": "flowing-guard",
+          "grade": 2
+        },
+        {
+          "id": "blood-scripture",
+          "grade": 0
+        },
+        {
+          "id": "swallow-slip",
+          "grade": 3
+        },
+        {
+          "id": "swallow-slip",
+          "grade": 3
+        },
+        {
+          "id": "spring-return",
+          "grade": 3
+        },
+        {
+          "id": "intentional-forgetting",
+          "grade": 3
+        },
+        {
+          "id": "seek-the-blade",
+          "grade": 3
+        },
+        {
+          "id": "sea-without-shore",
+          "grade": 0
+        },
+        {
+          "id": "thorn-familiar",
+          "grade": 4
+        },
+        {
+          "id": "reed-wolf-pact",
+          "grade": 4
+        },
+        {
+          "id": "beast-command",
+          "grade": 4
+        },
+        {
+          "id": "feast-of-scars",
+          "grade": 4
+        },
+        {
+          "id": "unshaken-resolve",
+          "grade": 4
+        },
+        {
+          "id": "wind-step",
+          "grade": 4
+        },
+        {
+          "id": "exchange-thought",
+          "grade": 4
+        },
+        {
+          "id": "stone-rampart",
+          "grade": 4
+        }
+      ],
+      "computeMs": 2452,
+      "failure": null
+    },
+    {
+      "seed": 56442,
+      "strategy": "blade-furnace",
+      "outcome": "ascended",
+      "realm": 4,
+      "depth": 5,
+      "hp": 120,
+      "stats": {
+        "combats": 10,
+        "elites": 3,
+        "tribulations": 5,
+        "cards": 26,
+        "gold": 1069
+      },
+      "turns": 100,
+      "actions": 838,
+      "acquiredArchetypes": [
+        "command",
+        "exhaust",
+        "explosive",
+        "flying",
+        "gale",
+        "intent",
+        "lifesteal",
+        "protective",
+        "rerefine",
+        "selfharm",
+        "setup"
+      ],
+      "observedArchetypes": [
+        "battle",
+        "bleeding",
+        "calculation",
+        "command",
+        "discard",
+        "exhaust",
+        "explosive",
+        "flow",
+        "flying",
+        "fortification",
+        "gale",
+        "intent",
+        "lifesteal",
+        "mountain",
+        "numbers",
+        "pierce",
+        "protective",
+        "pursuit",
+        "recover",
+        "regrowth",
+        "rerefine",
+        "seeds",
+        "selfharm",
+        "setup",
+        "spreading",
+        "tide"
+      ],
+      "playedCards": [
+        "blood-oath",
+        "burn-impurities",
+        "cinder-fuse",
+        "crimson-fang",
+        "crucible-shell",
+        "defense",
+        "flying-arsenal",
+        "flying-sword",
+        "heart-demon",
+        "indestructible-golden-body",
+        "living-furnace",
+        "mountain-seal",
+        "phantom-lattice",
+        "re-refinement",
+        "seven-star-array",
+        "sky-splitting-gale",
+        "still-sword-heart",
+        "strike",
+        "sword-foundry",
+        "sword-heart-awakened",
+        "twin-stars",
+        "wind-shears"
+      ],
+      "eventCodes": [
+        "activeDiscard",
+        "armor",
+        "backlash",
+        "damage",
+        "death",
+        "directLoss",
+        "dodge",
+        "enemyIntent",
+        "energyLoss",
+        "exhaust",
+        "flyingSwords",
+        "gale",
+        "heal",
+        "overflow",
+        "playCard",
+        "power",
+        "shuffle",
+        "status",
+        "statusCardAdded",
+        "turn"
+      ],
+      "realmsReached": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "deck": [
+        {
+          "id": "strike",
+          "grade": 0
+        },
+        {
+          "id": "strike",
+          "grade": 0
+        },
+        {
+          "id": "strike",
+          "grade": 0
+        },
+        {
+          "id": "defense",
+          "grade": 0
+        },
+        {
+          "id": "defense",
+          "grade": 0
+        },
+        {
+          "id": "defense",
+          "grade": 0
+        },
+        {
+          "id": "defense",
+          "grade": 0
+        },
+        {
+          "id": "defense",
+          "grade": 0
+        },
+        {
+          "id": "flying-arsenal",
+          "grade": 0
+        },
+        {
+          "id": "crucible-shell",
+          "grade": 0
+        },
+        {
+          "id": "burn-impurities",
+          "grade": 0
+        },
+        {
+          "id": "re-refinement",
+          "grade": 0
+        },
+        {
+          "id": "wind-shears",
+          "grade": 0
+        },
+        {
+          "id": "seven-star-array",
+          "grade": 0
+        },
+        {
+          "id": "wind-shears",
+          "grade": 0
+        },
+        {
+          "id": "blood-oath",
+          "grade": 0
+        },
+        {
+          "id": "sky-splitting-gale",
+          "grade": 0
+        },
+        {
+          "id": "cinder-fuse",
+          "grade": 1
+        },
+        {
+          "id": "mountain-seal",
+          "grade": 1
+        },
+        {
+          "id": "phantom-lattice",
+          "grade": 1
+        },
+        {
+          "id": "sword-heart-awakened",
+          "grade": 0
+        },
+        {
+          "id": "crucible-shell",
+          "grade": 2
+        },
+        {
+          "id": "crucible-shell",
+          "grade": 2
+        },
+        {
+          "id": "overwhelm-by-numbers",
+          "grade": 2
+        },
+        {
+          "id": "indestructible-golden-body",
+          "grade": 0
+        },
+        {
+          "id": "crimson-fang",
+          "grade": 3
+        },
+        {
+          "id": "flying-arsenal",
+          "grade": 3
+        },
+        {
+          "id": "sword-foundry",
+          "grade": 3
+        },
+        {
+          "id": "living-furnace",
+          "grade": 0
+        },
+        {
+          "id": "flying-arsenal",
+          "grade": 4
+        },
+        {
+          "id": "flying-arsenal",
+          "grade": 4
+        },
+        {
+          "id": "overwhelm-by-numbers",
+          "grade": 4
+        },
+        {
+          "id": "twin-stars",
+          "grade": 4
+        },
+        {
+          "id": "still-sword-heart",
+          "grade": 4
+        }
+      ],
+      "computeMs": 1004,
+      "failure": null
+    }
+  ]
+}

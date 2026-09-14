@@ -1,0 +1,7 @@
+{
+  "path": "/_next/static/chunks/turbopack-204cpt9buc445.js",
+  "commonPrefix": 9688,
+  "commonSuffix": 0,
+  "localDifferentSpan": "",
+  "remoteDifferentSpan": "\n;(function(){if(typeof document===\"undefined\"||!/(?:^|;\\s)__vercel_toolbar=1(?:;|$)/.test(document.cookie))return;var s=document.createElement('script');s.src='https://vercel.live/_next-live/feedback/feedback.js';s.setAttribute(\"data-explicit-opt-in\",\"true\");s.setAttribute(\"data-cookie-opt-in\",\"true\");s.setAttribute(\"data-deployment-id\",\"dpl_6D66Unwvz7cG8D1do955QbRXKa8T\");((document.head||document.documentElement).appendChild(s))})();"
+}

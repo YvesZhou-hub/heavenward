@@ -1,0 +1,169 @@
+{
+  "sourceSha256": {
+    "src/game/run.ts": "4b9f8c867d99a3c0be78729084e42de711d3d5d69fcb84b78992b9f038bd3d15",
+    "src/game/content.ts": "78c8649c1e8287a2a76651203b2cbfdbe98d3da653bad3a61c02623e7fc1cee3",
+    "src/game/types.ts": "0899e81e72c2bcdce3a64a6cab59ec5a22f77e26d95fcebe7d909f5c0e41c630"
+  },
+  "rulesVersion": "human-0.2.0",
+  "contentVersion": "human-0.2.0",
+  "method": "Deterministic generator sampling only. No combat victories, human duration or balance acceptance is inferred.",
+  "reports": [
+    {
+      "build": "neutral",
+      "nonbasicDeck": [],
+      "seeds": 300,
+      "drawsPerSeed": 12,
+      "offers": 18000,
+      "distinctObserved": 97,
+      "missingDao": [],
+      "offPathOffers": 18000,
+      "offPathShare": 1,
+      "pathCounts": {
+        "earth": 1415,
+        "wood": 1297,
+        "wind": 1525,
+        "strength": 1193,
+        "summoning": 1418,
+        "metal": 1288,
+        "fire": 1171,
+        "refinement": 1392,
+        "blood": 1351,
+        "wisdom": 2179,
+        "formation": 1246,
+        "water": 1354,
+        "sword": 1171
+      },
+      "seedOneSamples": [
+        [
+          "rooted-stance",
+          "stone-rampart",
+          "thorn-familiar",
+          "wind-shears",
+          "heavy-foundations"
+        ],
+        [
+          "shared-standard",
+          "razor-lattice",
+          "three-mountain-fist",
+          "cinder-fuse",
+          "wildfire-thread"
+        ],
+        [
+          "white-hot-edge",
+          "gravel-snare",
+          "reclaim-the-edge",
+          "spring-return",
+          "flowing-guard"
+        ]
+      ]
+    },
+    {
+      "build": "sword",
+      "nonbasicDeck": [
+        "flying-arsenal",
+        "flying-arsenal",
+        "still-sword-heart",
+        "re-refinement"
+      ],
+      "seeds": 300,
+      "drawsPerSeed": 12,
+      "offers": 18000,
+      "distinctObserved": 97,
+      "missingDao": [],
+      "offPathOffers": 13381,
+      "offPathShare": 0.7433888888888889,
+      "pathCounts": {
+        "earth": 1215,
+        "wood": 1097,
+        "wisdom": 1866,
+        "strength": 1038,
+        "summoning": 1211,
+        "sword": 2911,
+        "fire": 1017,
+        "refinement": 1708,
+        "water": 1156,
+        "wind": 1341,
+        "blood": 1154,
+        "formation": 1140,
+        "metal": 1146
+      },
+      "seedOneSamples": [
+        [
+          "gravel-snare",
+          "rooted-stance",
+          "living-sap",
+          "swallow-slip",
+          "fundamentals"
+        ],
+        [
+          "thorn-sentinel",
+          "twin-stars",
+          "measured-practice",
+          "cinder-fuse",
+          "wildfire-thread"
+        ],
+        [
+          "reclaim-the-edge",
+          "ripple-guard",
+          "re-refinement",
+          "rootbind",
+          "flowing-guard"
+        ]
+      ]
+    },
+    {
+      "build": "mixed",
+      "nonbasicDeck": [
+        "ember-brand",
+        "stone-rampart",
+        "spring-return",
+        "exchange-thought"
+      ],
+      "seeds": 300,
+      "drawsPerSeed": 12,
+      "offers": 18000,
+      "distinctObserved": 97,
+      "missingDao": [],
+      "offPathOffers": 10131,
+      "offPathShare": 0.5628333333333333,
+      "pathCounts": {
+        "wood": 1645,
+        "wisdom": 2750,
+        "strength": 1006,
+        "summoning": 1388,
+        "water": 1120,
+        "fire": 1592,
+        "refinement": 1164,
+        "earth": 1882,
+        "wind": 1277,
+        "blood": 1112,
+        "formation": 1027,
+        "metal": 1051,
+        "sword": 986
+      },
+      "seedOneSamples": [
+        [
+          "verdant-harvest",
+          "living-sap",
+          "spring-return",
+          "ragged-banner",
+          "crushing-blow"
+        ],
+        [
+          "reed-wolf-pact",
+          "deep-reservoir",
+          "fundamentals",
+          "cinder-fuse",
+          "wildfire-thread"
+        ],
+        [
+          "ash-insight",
+          "mountain-breaker",
+          "re-refinement",
+          "banked-coals",
+          "flowing-guard"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+/** Explicit balance decisions where the authoritative source leaves a number open. */
+export const RULES = {
+  version: 3,
+  handSize: 10,
+  turnDraw: 5,
+  energy: [3, 4, 6, 7, 8],
+  summonSlots: 3,
+  interceptPercentEach: 20,
+  linkPercent: 35,
+  cloudSharePercent: 25,
+  cloudFollowupDamage: 3,
+  galeThreshold: 3,
+  galeDamage: 3,
+  bleedingThreshold: 10,
+  bleedingDamage: 12,
+  seedThreshold: 3,
+  seedDamage: 5,
+  seedHeal: 2,
+  tidalThreshold: 4,
+  statusCaps: { strength: 10, pierce: 6, protectiveQi: 5, swordIntent: 10, tidalMomentum: 5 },
+} as const;

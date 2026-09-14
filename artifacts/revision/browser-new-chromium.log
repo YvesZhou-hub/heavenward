@@ -1,0 +1,104 @@
+
+Running 12 tests using 1 worker
+
+(node:69258) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/revision.spec.ts:33:5 › grade preferences are display-only, persistent and shared with inspection (1.2s)
+  ✓   2 [chromium] › tests/browser/revision.spec.ts:43:5 › self and enemy drop targets validate before commit; no-energy cards remain draggable (1.1s)
+  ✘   3 [chromium] › tests/browser/revision.spec.ts:52:5 › Pursuit feedback follows committed order and discounts never consume inspection (30.8s)
+(node:69287) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [chromium] › tests/browser/revision.spec.ts:59:5 › five rewards persist through inspection, languages and reload; one choice commits once (1.6s)
+  ✓   5 [chromium] › tests/browser/revision.spec.ts:67:5 › Merchant upgrade and sale pickers preview without mutation and commit once (1.3s)
+  ✓   6 [chromium] › tests/browser/revision.spec.ts:76:5 › Rest full HP shows zero; cancelling either preview preserves mutually exclusive action (797ms)
+  ✓   7 [chromium] › tests/browser/revision.spec.ts:82:5 › Dao Road renders only immediate branches and completed history (1.1s)
+  ✘   8 [chromium] › tests/browser/revision.spec.ts:88:5 › negative cards and three summons have readable trilingual inspection on laptop and narrow layouts (10.9s)
+(node:69320) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [chromium] › tests/browser/revision.spec.ts:95:5 › Cloud Warning exposes next heavy threat and has a real preparation turn (892ms)
+  ✓  10 [chromium] › tests/browser/revision.spec.ts:100:5 › another tab committing the selected card cannot crash stale targeting (945ms)
+  ✓  11 [chromium] › tests/browser/revision.spec.ts:104:5 › touch inspection is deliberate and cannot play or buy a card (1.5s)
+  ✓  12 [chromium] › tests/browser/revision.spec.ts:111:5 › Cloud Command shows its aggregate threat without being labeled an Attack (614ms)
+
+
+  1) [chromium] › tests/browser/revision.spec.ts:52:5 › Pursuit feedback follows committed order and discounts never consume inspection 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Close', exact: true }).first()
+
+
+      51 |
+      52 | test('Pursuit feedback follows committed order and discounts never consume inspection',async({page})=>{
+    > 53 |  await load(page,fixture());const before=(await saved(page)).run!;await page.locator('[data-card="wind-step"] .inspect-button').click();await page.getByRole('button',{name:'Close',exact:true}).first().click();expect((await saved(page)).run).toEqual(before);
+         |                                                                                                                                                                                                          ^
+      54 |  await commitPlay(page,'wind-step',true);await expect(page.locator('[data-card="wind-slash"] .card-cost')).toHaveText('0');await expect(page.locator('[data-card="wind-slash"] .pursuit-state')).toContainText('Condition met');
+      55 |  await commitPlay(page,'strike');await expect(page.locator('[data-card="chasing-blade"] .pursuit-state')).toContainText('Condition met');
+      56 |  await shot(page,'pursuit-ready');await commitPlay(page,'chasing-blade');const c=(await saved(page)).run!.combat!;expect(c.playHistory.map(p=>p.ordinal)).toEqual([1,2,3]);expect(c.playHistory[2].actualCost).toBe(0);expect(c.nextWindDiscount).toBe(0);
+        at /Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts:53:202
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    output/playwright/revision-new/revision-Pursuit-feedback--dff4d-ts-never-consume-inspection-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    output/playwright/revision-new/revision-Pursuit-feedback--dff4d-ts-never-consume-inspection-chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: output/playwright/revision-new/revision-Pursuit-feedback--dff4d-ts-never-consume-inspection-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    output/playwright/revision-new/revision-Pursuit-feedback--dff4d-ts-never-consume-inspection-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace output/playwright/revision-new/revision-Pursuit-feedback--dff4d-ts-never-consume-inspection-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/revision.spec.ts:88:5 › negative cards and three summons have readable trilingual inspection on laptop and narrow layouts 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('.inspection')
+    Expected: visible
+    Timeout: 10000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('.inspection') with timeout 10000ms
+      - waiting for locator('.inspection')
+
+
+      89 |  const r=fixture();const c=r.combat!;c.draw.unshift(...c.hand.splice(7));c.hand.push({uid:'temp-qi',defId:'qi-disorder',grade:0,retained:0},{uid:'temp-injury',defId:'internal-injury',grade:0,retained:0},{uid:'temp-heart',defId:'heart-demon',grade:0,retained:0});
+      90 |  c.player.statuses={strength:10,weak:1,protectiveQi:5,swordIntent:3};c.summons=['reed-wolf','thorn-vine','treant'].map((id,i)=>{const d=SUMMONS[id];return{id:`ally-${i}`,defId:id,name:d.name,hp:d.hp,maxHp:d.hp,armor:0,statuses:{},attack:d.attack,automatic:d.automatic} as Summon;});
+    > 91 |  for(const locale of ['en','zh-CN','vi'] as const){await load(page,r,locale);await expect(page.locator('.hand-area .game-card')).toHaveCount(10);await expect(page.locator('.summon')).toHaveCount(3);await shot(page,`ten-hand-${locale}`);await page.locator('[data-card="qi-disorder"] .inspect-button').click();await expect(page.locator('.inspection')).toBeVisible();await shot(page,`status-inspect-${locale}`);await page.locator('dialog .dialog-heading button').click();await page.locator('.statuses .keyword-trigger').first().focus();await expect(page.locator('.keyword-tooltip')).toBeVisible();const rect=await page.locator('.keyword-tooltip').boundingBox();expect(rect!.x).toBeGreaterThanOrEqual(0);expect(rect!.y).toBeGreaterThanOrEqual(0);await page.keyboard.press('Escape');}
+         |                                                                                                                                                                                                                                                                                                                                                               ^
+      92 |  await page.setViewportSize({width:390,height:844});await load(page,r,'vi');await shot(page,'ten-hand-vi-narrow');await page.locator('[data-card="internal-injury"] .inspect-button').click();await shot(page,'long-status-vi-narrow');expect(await page.locator('body').evaluate(e=>e.scrollWidth<=window.innerWidth+1)).toBe(true);
+      93 | });
+      94 |
+        at /Users/yveszhou/Documents/game/heavenward/tests/browser/revision.spec.ts:91:351
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    output/playwright/revision-new/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    output/playwright/revision-new/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: output/playwright/revision-new/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    output/playwright/revision-new/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace output/playwright/revision-new/revision-negative-cards-an-a57e8-n-laptop-and-narrow-layouts-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/browser/revision.spec.ts:52:5 › Pursuit feedback follows committed order and discounts never consume inspection 
+    [chromium] › tests/browser/revision.spec.ts:88:5 › negative cards and three summons have readable trilingual inspection on laptop and narrow layouts 
+  10 passed (54.0s)

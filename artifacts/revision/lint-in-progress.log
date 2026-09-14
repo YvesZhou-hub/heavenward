@@ -1,0 +1,4 @@
+
+> heavenward@0.1.0 lint
+> eslint app src tests scripts --max-warnings 0
+

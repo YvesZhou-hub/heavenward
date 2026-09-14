@@ -1,0 +1,950 @@
+MASTER BUILD BRIEF
+PREMIUM CULTIVATION ROGUELIKE DECKBUILDER
+COMPLETE HUMAN REALM — COMMERCIAL V1.0
+ENGLISH-FIRST · NATIVE ENGLISH / SIMPLIFIED CHINESE
+VERCEL-FIRST · PREMIUM GAME UI/UX · GPT IMAGE 2.5 ART PIPELINE
+
+==================================================
+1. MISSION AND AUTHORITY
+==================================================
+
+Build the complete Human Realm game described in the supplied
+47-section Game Design Specification.
+
+The deliverable is a commercially releasable, polished, coherent,
+fully playable game—not a prototype, dashboard, concept video,
+static mockup, or collection of disconnected mechanics.
+
+A player must be able to experience an entire legitimate run:
+starting selections, combat, deckbuilding, route decisions,
+upgrades, cultivation breakthroughs, Heavenly Tribulations,
+Spirit Transformation, and final Ascension or permanent death.
+
+This brief replaces the previous engineering master prompt.
+The original 47-section specification remains authoritative
+for gameplay rules and scope.
+
+Preserve the source specification in the repository.
+Create a traceability matrix covering every applicable requirement.
+Do not pretend to have read source material that is unavailable.
+
+Priority:
+1. Explicit latest user requirements.
+2. Original gameplay specification.
+3. Documented decisions resolving genuine gaps.
+4. Your architectural and creative judgment.
+
+Current scope is the COMPLETE Human Realm.
+Spirit Realm and Immortal Realm are future expansions.
+Do not substitute a small slice for the final deliverable.
+
+Quality is a requirement, not an optional finishing pass.
+
+==================================================
+2. USE ASTRA AS A PRODUCT BUILDER, NOT A CODE TYPIST
+==================================================
+
+Use GPT-6 Astra's available reasoning, coding, visual inspection,
+tool use, and iteration capabilities throughout the project.
+
+Own the outcome across:
+game engineering, technical design, art direction, UI, UX,
+localization, content integration, QA, and release engineering.
+
+Do not merely implement the first plausible solution.
+Identify weak decisions, evaluate alternatives, improve the design,
+and verify the result in the actual running game.
+
+You have creative freedom over presentation, architecture,
+animation, content details, and workflow, provided you preserve
+the required mechanics, scope, identity, and quality standards.
+
+Do not over-engineer a universal framework instead of making a game.
+Do not under-engineer a fragile demo instead of making a product.
+
+Use available subagents when they genuinely improve throughput:
+for example gameplay, presentation, localization, or independent QA.
+Give them bounded ownership and clear integration contracts.
+Respect actual concurrency and permission limits.
+The lead agent remains responsible for integration.
+
+Never claim to have switched models, used a tool, run a test,
+generated an asset, or deployed a build without evidence.
+
+Work autonomously on reversible implementation decisions.
+Ask only about genuinely blocking product decisions,
+missing authorization, or spending beyond an approved budget.
+
+==================================================
+3. NON-NEGOTIABLE GAMEPLAY SCOPE
+==================================================
+
+Implement every Human Realm requirement in the source document.
+
+Progression:
+Qi Refining → Foundation Establishment → Core Formation
+→ Nascent Soul → Spirit Transformation → Ascension Tribulation.
+
+Each major realm has Early, Middle, Late, and Peak stages.
+Reaching Spirit Transformation does not itself finish the run.
+
+Implement all 13 playable Paths and their specified archetypes:
+
+Fire:
+Explosive Flame, Spreading Flame.
+
+Wood:
+Regrowth, Seeds / Rooting, plant-summon interactions.
+
+Earth:
+Fortification, Mountain Breaker.
+
+Water:
+Flow, Tidal Momentum, Tidal Domain and all three states.
+
+Metal:
+Armor Pierce, Protective Qi.
+
+Sword:
+Sword Intent, Flying Swords.
+
+Wind:
+Active Discard triggers, Wind Momentum, Gale.
+
+Blood:
+Lifesteal, Bleeding, Self-Harm.
+
+Summoning / Enslavement:
+Numerical Superiority, Overwhelm, Sacrifice, Commands,
+automatic actions, and Intercept.
+
+Strength:
+Battle Intent, Brute Force and Basic-card scaling.
+
+Refinement:
+Exhaust interactions, recovery, Re-Refinement.
+
+Formation:
+Formation setup and actual retained-turn tracking.
+
+Wisdom:
+Draw, Active Discard, recovery, inspection, search,
+and manipulation of future draws.
+
+Also implement the complete surrounding game:
+Dao Road, normal encounters, Elites, Events, Inheritance,
+Merchants, Rest Sites, weighted rewards, card grades,
+cultivation progression, Heavenly Omens, pre-designed
+Tribulation bosses, Divine Abilities, death, Ascension,
+History, Collection, settings, onboarding, and content unlocks.
+
+Future enemy-only Paths may support specified boss mechanics.
+Do not accidentally turn future Worlds into unfinished V1.0 menus
+that imply playable content exists.
+
+==================================================
+4. RULE FIDELITY AND EDGE CASES
+==================================================
+
+Create an executable rules contract, not just prose documentation.
+
+Preserve the exact important distinctions:
+
+Starting deck:
+5 Strike, 5 Defense, and 2 selected Dao Arts.
+Two selection rounds; five eligible choices per round.
+
+Card zones:
+Draw, Hand, Discard, Exhaust.
+Draw five at Player Turn start; hand maximum ten.
+Overflow goes to Discard rather than disappearing.
+
+Discard:
+Explicit player/enemy discard is Active Discard.
+Natural end-turn discard and overflow are not.
+
+Grades:
+Ding, Bing, Yi, Jia, Huang, Xuan, Di, Tian.
+Normal realm grade is not an absolute cap.
+One grade above the current normal grade is usable.
+Human Realm therefore includes access to Xuan through eligible
+above-realm upgrades at Spirit Transformation.
+
+Do not count grade variants as distinct card designs.
+
+Divine Abilities:
+Drawn and paid for as cards, persistent after activation,
+ungraded, not upgradeable, sellable, and acquired only through
+eligible Heavenly Tribulations.
+Maximum four Human Realm slots.
+No Merchant, Event, normal-combat, or Elite acquisition loopholes.
+
+Damage:
+Correctly distinguish attack modifiers, external damage,
+summon-owned offensive stats, Damage Link, and Direct HP Loss.
+Do not model overlapping damage properties as mutually exclusive
+categories when that would break the source rules.
+
+Preserve FLOOR rounding, individual multi-hit resolution,
+Armor Pierce consumption on actual HP damage,
+Protective Qi reduction/decay, and all specified stack caps.
+
+Tidal Domain:
+Not a summon. No summon slot, HP, Intercept, sacrifice,
+summon buffs, or anti-summon consumption.
+Preserve threshold timing, state selection, Momentum changes,
+and the unused-Dao-Yuan condition.
+
+Flying Swords:
+Combat-only Token attacks; cost zero, base damage two,
+Exhaust after use, no permanent sale or upgrade.
+No arbitrary per-turn generation limit.
+
+Retain / Formation:
+Count turns actually retained across the specified turn boundary,
+not time spent in hand or number of draws.
+
+Re-Refinement:
+Temporary grade changes revert correctly after combat.
+
+Preserve every listed cross-Path synergy.
+Strong combinations are allowed when they follow the rules.
+
+==================================================
+5. RESOLVE REAL DESIGN GAPS EXPLICITLY
+==================================================
+
+The source is a design overview, not a complete timing specification.
+Do not silently invent inconsistent behavior.
+
+Create a concise RULE_DECISIONS document and automated examples
+for ambiguities, including:
+
+• Armor reset timing and turn-boundary ordering.
+• Status duration and decay ordering.
+• Intercept rounding, damage distribution, overkill,
+  summon deaths, and prevention of recursive interception.
+• Damage Link recursion and simultaneous lethal situations.
+• Already-active Tidal Domain behavior at future thresholds.
+• Minimum deck-size increases at realm breakthroughs.
+• Reward handling when the permanent deck is full.
+• Divine Ability slot accounting and early-realm affordability.
+• Above-realm temporary upgrades and unplayable-card handling.
+• Innate overflow and hidden Draw-Pile information.
+• Ordering of death checks, reactions, and queued effects.
+
+Choose the interpretation best supported by the original design.
+Make unresolved balance values configurable.
+Do not weaken or remove a mechanic just to avoid resolving it.
+
+==================================================
+6. TECHNICAL DIRECTION
+==================================================
+
+Build web-first and Vercel-deployable.
+
+Preferred foundation:
+TypeScript, Next.js, and an appropriate game renderer such as Phaser.
+
+Choose the exact rendering/UI division after inspecting the repository.
+React can own semantic interface elements while a game renderer
+owns the battlefield and effects, where that is the strongest solution.
+
+Avoid competing input systems, duplicate UI state,
+or React rendering every animation frame.
+
+Keep the deterministic game core independent of:
+DOM, React, Phaser scenes, networking, and animation timing.
+
+Use validated, data-driven content with reusable effects and triggers.
+Allow well-contained custom handlers for genuinely unusual mechanics.
+Do not create giant card-ID switch statements.
+Do not force every mechanic into an unreadable invented scripting language.
+
+Separate:
+definitions, card instances, permanent run state,
+temporary combat state, presentation, and account/meta state.
+
+Gameplay should run without an AI API call.
+Players must not need an OpenAI key to play.
+Development-time AI assistance must not become a runtime dependency.
+
+==================================================
+7. ART DIRECTION: A COHERENT PREMIUM GAME
+==================================================
+
+Create an original, visually compelling xianxia identity.
+
+Do not deliver:
+generic SaaS UI, emoji enemies, stock dashboard panels,
+random fantasy images, indiscriminate neon glow,
+or ornate borders hiding weak composition.
+
+Establish a concise Art Bible covering:
+composition, materials, lighting, palette relationships,
+brush/rendering language, typography, silhouettes,
+Path identities, card frames, environments, characters,
+effects, and motion.
+
+Explore a small number of credible directions.
+Select the strongest using actual in-game tests.
+Do not ask the user to art-direct every minor decision.
+
+The world should feel authored as one game:
+cards, battlefield, map, menus, merchants, and bosses
+must belong to the same visual language.
+
+Differentiate Paths through subject matter, shape, movement,
+materials, and symbols—not color alone.
+
+Cultivation progression should feel increasingly extraordinary,
+without making later scenes noisier or less readable.
+
+Use genre leaders as quality references for clarity and polish,
+not as assets, layouts, or identities to copy.
+
+==================================================
+8. GPT IMAGE 2.5 PRODUCTION PIPELINE
+==================================================
+
+Use GPT Image 2.5 to produce and refine high-quality game artwork.
+
+Prefer GPT Image 2.5 Sunburst for demanding final illustrations
+and precise revision work:
+gpt-image-2.5-sunburst.
+
+Flare may be used for exploration or assets that meet the same
+visual standard after inspection:
+gpt-image-2.5-flare.
+
+Verify current tool/API availability, supported parameters,
+credentials, permissions, and costs before implementation.
+Do not invent an endpoint or assume a UI label is an API model ID.
+
+Prefer available authorized image tools.
+If only a paid API is available, respect an explicit generation budget.
+Do not launch an unbounded batch of hundreds of paid generations.
+
+Build an asset pipeline that supports:
+generation, reference-guided revision, review, optimization,
+registration, and reproducible replacement.
+
+Generate artwork, not flattened playable card screenshots.
+
+Keep these separate:
+illustration, frame, cost, title, grade, rules text,
+keywords, dynamic numbers, and interaction states.
+
+Do not bake English or Chinese gameplay text into artwork.
+The same illustration must support both languages.
+
+Art production workflow:
+1. Create a representative visual benchmark set.
+2. Inspect it at actual in-game card size.
+3. Select and retain canonical references.
+4. Generate related assets using the same visual direction.
+5. Edit specific defects instead of regenerating blindly.
+6. Inspect anatomy, weapons, perspective, focal point,
+   cropping, Path identity, and style consistency.
+7. Optimize delivery files without degrading gameplay readability.
+8. Register approved assets in the content manifest.
+9. Replace rejected assets before release.
+
+Use actual available reference images.
+Do not invent reference IDs or claim deterministic image reproduction
+unless the selected tool truly supports it.
+
+Prioritize:
+card illustrations, key enemies, Tribulation bosses,
+battlefield backgrounds, menu key art, and essential presentation.
+
+Do not generate an expensive illustration for every grade
+when the card retains the same identity.
+
+Maintain an asset manifest recording:
+asset ID, source, tool/model actually used,
+prompt/reference information, settings where available,
+version, dimensions, file hash, usage, and review status.
+
+Missing generation access is a documented dependency,
+not permission to claim placeholder art is final.
+Continue all unblocked development while reporting the exact blocker.
+
+==================================================
+9. CARD PRESENTATION
+==================================================
+
+Cards are the central product surface.
+Design them with the care of a premium collectible object
+and the clarity of a tactical tool.
+
+Create a reusable card presentation system shared across:
+hand, rewards, Collection, deck inspection, upgrades,
+Merchants, and tutorials.
+
+Information hierarchy must make these easy to distinguish:
+cost, name, illustration, category, grade,
+Path, rules, keywords, and temporary modifications.
+
+Grade, category, and rarity—where used—must not be conflated.
+
+Support:
+hover/focus enlargement, selection, targeting,
+unplayable explanations, Retain indicators,
+Formation preparation, Exhaust feedback,
+temporary grade changes, and comparison views.
+
+Dynamic rules values must come from the real gameplay model.
+Do not manually maintain separate “display damage” arithmetic.
+
+Show multi-hit structure.
+Explain meaningful modifiers on inspection.
+
+Do not shrink rules text into illegibility to make it fit.
+Do not truncate critical mechanics behind unexplained ellipses.
+Provide a reliable enlarged/readable inspection state.
+
+Judge illustrations at hand size as well as enlarged size.
+A beautiful full-resolution image that becomes visual noise
+inside the actual card is not accepted.
+
+==================================================
+10. FIRST-CLASS GAME UX
+==================================================
+
+Design around decisions, not around showing every variable at once.
+
+Players should quickly understand:
+whose turn it is, available Dao Yuan, enemy Intent,
+playable cards, valid targets, expected consequences,
+and the next required action.
+
+Support both click-to-play and drag-to-target where appropriate.
+Provide clear cancel behavior and keyboard alternatives.
+Do not make precision dragging mandatory.
+
+Enemy Intent must remain readable during effects.
+Do not silently change a committed intent after the player acts.
+
+Show meaningful target previews:
+Armor impact, HP impact, multi-hit behavior,
+relevant reductions, and self-harm where applicable.
+
+Use the same resolver or a verified non-mutating simulation path.
+Previewing must not consume RNG or change state.
+Do not expose hidden outcomes, draws, or uncommitted randomness.
+Represent uncertain outcomes honestly.
+
+Use contextual choices rather than unnecessary modal interruptions.
+Tidal state selection must preserve the source rule while fitting
+smoothly into the end-turn flow.
+
+Inspection panels should preserve combat context.
+Unknown Draw-Pile order must remain hidden unless revealed by an effect.
+
+Deckbuilding UX must include:
+current deck inspection during rewards,
+upgrade before/after comparison,
+sale consequences, grade restrictions,
+Path/keyword filtering, and clear skip/replacement behavior.
+
+Protect irreversible actions without placing confirmation dialogs
+on every ordinary card play.
+
+New players need progressive onboarding.
+Experienced players need speed and minimal repetition.
+Tutorials must teach the actual game rather than a disconnected demo.
+
+==================================================
+11. NATIVE BILINGUAL PRODUCT — ENGLISH DEFAULT
+==================================================
+
+English and Simplified Chinese are first-class product languages.
+
+Default language on first launch: English.
+Do not automatically switch a new user to Chinese because their
+browser, device, or IP appears Chinese.
+
+Offer an obvious English / 简体中文 selector.
+Persist the player's explicit choice.
+
+Changing language must not restart a run, reshuffle cards,
+reset combat, change RNG, or lose progress.
+
+Localize the entire product:
+menus, cards, keywords, statuses, tooltips, enemy Intents,
+events, inheritances, Omens, tutorials, achievements,
+Collection, history, combat logs, errors, settings,
+save messages, and accessibility labels.
+
+English must read like professionally edited game English.
+Chinese must read like natural, concise Chinese game writing.
+Do not translate one language word-for-word into the other.
+
+Maintain a canonical bilingual terminology glossary for:
+realms, grades, Paths, archetypes, resources,
+damage terms, card categories, and combat keywords.
+
+Preserve the meaning of established terms from the source.
+Explain unfamiliar cultivation concepts contextually in English.
+
+Use stable localization keys and structured variables.
+Do not construct sentences by concatenating translated fragments.
+Handle English plurals and language-specific punctuation properly.
+
+Separate mechanical descriptions from flavor text.
+Mechanics must remain equivalent across languages.
+
+Use appropriate typography for each language:
+font family, weight, line height, punctuation,
+line-breaking rules, and text density.
+Verify font licenses and glyph coverage.
+
+English titles may be longer.
+Chinese descriptions may be visually denser.
+Create locale-aware layout behavior rather than one fixed layout
+with text squeezed into it.
+
+Do not put both complete languages on every card simultaneously.
+Optional bilingual glossary assistance is acceptable;
+the active interface language should remain visually clean.
+
+Store event codes and values where practical,
+so combat history can be rendered in either language.
+
+Update document language and accessible labels.
+Avoid hydration mismatch or a flash of the wrong language.
+
+Release localization requirements:
+complete key coverage, matching variables,
+no unintended mixed-language strings,
+no missing glyphs, no critical clipping,
+and real-game screenshot review in both languages.
+
+Automated translation checks are not a substitute for editorial review.
+Do not claim native-speaker approval unless it actually occurred.
+
+==================================================
+12. MOTION, VFX, AND AUDIO
+==================================================
+
+Build a consistent feedback language:
+anticipation → action → impact → readable aftermath.
+
+Differentiate:
+Armor absorption, HP damage, dodge,
+Protective Qi reduction, healing, Exhaust,
+Active Discard, and permanent card acquisition.
+
+Give signature systems recognizable presentation:
+Flying Sword volleys, Tidal states, Gale,
+Explosive Flame, Seeds, Bleeding bursts,
+summon Commands, Sacrifice, Tribulations, and Ascension.
+
+Favor composition, timing, material response,
+and sound over indiscriminate particle density.
+
+Powerful combinations must feel powerful without taking
+an unreasonable amount of real time to resolve.
+
+Provide animation-speed controls and reduced-motion settings.
+Fast playback must preserve exact gameplay outcomes.
+
+Do not cap legitimate Flying Sword generation or other valid combos
+merely to avoid rendering work.
+Optimize presentation and simulation scheduling instead.
+
+Audio must have coherent mixing, responsive feedback,
+separate music/SFX controls, mute persistence,
+and graceful browser audio-unlock behavior.
+
+Use original or appropriately licensed audio.
+Do not let a missing audio asset break gameplay.
+
+==================================================
+13. ENGINE CORRECTNESS AND REPRODUCTION
+==================================================
+
+Use seeded gameplay randomness and explicit resolution ordering.
+
+Maintain a deterministic action/event pipeline.
+Prevent accidental recursive triggers without silently deleting
+legitimate effects or imposing hidden balance rules.
+
+Use per-mechanic trigger policies and causal metadata.
+Unexpected runaway chains should produce useful diagnostics.
+
+Record enough information to reproduce bugs:
+seed, RNG state, content version, rules version,
+state snapshot, player actions, and relevant event history.
+
+A seed alone is not sufficient when rules or content change.
+Keep replay compatibility explicit.
+
+Ensure the core can run headlessly for tests.
+Animation speed, locale, and rendering mode must not alter results.
+
+==================================================
+14. CONTENT AND BALANCE
+==================================================
+
+Populate a complete, curated Human Realm experience.
+
+Every specified archetype needs:
+enablers, meaningful decisions, payoff cards,
+support, bridge opportunities, and normal acquisition routes.
+
+Use the previously discussed commercial-scale card pool
+as a planning target, not permission to generate numerical clones.
+
+Do not count:
+translations, grade variants, duplicate artwork,
+or simple damage increments as new meaningful card designs.
+
+Create encounter variety through mechanics and decision pressure,
+not merely HP inflation.
+
+Tribulation bosses must be pre-designed.
+Build-sensitive selection may adjust weights,
+but must not guarantee hard counters or secretly rewrite bosses.
+
+Maintain actionable Heavenly Omens consistent with the route rules.
+
+Do not secretly remove Merchants, Rest Sites,
+or favorable opportunities because a build is strong.
+
+Measure progression pace, card acquisition, economy,
+upgrade opportunities, run duration, and difficulty spikes.
+Avoid accidental excessive run length from multiplying
+every realm, stage, and encounter count independently.
+
+Track whether archetypes actually function in ordinary runs.
+Developer-only test decks do not prove acquisition viability.
+
+Headless simulations are QA/balance evidence,
+not proof that humans find the game enjoyable.
+
+==================================================
+15. SAVE, RECOVERY, AND PLAYER TRUST
+==================================================
+
+Implement robust local persistence and a clean cloud-save boundary.
+
+Separate current-run data from permanent content unlocks.
+
+Support refresh/resume without replaying committed actions,
+duplicating rewards, or rerolling encounters.
+
+Distinguish legitimate resume from checkpoint resurrection.
+Death must persist as a terminal run outcome.
+
+Use versioned saves, migrations, validation,
+atomic state transitions, and corruption recovery.
+Handle multi-tab conflicts explicitly.
+
+Do not claim a client-side browser game is cheat-proof.
+Avoid accidental ordinary-UI save-scumming;
+document the remaining trust boundary.
+
+Do not trust client scores for competitive rankings.
+Do not build an unnecessary competitive backend for V1.0.
+
+Network or analytics failures must not destroy local gameplay.
+Cloud features must have real implementations and honest states,
+not fake success notifications.
+
+==================================================
+16. PERFORMANCE AND ACCESSIBILITY
+==================================================
+
+Desktop/laptop is the primary gameplay target.
+Validate at representative resolutions including:
+1280×720, 1366×768, 1920×1080, and a high-DPI display.
+
+Test the worst-case battle layout:
+ten-card hand, long English descriptions,
+Chinese text, multiple enemies, three summons,
+active Tidal Domain, and many statuses.
+
+No critical clipping, unreachable controls,
+tooltip traps, or overlapping hit targets.
+
+Provide usable focus behavior, keyboard navigation,
+text-size/layout handling, and non-color-only indicators.
+Where canvas is used, provide accessible semantic interfaces
+for essential actions and information.
+
+Target smooth 60 FPS on a declared ordinary reference machine.
+Measure frame times, interaction latency,
+initial download size, memory growth, and long-combo behavior.
+
+Publish the test environment and actual results.
+Do not invent performance numbers.
+
+Load essential assets first and stream later content.
+Avoid shipping every high-resolution illustration on first load.
+Use appropriately optimized images, atlases, caching,
+and versioned asset URLs.
+
+Test repeated scene transitions and long sessions for leaks.
+Modern Chromium, Firefox, and Safari require real verification;
+label emulated coverage and untested environments honestly.
+
+==================================================
+17. VERCEL AND COMMERCIAL OPERATIONS
+==================================================
+
+Deliver a reproducible production build suitable for Vercel.
+
+Keep combat client-side.
+Use server routes only for appropriate bounded responsibilities.
+
+Keep image generation in development tooling or a protected
+asset-production workflow, not a public gameplay endpoint.
+
+Do not expose API keys, service-role credentials,
+or unrestricted paid generation routes.
+
+Use proper validation and access controls for cloud features.
+Provide .env.example without secrets.
+
+Support external object storage/CDN delivery where justified.
+Do not store durable game data in ephemeral server files.
+
+Verify current hosting terms before commercial release.
+Do not assume Vercel Hobby permits commercial use.
+Do not purchase or upgrade services without authorization.
+
+Commercial readiness includes:
+real deployment configuration, license records,
+save behavior, error recovery, release notes,
+and an honest statement of operational dependencies.
+
+Do not invent a monetization model or add unwanted purchases.
+Payment processing is separate from making this game release-ready;
+do not add fake checkout buttons.
+
+Actual public release, paid services, and account changes
+must remain within the user's granted authorization.
+
+==================================================
+18. LICENSING AND ASSET PROVENANCE
+==================================================
+
+Maintain a complete source and license register for:
+code dependencies, fonts, illustrations, textures,
+icons, music, sound, animation assets, and external references.
+
+Use only appropriately authorized inputs and assets.
+Do not copy another game's visual identity or copyrighted material.
+
+Record AI-generated asset provenance and the tool actually used.
+Do not describe AI-generated work as hand-painted by a human.
+Do not fabricate authorship, approvals, or legal clearance.
+
+Resolve required attributions and distribution obligations.
+Flag genuinely unresolved rights questions as release blockers.
+
+No unresolved temporary placeholders in the final art manifest.
+Graceful runtime fallback graphics are acceptable;
+shipping unfinished primary artwork is not.
+
+==================================================
+19. EVIDENCE-BASED QUALITY GATES
+==================================================
+
+“Premium,” “polished,” and “commercial-ready”
+must correspond to evidence—not self-assigned scores.
+
+Maintain independent release gates:
+
+A. Gameplay completeness
+Every Human Realm requirement is mapped to implementation
+and reachable through normal gameplay.
+
+B. Rule correctness
+Automated tests cover timing, damage, card zones,
+all special mechanics, cross-Path interactions,
+progression, rewards, and terminal outcomes.
+
+C. Visual quality
+Real screenshots and recordings demonstrate coherent art,
+readable cards, strong hierarchy, and finished feedback.
+
+D. Bilingual quality
+English and Chinese both pass full-flow and worst-case layout checks.
+
+E. Reliability
+Save/resume, death persistence, asset failures,
+network failures, and version migrations are tested.
+
+F. Deployment and licensing
+Reproducible production build, verified deployment where authorized,
+documented configuration, and completed license inventory.
+
+No aggregate percentage may hide a failed release gate.
+
+Use actual browser execution:
+start the app, interact with controls, inspect screenshots,
+read console errors, test navigation, and fix defects.
+
+Concept images are art-direction references,
+not proof that the implemented game looks that way.
+
+If screenshots reveal weak composition, crowded cards,
+misaligned typography, noisy VFX, or unfinished screens,
+revise the product rather than explaining away the defect.
+
+==================================================
+20. REQUIRED TEST AND REVIEW COVERAGE
+==================================================
+
+Create unit, integration, property/invariant,
+and browser-level tests appropriate to the system.
+
+Essential invariants include:
+unique card-instance ownership,
+legal card-zone movement,
+nonnegative bounded resources where required,
+stable deterministic replays,
+no duplicated rewards,
+correct combat-only cleanup,
+and no illegal Divine Ability acquisition.
+
+Test the source document's worked examples directly,
+including Armor Pierce hit-by-hit behavior and overflow handling.
+
+Browser coverage must include:
+fresh English launch,
+language switching during an active run,
+starting selections,
+ordinary and Elite combat,
+rewards, Merchant, Rest, Event, Inheritance,
+breakthrough rewards, Divine Ability activation,
+save/resume, death, and Ascension.
+
+Verify complete runs with representative different builds.
+Identify which runs are ordinary play, automated bots,
+or controlled test fixtures.
+Do not present debug-assisted victory as balance validation.
+
+Add screenshot regression coverage for both languages,
+including worst-case states rather than only attractive empty screens.
+
+Run the actual project's:
+type checks, lint, content validation,
+unit/integration tests, E2E checks, and production build.
+
+Do not disable failures or weaken assertions merely to report success.
+Test statuses must be PASS, FAIL, BLOCKED, or NOT RUN—not guessed.
+
+==================================================
+21. EXECUTION STRATEGY
+==================================================
+
+Inspect the repository and available tools first.
+Preserve existing working code and unrelated user changes.
+
+Create:
+a requirement matrix,
+a concise architecture decision record,
+a rules-decision log,
+a visual benchmark,
+and a prioritized implementation backlog.
+
+Keep documentation practical.
+Do not spend the whole session producing plans instead of software.
+
+Build a small but representative premium-quality benchmark early:
+real battle UI, real card art,
+both languages, actual interaction, and at least one meaningful combo.
+
+This benchmark sets the quality bar for the full game.
+It does not reduce the final scope.
+
+Continue toward full Human Realm implementation,
+expanding content only through systems that are genuinely working.
+
+Integrate art and localization continuously.
+Do not postpone all visual work and Chinese support until the end.
+
+At meaningful checkpoints:
+implement → run → inspect → test → critique → improve.
+
+Persist decisions and next actions in the repository,
+so work can resume reliably after session limits.
+
+Do not promise unlimited background work.
+Use the available session effectively and leave an executable handoff.
+
+==================================================
+22. DELIVERY AND DEFINITION OF DONE
+==================================================
+
+Deliver the actual project and its production assets,
+not only a specification or screenshots.
+
+Include concise documentation for:
+setup, architecture, content authoring,
+rules/timing, bilingual terminology,
+asset generation/import, saves, tests,
+deployment, licensing, and release operations.
+
+Maintain:
+IMPLEMENTATION_STATUS
+RULE_DECISIONS
+ART_BIBLE
+LOCALIZATION_GLOSSARY
+ASSET_MANIFEST
+KNOWN_ISSUES
+RELEASE_CHECKLIST
+QA_EVIDENCE
+NEXT_ACTIONS
+
+Each major requirement must show:
+implementation location, normal-gameplay access,
+test evidence, localization status, and polish status.
+
+Human Realm V1.0 is complete only when:
+
+A new player can enter an English-default game,
+switch to equally polished Simplified Chinese,
+play a full legitimate cultivation run,
+use the complete required systems,
+reach death or final Ascension,
+and return with correct saved progression.
+
+All required Paths must have real, usable content.
+All important screens must meet the same visual standard.
+All shipping primary assets must have resolved provenance.
+No critical progression blockers or known save corruption remain.
+
+Do not call the game “commercial-ready” while required mechanics,
+final artwork, bilingual screens, tests, or deployment dependencies
+remain unresolved.
+
+At the end of each session, report only evidence-backed progress:
+what changed, what was run, test/build results,
+screenshots or recordings produced,
+remaining blockers, and the next priority.
+
+Start now:
+read the complete source specification,
+inspect the repository and tools,
+establish the implementation and visual baselines,
+then make actual project changes.
+
+The target is not “a website that contains a card game.”
+The target is a complete, distinctive, premium cultivation
+roguelike deckbuilder that happens to launch first on the web.
+
+==================================================
+AUTHORITATIVE SOURCE
+==================================================
+
+Use the complete original 47-section
+CULTIVATION ROGUELIKE DECKBUILDER
+FULL GAME CONCEPT & DESIGN OVERVIEW
+provided in this conversation or repository.
+
+Do not replace that document with the abbreviated scope above.
