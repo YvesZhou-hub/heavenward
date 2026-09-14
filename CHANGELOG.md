@@ -4,6 +4,18 @@ Player-visible and compatibility-relevant changes, newest first. The format foll
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-09-14
+
+### Changed
+
+- Unspent player Armor now halves, rounded down, at the start of your next turn instead of clearing (11 → 5 → 2 → 1 → 0). Enemy Armor still resets when the enemy acts.
+- The Armor keyword, the first Field Guide lesson and the first-combat tutorial hint describe the new rule in all three languages.
+
+### Compatibility
+
+- Rules/content identity stays `human-0.3.0`, so existing saves load unchanged; runs in progress use the new rule from their next turn.
+- Combat replays recorded with 0.3.0 no longer reproduce, because turn-start Armor differs.
+
 ## [0.3.0] - 2026-09-14
 
 Human Realm integrated revision and the first release tracked in this repository. Production: [heavenward.vercel.app](https://heavenward.vercel.app), recorded in [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
@@ -27,5 +39,6 @@ Human Realm integrated revision and the first release tracked in this repository
 
 Full record: [docs/REVISION_2026_09_14.md](docs/REVISION_2026_09_14.md).
 
-[Unreleased]: https://github.com/YvesZhou-hub/heavenward/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/YvesZhou-hub/heavenward/compare/v0.3.1...HEAD
+[0.3.1]: https://github.com/YvesZhou-hub/heavenward/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/YvesZhou-hub/heavenward/releases/tag/v0.3.0
