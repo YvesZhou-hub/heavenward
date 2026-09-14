@@ -1,51 +1,46 @@
 {
-  "preparedAt": "2026-09-14T06:23:12.294Z",
+  "preparedAt": "2026-09-14T11:22:21.121Z",
   "format": "Vercel Build Output API v3; pure static; no functions",
   "source": "out/",
-  "entrySha256": "2a7b6572be0f6fd8d7144af29e3a4a148582f64c6443a22a8859dc8c310b76b1",
-  "matchesProfiledBuild": true,
+  "entrySha256": "04e14363a7006152b898a9eaf0a461ed68bbdd04cad5eee9c683dadfbbf922df",
+  "matchesProfiledBuild": false,
   "files": 1179,
-  "bytes": 45655177,
+  "bytes": 45655358,
   "contents": [
     {
       "path": "404.html",
       "bytes": 9545,
-      "sha256": "ff98a1ca4cb3f62b9a61f14235b13e307f15aec0aee45d171ba5869fd4952792"
+      "sha256": "3bd56ec13fdb62c59fa9de03fe91c1056ef7876e719dcf7128a281e80b83b064"
     },
     {
       "path": "__next.__PAGE__.txt",
       "bytes": 4047,
-      "sha256": "2ba3e108d84c20be7cf59530c9caadc857725459e78993f766c204b882e28086"
+      "sha256": "a53375fdea945802c5ef23c78a78accf786838c8a702f42f7900173dce73fdd6"
     },
     {
       "path": "__next._full.txt",
       "bytes": 4908,
-      "sha256": "d3727aac6e0d7e61d5ba8e561a454b18fbe78262e160553e89328fa77147cdc0"
+      "sha256": "281ec5dbb0d59ba2f201104a385d5e450788e4fa48133502d78caacef25fe2ba"
     },
     {
       "path": "__next._tree.txt",
       "bytes": 369,
-      "sha256": "a75a2b8e01415089ac031d781e516aad44e3d2c92d77a95d6b0a10c90e2a2248"
+      "sha256": "6ee49d75d61ba9f706493a64faf7b7de60e9c00ec48732ead96ce3d8a1fa00d6"
     },
     {
-      "path": "_next/static/W_NdhJ8h54AvS2xG3L6Sn/_buildManifest.js",
+      "path": "_next/static/9Z1VLpd1-xnXACamgm5PI/_buildManifest.js",
       "bytes": 219,
       "sha256": "9476e0afd3f9da68a64e6ec58631191fd3eaca62c9f5a377e7517fe9a89e59ea"
     },
     {
-      "path": "_next/static/W_NdhJ8h54AvS2xG3L6Sn/_clientMiddlewareManifest.js",
+      "path": "_next/static/9Z1VLpd1-xnXACamgm5PI/_clientMiddlewareManifest.js",
       "bytes": 96,
       "sha256": "5483e3295dc35dfe29ea932efc85341c916f10ff78ff5b0e965e003710893a4a"
     },
     {
-      "path": "_next/static/W_NdhJ8h54AvS2xG3L6Sn/_ssgManifest.js",
+      "path": "_next/static/9Z1VLpd1-xnXACamgm5PI/_ssgManifest.js",
       "bytes": 80,
       "sha256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00"
-    },
-    {
-      "path": "_next/static/chunks/06plfrgqxp6ah.js",
-      "bytes": 311372,
-      "sha256": "0934ef3a4eb1ae46bb854e78b9aa085c02c322924ada2d7b9077f40b36ef5917"
     },
     {
       "path": "_next/static/chunks/0cz1d0mv5g_q7.js",
@@ -61,6 +56,11 @@
       "path": "_next/static/chunks/0l8gv_ppwuxsq.js",
       "bytes": 507,
       "sha256": "ef1e8f17f5d4a78e05a91b6b146c2bf108d6b296a124808e57429a92bfd82824"
+    },
+    {
+      "path": "_next/static/chunks/1flr7ayty0kja.js",
+      "bytes": 311553,
+      "sha256": "fb96118a397f4a8dbe8be4f43ff0afdae1bdde8cafce6f7afbf3a0fbb4ba497e"
     },
     {
       "path": "_next/static/chunks/1inwntv0b4r-7.js",
@@ -2225,27 +2225,27 @@
     {
       "path": "_not-found/__next._full.txt",
       "bytes": 6232,
-      "sha256": "5256f4783836eacf503ee3cd496140f3bf598d5f153d78345f7c88b820ccf303"
+      "sha256": "d7e374169933fa0a83100d50c4ae3f53f88a65aadc9a9f53bf146096f705deef"
     },
     {
       "path": "_not-found/__next._not-found.__PAGE__.txt",
       "bytes": 4991,
-      "sha256": "157264699b33f4fe9edb98cea5fa2e20cce79e9cac387cd5caebcc67e585cc66"
+      "sha256": "8d5662486baf53358d6d5fe4bb0b39be0c0fc029c29b186952babfb88827eec3"
     },
     {
       "path": "_not-found/__next._tree.txt",
       "bytes": 435,
-      "sha256": "d4b667f9584c0657f2b43bf5a49dd06e5c18d15e2143ca8abc9f5c7aa7c34361"
+      "sha256": "80e3174e69449557288bc3b9760f81bcfa0dede94ab4cd5e2aef292910a37496"
     },
     {
       "path": "_not-found.html",
       "bytes": 9545,
-      "sha256": "ff98a1ca4cb3f62b9a61f14235b13e307f15aec0aee45d171ba5869fd4952792"
+      "sha256": "3bd56ec13fdb62c59fa9de03fe91c1056ef7876e719dcf7128a281e80b83b064"
     },
     {
       "path": "_not-found.txt",
       "bytes": 6232,
-      "sha256": "5256f4783836eacf503ee3cd496140f3bf598d5f153d78345f7c88b820ccf303"
+      "sha256": "d7e374169933fa0a83100d50c4ae3f53f88a65aadc9a9f53bf146096f705deef"
     },
     {
       "path": "art/cards/ancestral-offering.webp",
@@ -2905,12 +2905,12 @@
     {
       "path": "index.html",
       "bytes": 7396,
-      "sha256": "2a7b6572be0f6fd8d7144af29e3a4a148582f64c6443a22a8859dc8c310b76b1"
+      "sha256": "04e14363a7006152b898a9eaf0a461ed68bbdd04cad5eee9c683dadfbbf922df"
     },
     {
       "path": "index.txt",
       "bytes": 4908,
-      "sha256": "d3727aac6e0d7e61d5ba8e561a454b18fbe78262e160553e89328fa77147cdc0"
+      "sha256": "281ec5dbb0d59ba2f201104a385d5e450788e4fa48133502d78caacef25fe2ba"
     },
     {
       "path": "legacy/v1/404.html",
