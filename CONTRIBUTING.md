@@ -76,7 +76,7 @@ Production is the linked Vercel project `heavenward` (scope `yves-projects-de611
    npm run deploy:verify
    ```
    `deploy:record` fails unless production is READY and writes `artifacts/deployment/vercel-status.json`; `deploy:verify` compares the live site with the local payload.
-5. Play a real combat turn on the live site, then record the deployment in `docs/DEPLOYMENT.md` through a `docs/deploy-vX.Y.Z` pull request.
+5. Play a real combat turn on the live site, then record the deployment in `docs/DEPLOYMENT.md` through a `docs/deploy-vX.Y.Z` pull request. `artifacts/` is git-ignored, so stage the regenerated evidence with `git add -u artifacts/deployment`.
 6. Publish release notes: `gh release create vX.Y.Z --generate-notes --verify-tag`.
 
 To roll back, run `vercel rollback <previous-deployment-url> --scope yves-projects-de611e27` with a deployment already recorded as verified, then repeat the live checks. See [docs/OPERATIONS.md](docs/OPERATIONS.md) for save-safe recovery.
