@@ -96,10 +96,20 @@ describe('damage flags, prevention, and lethal ordering', () => {
     const s = setup(['crimson-fang']); s.enemies[0].armor = 5; s.enemies[0].hp = 1;
     const after = play(s, 'crimson-fang'); expect(after.player.hp).toBe(61); expect(after.phase).toBe('won');
   });
-  it('Armor persists through the enemy turn and resets on the next player turn', () => {
+  it('Armor persists through the enemy turn and halves, rounded down, on the next player turn', () => {
     const s = setup(); s.player.armor = 10;
     s.enemies[0].intent = { name: { en: 'Hit', 'zh-CN': '击', vi: 'Hit' }, kind: 'attack', effects: [{ op: 'damage', amount: 7, target: 'enemy' }] };
-    const after = endTurn(s); expect(after.player.hp).toBe(60); expect(after.player.armor).toBe(0);
+    const after = endTurn(s); expect(after.player.hp).toBe(60); expect(after.player.armor).toBe(1); // 10 - 7 = 3 -> 1.
+  });
+  it('unspent player Armor keeps halving each turn while enemy Armor still resets on its action', () => {
+    const idleTurn = (state: Combat): Combat => { state.enemies[0].intent = { name: { en: 'Wait', 'zh-CN': '等待', vi: 'Wait' }, kind: 'defend', effects: [] }; return endTurn(state); };
+    let s = setup(['defense']); s.player.armor = 6;
+    s.enemies[0].armor = 9;
+    s = play(s, 'defense'); expect(s.player.armor).toBe(11);
+    s = idleTurn(s); expect(s.player.armor).toBe(5); expect(s.enemies[0].armor).toBe(0);
+    s = idleTurn(s); expect(s.player.armor).toBe(2);
+    s = idleTurn(s); expect(s.player.armor).toBe(1);
+    s = idleTurn(s); expect(s.player.armor).toBe(0);
   });
   it('an Armor-ignoring enemy hit still respects Protective Qi', () => {
     const s = setup(); s.player.armor = 100; s.player.statuses.protectiveQi = 4;
