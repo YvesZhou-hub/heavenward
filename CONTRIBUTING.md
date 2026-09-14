@@ -66,7 +66,7 @@ Every player-visible or compatibility-relevant pull request adds a line under `#
 Production is the linked Vercel project `heavenward` (scope `yves-projects-de611e27`), served at <https://heavenward.vercel.app>. Only the owner authorizes a release.
 
 1. Merge the release pull request: `package.json` version bumped and the changelog section dated.
-2. On an up-to-date `main`, run `npm ci`, the required checks, and the browser suite for interface changes.
+2. On an up-to-date `main`, run `npm ci`, the required checks, and the browser suite for interface changes. `deploy:prepare` reports `matchesProfiledBuild: false` until `npm run qa:performance` re-profiles the new build into the tracked `artifacts/performance.json`; that is informational, not a gate.
 3. Tag the release: `git tag -a vX.Y.Z -m "vX.Y.Z"` and `git push origin vX.Y.Z`.
 4. Package and deploy the tested export:
    ```sh
