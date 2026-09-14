@@ -1,0 +1,51 @@
+name: Bug report
+description: Something in the game behaves incorrectly or breaks.
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Describe the incorrect behavior. Include screenshots if useful.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Begin a new life and pick …
+        2. In the first combat, play …
+        3. End the turn and …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Where and which build
+      description: Live site or local, plus the version from the menu footer and the seed shown in the bottom-right corner.
+      placeholder: heavenward.vercel.app · Human Realm 0.3 · seed 2313667485
+  - type: dropdown
+    id: language
+    attributes:
+      label: Interface language
+      options:
+        - English
+        - 简体中文
+        - Tiếng Việt
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: Chrome 140 on macOS, Safari on iPhone …
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: If an error dialog offered a diagnostics export, summarize the relevant part. Do not attach full save exports; this repository may be public.

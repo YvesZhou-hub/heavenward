@@ -14,7 +14,10 @@
     "check": "npm run typecheck && npm run lint && npm test && npm run build",
     "art:prepare": "tsx scripts/prepare-production-art.ts",
     "qa:simulate": "tsx scripts/simulate.ts",
-    "qa:performance": "tsx scripts/performance.ts"
+    "qa:performance": "tsx scripts/performance.ts",
+    "deploy:prepare": "node scripts/prepare-vercel.mjs",
+    "deploy:record": "node scripts/record-deployment.mjs",
+    "deploy:verify": "node scripts/verify-deployment.mjs https://heavenward.vercel.app"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.3.0",

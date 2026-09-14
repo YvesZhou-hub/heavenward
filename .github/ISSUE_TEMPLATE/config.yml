@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Play the live build
+    url: https://heavenward.vercel.app
+    about: Check whether the problem still happens on the current production build.

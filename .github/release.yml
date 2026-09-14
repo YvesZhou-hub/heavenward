@@ -1,0 +1,19 @@
+# Groups pull requests in `gh release create --generate-notes` by label.
+changelog:
+  exclude:
+    labels: [ignore-for-release]
+  categories:
+    - title: Gameplay and balance
+      labels: [gameplay, balance]
+    - title: Content
+      labels: [content]
+    - title: Localization
+      labels: [localization]
+    - title: Fixes
+      labels: [bug]
+    - title: Saves and compatibility
+      labels: [save-compat]
+    - title: Infrastructure and documentation
+      labels: [infrastructure, documentation]
+    - title: Other changes
+      labels: ['*']
