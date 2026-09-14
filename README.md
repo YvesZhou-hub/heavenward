@@ -2,11 +2,11 @@
 
 A cultivation roguelike deckbuilder in English (default), 简体中文 and Tiếng Việt. Build one mortal life through five realms and twenty cultivation stages. The fifth Tribulation ends the Human Realm in Ascension.
 
-[Play online](https://heavenward.vercel.app). Current source: **0.3.0**. Verified release status and exact deployment are recorded in [deployment evidence](docs/DEPLOYMENT.md); implementation, test evidence and remaining human release gates are in [revision status](docs/REVISION_2026_09_14.md) and [revision QA](docs/REVISION_QA.md). This is an integrated playable revision, not commercial V1.0 acceptance.
+[Play online](https://heavenward.vercel.app). Version history: [CHANGELOG.md](CHANGELOG.md). Verified release status and exact deployment are recorded in [deployment evidence](docs/DEPLOYMENT.md); implementation, test evidence and remaining human release gates are in [revision status](docs/REVISION_2026_09_14.md) and [revision QA](docs/REVISION_QA.md). This is an integrated playable revision, not commercial V1.0 acceptance.
 
 ## Run locally
 
-Source repository: [YvesZhou-hub/heavenward](https://github.com/YvesZhou-hub/heavenward) (private). See [contribution and verification conventions](CONTRIBUTING.md). GitHub CI runs the core checks on main pushes and pull requests; it does not publish to Vercel.
+Source repository: [YvesZhou-hub/heavenward](https://github.com/YvesZhou-hub/heavenward). See [contribution, versioning and release conventions](CONTRIBUTING.md) and the [documentation index](docs/README.md). GitHub CI runs the core checks on main pushes and pull requests; it does not publish to Vercel.
 
 Use Node24.15.0 (`.nvmrc`) and npm:
 
@@ -60,6 +60,6 @@ Saves belong to each browser origin. Localhost and the public website have separ
 
 Public0.1 runs remain available in the preserved `/legacy/v1/index.html` build. Local0.2 snapshots migrate to current rules without replaying resolved outcomes; original bytes are archived before overwrite, and the UI identifies snapshot continuation. IDs, HP and RNG are preserved. Old pending Scarlet-owned healing is removed; independent passives remain valid. An old seed is not claimed to reproduce a different rules version.
 
-Deployment uses the already authorized, linked Vercel project and static Build Output workflow: `node scripts/prepare-vercel.mjs`, then `vercel deploy --prebuilt --prod --yes --scope yves-projects-de611e27`. Only the prepared static payload is deployed. No plan change or Git push is needed.
+Deployment uses the linked Vercel project and static Build Output workflow from a tagged `main`: `npm run deploy:prepare`, `vercel deploy --prebuilt --prod --yes --scope yves-projects-de611e27`, `npm run deploy:record`, then `npm run deploy:verify`. Only the prepared static payload is deployed. The full procedure, including rollback, is in [CONTRIBUTING.md](CONTRIBUTING.md#releasing-and-deploying).
 
 See [rules decisions](docs/RULE_DECISIONS.md), [content guide](docs/CONTENT_GUIDE.md), [art provenance](docs/ART_BIBLE.md), [known issues](docs/KNOWN_ISSUES.md) and [remaining release gates](docs/REVISION_NEXT_ACTIONS.md).
