@@ -6,6 +6,8 @@ A cultivation roguelike deckbuilder in English (default), 简体中文 and Tiế
 
 ## Run locally
 
+Source repository: [YvesZhou-hub/heavenward](https://github.com/YvesZhou-hub/heavenward) (private). See [contribution and verification conventions](CONTRIBUTING.md). GitHub CI runs the core checks on main pushes and pull requests; it does not publish to Vercel.
+
 Use Node24.15.0 (`.nvmrc`) and npm:
 
 ```sh
