@@ -40,7 +40,7 @@ async function freshLifeToCombat(page:Page){
  const before=(await saved(page)).run!.combat!;
  const card=before.hand.find(c=>c.defId==='strike')??before.hand.find(c=>c.defId==='defense')!;
  expect(card,'Ordinary starting deck supplies a playable Basic').toBeTruthy();
- const expected=playCard(before,card.uid,card.defId==='strike'?before.enemies[0].id:undefined);
+ const expected=playCard(before,card.uid,card.defId==='strike'?before.enemies[0].id:before.player.id);
  const face=page.locator(`.hand-area [data-card="${card.defId}"] .card-face`).first();
  await expect(face).toHaveAccessibleName(/Strike|Defense/);
  await expect(face.locator('.card-rules')).not.toBeEmpty();
