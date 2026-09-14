@@ -103,7 +103,7 @@ The boundary column is a current English reference excerpt. All three complete r
 | restriction | Restriction | 禁制 | Cấm Chế | Restricted cards remain playable. Backlash occurs only if the restricting boss survives the card’s completed resolution. |
 | energyDebt | Dao Yuan Debt | 道元负债 | Nợ Đạo Nguyên | Reduces Dao Yuan available at the start of the next turn, then clears. |
 | daoYuan | Dao Yuan | 道元 | Đạo Nguyên | Pays card costs. Refill at the start of your turn; ordinary unspent Yuan does not carry over. Some effects raise this combat’s maximum. |
-| armor | Armor | 护甲 | Giáp | Absorbs external damage before HP is lost. Your remaining Armor clears at the start of your next turn. Direct HP loss bypasses it. |
+| armor | Armor | 护甲 | Giáp | Absorbs external damage before HP is lost. Your remaining Armor is halved, rounded down, at the start of your next turn. Direct HP loss bypasses it. |
 | activeDiscard | Active Discard | 主动弃牌 | Chủ Động Bỏ Bài | Discard caused explicitly by a card or enemy effect. It triggers Hidden Schemes on-discard effects. Natural end-turn discard, overflow and top-deck filtering do not. |
 | retain | Retain | 保留 | Giữ Lại | Keeps this card in hand through the natural end-turn discard. Each real retained turn can strengthen Formation effects. Playing or actively discarding it ends its preparation. |
 | exhaust | Exhaust | 消耗 | Tiêu Hao | Moves a combat card to the Exhaust pile. It will not join the normal reshuffle; recovery effects can still retrieve it. Your permanent deck is unchanged. |

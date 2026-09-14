@@ -530,7 +530,7 @@ function endPlayer(s: Combat): void {
 function startPlayer(s: Combat): void {
   if (s.phase !== 'player') return;
   s.turn += 1;
-  s.player.armor = 0;
+  s.player.armor = Math.floor(s.player.armor / 2);
   const debt = stacks(s.player, 'energyDebt');
   s.energy = Math.max(0, s.maxEnergy - debt); s.player.statuses.energyDebt = 0;
   if (s.powers.regen) heal(s, s.player, s.powers.regen);

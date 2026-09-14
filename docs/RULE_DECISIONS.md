@@ -13,10 +13,10 @@ Rules version3 / `human-0.3.0` (latest September14 revision); save envelope rema
 
 ## Turn timing
 
-- Player Armor resets at the start of the next Player Turn, before start-turn powers. Enemy Armor resets at the beginning of that enemy's action. Defensive Armor therefore survives through the opposing turn.
+- Player Armor halves, rounded down, at the start of the next Player Turn, before start-turn powers, so unused Armor partially carries over. Enemy Armor resets at the beginning of that enemy's action. Defensive Armor therefore survives through the opposing turn.
 - End Player Turn: expire next-Wind discount → temporary hand-card end hooks and their Exhaust reactions → selected Tidal state → automatic turn-end summons → natural discard and actual Retain counting → summon end effects → player Poison → Protective Qi halving → Weak/Vulnerable/Restriction duration decrement → enemy actions in stable creation order → next Player Turn.
 - A unit's Poison ticks for its current stacks, then loses one. Protective Qi halves at the end of its owner's turn, as required (including the player's turn before enemy actions). Weak and Vulnerable are durations and decrement at the owner's turn end. Strength, Pierce, Sword Intent, Fortify, marks, and Momentum do not decay otherwise.
-- Start Player Turn: Armor reset → energy refill minus debt → healing powers and Regeneration → start-turn buffs → Seed growth/bloom → draw five plus power bonuses → generated start-turn Flying Swords. New ordinary enemy minions first act on the following enemy phase. Cloud-bound Wisps instead wait for their living master’s commands and follow-ups.
+- Start Player Turn: Armor halving → energy refill minus debt → healing powers and Regeneration → start-turn buffs → Seed growth/bloom → draw five plus power bonuses → generated start-turn Flying Swords. New ordinary enemy minions first act on the following enemy phase. Cloud-bound Wisps instead wait for their living master’s commands and follow-ups.
 - Regeneration status heals its current amount and loses one at turn start. The Endless Vitality power is persistent and does not decay.
 
 ## Thresholds and persistent effects
