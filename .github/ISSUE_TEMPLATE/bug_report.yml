@@ -48,4 +48,4 @@ body:
     id: diagnostics
     attributes:
       label: Diagnostics
-      description: If an error dialog offered a diagnostics export, summarize the relevant part. Do not attach full save exports; this repository may be public.
+      description: If an error dialog offered a diagnostics export, summarize the relevant part. Do not attach full save exports; this repository is public.

@@ -2,6 +2,8 @@
 
 Start with [CONTRIBUTING.md](../CONTRIBUTING.md) for workflow, versioning and releases, and [CHANGELOG.md](../CHANGELOG.md) for what changed. When a document disagrees with the code, the code and its tests win; fix the document in the same pull request.
 
+Licensing is described in [LICENSE](../LICENSE), [NOTICE](../NOTICE) and [LICENSE-ASSETS.md](../LICENSE-ASSETS.md). The revision and historical records below were written during development and keep their original working terms, such as "the user" or "the lead" for the maintainer.
+
 ## Rules and content — keep current
 
 | Document | Use it for |

@@ -18,3 +18,4 @@ Describe save/rules/localization impact, migrations and any remaining limitation
 - [ ] Rules/content identifiers and the save envelope are unchanged, or a migration with fixture tests is included
 - [ ] `CHANGELOG.md` lists the change under `Unreleased`, or it is not player-visible
 - [ ] Browser suite and intentional snapshot changes were inspected for interface changes, or none apply
+- [ ] No new art, audio or third-party assets, or they were agreed in an issue first
