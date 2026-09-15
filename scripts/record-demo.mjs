@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import {chromium} from '@playwright/test';
 import {mkdir,rename,writeFile} from 'node:fs/promises';
 await mkdir('output/demo',{recursive:true});

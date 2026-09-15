@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { describe, expect, it } from 'vitest';
 import { CARDS, DAO_CARD_IDS, DIVINE_CARD_IDS, ENEMIES, REALMS, normalEncounterIds } from '../src/game/content';
 import { endTurn, playCard, playableReason } from '../src/game/combat';

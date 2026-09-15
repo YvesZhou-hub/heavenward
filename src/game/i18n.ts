@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import type { Locale, Status, Text } from './types';
 export const SUPPORTED_LOCALES = ['en', 'zh-CN', 'vi'] as const;
 export const copy = {

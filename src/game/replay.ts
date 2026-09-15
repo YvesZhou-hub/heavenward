@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { CARDS, ENEMIES } from './content';
 import { createCombat, endTurn, playCard, resolveChoice } from './combat';
 import { CONTENT_VERSION, RULES_VERSION } from './run';

@@ -1,39 +1,53 @@
 # HEAVENWARD · 问天
 
-A cultivation roguelike deckbuilder in English (default), 简体中文 and Tiếng Việt. Build one mortal life through five realms and twenty cultivation stages. The fifth Tribulation ends the Human Realm in Ascension.
+[![CI](https://github.com/YvesZhou-hub/heavenward/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/YvesZhou-hub/heavenward/actions/workflows/ci.yml)
+[![Code license: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue)](LICENSE)
+[![Art: all rights reserved](https://img.shields.io/badge/art-all%20rights%20reserved-lightgrey)](LICENSE-ASSETS.md)
+[![Play online](https://img.shields.io/badge/play-heavenward.vercel.app-c8a46b)](https://heavenward.vercel.app)
 
-[Play online](https://heavenward.vercel.app). Version history: [CHANGELOG.md](CHANGELOG.md). Verified release status and exact deployment are recorded in [deployment evidence](docs/DEPLOYMENT.md); implementation, test evidence and remaining human release gates are in [revision status](docs/REVISION_2026_09_14.md) and [revision QA](docs/REVISION_QA.md). This is an integrated playable revision, not commercial V1.0 acceptance.
+A cultivation roguelike deckbuilder for the browser, in English, 简体中文 and Tiếng Việt. Build one mortal life through five realms and twenty cultivation stages; the fifth Tribulation ends the Human Realm in Ascension.
 
-## Run locally
+**[Play at heavenward.vercel.app](https://heavenward.vercel.app)**. No account or download is needed, and progress is saved in your browser.
 
-Source repository: [YvesZhou-hub/heavenward](https://github.com/YvesZhou-hub/heavenward). See [contribution, versioning and release conventions](CONTRIBUTING.md) and the [documentation index](docs/README.md). GitHub CI runs the core checks on main pushes and pull requests; it does not publish to Vercel.
+> **Status:** playable preview of the Human Realm. Balance, pacing and native-language review are still in progress; see [known issues](docs/KNOWN_ISSUES.md) and the [changelog](CHANGELOG.md).
 
-Use Node24.15.0 (`.nvmrc`) and npm:
+## How to play
+
+### A run
+
+You start with five Strikes, five Defenses and two Dao Arts chosen from separate five-card drafts. The Dao Road shows your completed history and the branches you can reach next. A full route has 26 chosen nodes: 10 normal fights, 3 Elites, 5 Tribulations and 8 utility visits.
+
+### Controls
+
+- Click a card to select it. Drag self-target cards onto your portrait or double-click them; drag enemy-target cards onto a living enemy. Double-clicking an enemy-target card enters target selection.
+- Area and untargeted cards keep their own target modes. Dropping on empty space or pressing Esc cancels. A card you cannot afford can still be dragged, and a failed play spends nothing. Touch drags and taps follow the same rules.
+- Keys 1–9 and 0 select cards, Tab focuses a target, Enter confirms, E ends the turn and Esc cancels.
+- The eye button opens full card and keyword details. Piles and your permanent deck are searchable, while the draw order stays hidden. Settings switch grade names between numbers 1–8, letters F–SS and traditional names without changing the rules.
+
+### Rewards and growth
+
+- Normal rewards offer five distinct cards; take one or none. Permanent decks have **no maximum size**, and rewards never force a replacement. Realm minimums of 12/14/16/18/20 cards limit only selling and removal.
+- Merchants and Rest sites show a before/after comparison before an upgrade. Merchants allow two upgrades at rising prices and three sales per visit; Rest offers either a heal of up to 25% or a free upgrade.
+- Breakthrough receipts show the growth you received. Divine Abilities come only from eligible Tribulations, have no grade and fill up to four Human Realm slots.
+
+### Content
+
+114 card definitions across thirteen Paths: 107 permanent designs, one Flying Sword Token and six temporary Status cards, with free cross-Path building. Strength caps at 10 per Attack hit, Wisdom rewards Calculation and Hidden Schemes, and Wind rewards Gale and Pursuit sequencing. Unspent Armor halves at the start of your next turn. The game includes local fonts, synthesized audio and reduced-motion settings.
+
+## Getting started
+
+Requirements: Node.js 24.15.0 (see `.nvmrc`) and npm.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Open <http://127.0.0.1:3210>, or use **Start Heavenward.command** on this Mac. For the static production export, stop the development server, run `npm run build`, then `npm start`. No API key, account, database or runtime AI is needed.
+Open <http://127.0.0.1:3210>. On macOS you can double-click **Start Heavenward.command** instead.
 
-## Play
+For the static production export, stop the development server, then run `npm run build` and `npm start`. No API keys, accounts, database or runtime AI services are required.
 
-Start with five Strikes, five Defenses and two Dao Arts chosen from separate five-card drafts. The Dao Road reveals completed history and immediately reachable branches. The authored route has26 chosen nodes:10 normal fights,3 Elites,5 Tribulations and8 utility visits.
-
-Click a card to select it. Drag SELF cards onto your portrait or double-click them; drag ENEMY cards onto a living enemy. Double-clicking an enemy-target card enters target selection. AoE and untargeted cards retain their declared target modes. A blank drop or Esc cancels. Unaffordable cards remain draggable; failed target/cost validation spends nothing. Touch drag and target taps use the same rules.
-
-Keys1–9/0 select cards, Tab focuses a target, Enter confirms the focused control, E ends the turn and Esc cancels. The eye button opens full card/keyword inspection. Piles and the permanent deck are searchable; hidden Draw order stays hidden. Settings offer numeric1–8, letterF–SS or traditional grade names without changing mechanics.
-
-Normal rewards offer exactly five distinct cards: take zero or one. Permanent decks have **no maximum size** and rewards never force replacements. Realm removal floors12/14/16/18/20 govern sales/removal; a smaller existing deck can advance and decline every reward. Strike and Defense remain valid permanent choices, including upgraded Basic support builds.
-
-Merchant and Rest upgrades use visual selection → actual before/after comparison → confirmation. Merchants allow two increasingly priced upgrades and three sales per visit. Rest offers one mutually exclusive capped25% heal or free eligible upgrade. Breakthrough receipts show actual granted growth separately from optional Divine/foundation choices. Divine Abilities are ungraded, drawn-and-paid powers obtained only from eligible Tribulations, with four Human Realm slots.
-
-Strength caps at10 per Attack hit. Wisdom contains Calculation and Hidden Schemes; Wind rewards Gale/Pursuit sequencing. Six temporary Status cards expire after combat. The Cloud-Void Beastmaster has visible beast pressure, Commands and a real warning before its heavy attack. Scarlet Requiem costs3, deals16 base damage, applies6 Bleeding and Exhausts; it has no intrinsic healing.
-
-The114 definitions include107 permanent designs, one Flying Sword Token and six temporary Status cards. Thirteen Paths and cross-Path freedom remain. Approved illustrations are preserved; newer cards use recorded original-art aliases. Local fonts, synthesized audio and reduced-motion controls are included.
-
-## Verify
+## Testing
 
 ```sh
 npm run typecheck
@@ -43,23 +57,47 @@ npm run validate:content
 npm run build
 ```
 
-Install browser engines if needed: `npx playwright install chromium firefox webkit`. Test the static build in separate terminals:
+`npm run lint` also checks that every source file carries the license header. For browser tests, install the engines once with `npx playwright install chromium firefox webkit`, then test the static build from two terminals:
 
 ```sh
 node scripts/serve-static.mjs 3212
 E2E_BASE_URL=http://127.0.0.1:3212 npx playwright test --workers=3
-# Run profiling after other browser workloads finish:
+# After other browser workloads finish:
 npm run qa:performance
 ```
 
-[QA evidence](docs/REVISION_QA.md) distinguishes real browser actions, controlled UI fixtures, constructed combat diagnostics, ordinary bot runs and unrun human sessions. Human fun, economy and60–100-minute pacing targets are not established by bot speed.
+[Revision QA](docs/REVISION_QA.md) explains what the automated checks do and do not establish.
 
-## Saves and release
+## Saves
 
-Saves belong to each browser origin. Localhost and the public website have separate data. Do not clear site storage as routine repair; export diagnostics first. Checksums, mirrors, terminal markers and concurrent-tab transactions protect committed progress.
+Saves live in each browser's local storage, so `localhost` and the public website keep separate progress. Checksums, mirrored snapshots and cross-tab coordination protect committed progress. If the game reports a storage problem, export the diagnostics before clearing any site data.
 
-Public0.1 runs remain available in the preserved `/legacy/v1/index.html` build. Local0.2 snapshots migrate to current rules without replaying resolved outcomes; original bytes are archived before overwrite, and the UI identifies snapshot continuation. IDs, HP and RNG are preserved. Old pending Scarlet-owned healing is removed; independent passives remain valid. An old seed is not claimed to reproduce a different rules version.
+Lives started in version 0.1 remain playable in the preserved build at `/legacy/v1/index.html`. Local 0.2 saves migrate to the current rules as snapshot continuations: the original bytes are archived first, and IDs, HP and random state are preserved.
 
-Deployment uses the linked Vercel project and static Build Output workflow from a tagged `main`: `npm run deploy:prepare`, `vercel deploy --prebuilt --prod --yes --scope yves-projects-de611e27`, `npm run deploy:record`, then `npm run deploy:verify`. Only the prepared static payload is deployed. The full procedure, including rollback, is in [CONTRIBUTING.md](CONTRIBUTING.md#releasing-and-deploying).
+## Project structure
 
-See [rules decisions](docs/RULE_DECISIONS.md), [content guide](docs/CONTENT_GUIDE.md), [art provenance](docs/ART_BIBLE.md), [known issues](docs/KNOWN_ISSUES.md) and [remaining release gates](docs/REVISION_NEXT_ACTIONS.md).
+```text
+app/             Next.js entry point (static export)
+src/game/        Rules engine, content, runs, saves and localization
+src/components/  React interface
+public/art/      Game art (all rights reserved, see LICENSE-ASSETS.md)
+tests/           Vitest unit tests and Playwright browser tests
+scripts/         Build, QA, license and deployment tooling
+docs/            Rules, content, operations and release records
+```
+
+Start with the [documentation index](docs/README.md) to find the current rules, content guide and art bible.
+
+## Contributing
+
+Bug reports, gameplay suggestions and pull requests are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow, checks and versioning rules, and follow the [code of conduct](CODE_OF_CONDUCT.md). Releases are listed in the [changelog](CHANGELOG.md).
+
+## Security
+
+Please report vulnerabilities privately as described in [SECURITY.md](SECURITY.md), not in public issues.
+
+## License
+
+- **Source code** is licensed under the [Apache License, Version 2.0](LICENSE); see also [NOTICE](NOTICE).
+- **Game art, the game icon, art source files and design briefs** are not open source. All rights are reserved; see [LICENSE-ASSETS.md](LICENSE-ASSETS.md).
+- **Third-party** libraries, fonts and icons keep their own licenses, listed in [docs/DEPENDENCY_LICENSES.json](docs/DEPENDENCY_LICENSES.json).

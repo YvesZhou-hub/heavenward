@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { CARDS, STATUS_CARD_IDS } from '../src/game/content';
 import { createCombat, endTurn, playCard, playableReason, resolveChoice } from '../src/game/combat';

@@ -2,12 +2,24 @@
   "name": "heavenward",
   "version": "0.3.1",
   "private": true,
+  "description": "A cultivation roguelike deckbuilder for the browser.",
+  "license": "Apache-2.0",
+  "author": "Ye Zhou",
+  "homepage": "https://heavenward.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YvesZhou-hub/heavenward.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YvesZhou-hub/heavenward/issues"
+  },
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1 --port 3210",
     "build": "next build",
     "start": "node scripts/serve-static.mjs 3210",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint app src tests scripts --max-warnings 0",
+    "lint": "eslint app src tests scripts --max-warnings 0 && npm run lint:license",
+    "lint:license": "node scripts/check-license-headers.mjs",
     "test": "vitest run",
     "validate:content": "vitest run tests/content.test.ts",
     "test:e2e": "playwright test",

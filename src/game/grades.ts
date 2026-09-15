@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { GRADE_NAMES } from './i18n';
 import { ui } from './ui-copy';
 import type { Locale } from './types';

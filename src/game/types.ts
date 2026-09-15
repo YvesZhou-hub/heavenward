@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 export type Locale = 'en' | 'zh-CN' | 'vi';
 export type Text = { en: string; 'zh-CN': string; vi: string };
 export type Path = 'fire'|'wood'|'earth'|'water'|'metal'|'sword'|'wind'|'blood'|'summoning'|'strength'|'refinement'|'formation'|'wisdom';

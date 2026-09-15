@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { createServer } from 'node:http';
 import { readFile,stat } from 'node:fs/promises';
 import { resolve,extname } from 'node:path';

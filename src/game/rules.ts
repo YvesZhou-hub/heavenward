@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 /** Explicit balance decisions where the authoritative source leaves a number open. */
 export const RULES = {
   version: 3,

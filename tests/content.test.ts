@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { describe, expect, it } from 'vitest';
 import { ARCHETYPES, CARD_ART_ALIASES, CARDS, DAO_CARD_IDS, DIVINE_CARD_IDS, ENEMIES, GRADE_NAMES, IMMORTAL_CARD_IDS, PATHS, REALMS, STARTING_CARD_IDS, STATUS_CARD_IDS, SUMMONS, bossEncounterIds, eliteEncounterIds, normalEncounterIds } from '../src/game/content';
 import { createCombat, describeCard, playCard } from '../src/game/combat';

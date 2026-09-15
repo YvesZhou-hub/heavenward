@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 /**
  * Paired synthetic diagnostics, not ordinary-run or human-play evidence.
  * All builds use the real resolver, equal legal deck size/grade/HP/Yuan budgets,

@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import type { Locale, Text } from './types';
 export const uiCopy = {
  encyclopedia:{en:'Dao Encyclopedia','zh-CN':'道法百科',vi:'Bách khoa Đạo pháp'},

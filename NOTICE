@@ -1,0 +1,12 @@
+Heavenward (问天)
+Copyright 2026 Ye Zhou
+
+This product includes software developed as part of Heavenward
+(https://github.com/YvesZhou-hub/heavenward), licensed under the
+Apache License, Version 2.0. See LICENSE.
+
+Game art, the game icon, art source files and design source documents
+are not licensed under the Apache License. See LICENSE-ASSETS.md.
+
+Third-party software, fonts and icons are distributed under their own
+licenses, recorded in docs/DEPENDENCY_LICENSES.json and docs/licenses/.

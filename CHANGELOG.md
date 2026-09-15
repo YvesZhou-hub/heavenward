@@ -4,6 +4,11 @@ Player-visible and compatibility-relevant changes, newest first. The format foll
 
 ## [Unreleased]
 
+### Repository
+
+- Source code is now licensed under the Apache License 2.0 (`LICENSE`, `NOTICE`), and every source file carries an SPDX header checked by `npm run lint`. Game art, the icon, art sources and design briefs remain all rights reserved (`LICENSE-ASSETS.md`).
+- Added a security policy and code of conduct, and rewrote the README and contributing guide for public contributors. The game itself is unchanged.
+
 ## [0.3.1] - 2026-09-14
 
 ### Changed

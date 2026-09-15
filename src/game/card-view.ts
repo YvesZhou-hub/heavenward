@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { CARDS } from './content';
 import type { CardDef, CardInstance, CardTarget, Locale } from './types';
 import { ui } from './ui-copy';

@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { beforeAll, describe, expect, it } from 'vitest';
 import { CARDS, ENEMIES, SUMMONS } from '../src/game/content';
 import { cardCost, createCombat, describeCard, describeCombatEvent, describeEnemyIntent, endTurn, enemyAttackValue, enemyIntentThreat, playCard, playableReason, previewCard, previewEnemyAction, pursuitState, resolveChoice } from '../src/game/combat';

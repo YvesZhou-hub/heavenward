@@ -1,10 +1,10 @@
 # Production deployments
 
-Newest first. Releases follow [CONTRIBUTING.md](../CONTRIBUTING.md#releasing-and-deploying). Project: `prj_u6Gz9tI73YfisQYlbA11Io4LDA8i`, scope `yves-projects-de611e27`.
+Newest first. Releases follow [CONTRIBUTING.md](../CONTRIBUTING.md#for-maintainers-releasing-and-deploying). Project: `prj_u6Gz9tI73YfisQYlbA11Io4LDA8i`, scope `yves-projects-de611e27`.
 
 ## 0.3.1 — September 14, 2026
 
-**VERIFIED READY** — [heavenward.vercel.app](https://heavenward.vercel.app/). Unspent player Armor halves at turn start; see [CHANGELOG.md](../CHANGELOG.md). The owner's request to sync GitHub and deploy to Vercel authorized this release.
+**VERIFIED READY** — [heavenward.vercel.app](https://heavenward.vercel.app/). Unspent player Armor halves at turn start; see [CHANGELOG.md](../CHANGELOG.md). Released by the maintainer.
 
 ### Exact artifact
 
@@ -32,7 +32,7 @@ The canonical origin is unchanged, so existing browser-local saves remain and co
 
 ## 0.3.0 — September 14, 2026 (superseded by 0.3.1)
 
-Human Realm integrated revision and latest targeting/deck/progression update, not commercial V1.0 acceptance. The user's explicit “部署到vercel” authorized publication. The existing linked project and plan were retained; no paid service, hosting-plan change or GitHub push was performed.
+Human Realm integrated revision and latest targeting/deck/progression update, not commercial V1.0 acceptance. Deployed at the maintainer's request. The existing linked project and plan were retained; no paid service, hosting-plan change or GitHub push was performed.
 
 ### Exact artifact
 

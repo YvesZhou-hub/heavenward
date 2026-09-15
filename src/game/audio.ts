@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 /** Original synthesized audio: no recordings, third-party samples, or network. */
 export class GameAudio {
  private context:AudioContext|null=null;private musicGain:GainNode|null=null;private sfx=.5;private voices:OscillatorNode[]=[];

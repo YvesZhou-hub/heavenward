@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { ArrowRight, BookOpen, ChevronLeft, Compass, Crown, Flame, Heart, Layers3, Leaf, Moon, Mountain, ScrollText, Settings2, Shield, Sparkles, X } from 'lucide-react';

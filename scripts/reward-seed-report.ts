@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { mkdir,writeFile } from 'node:fs/promises';
 import { diagnosticMetadata } from './diagnostic-metadata';
 import { CARDS,DAO_CARD_IDS } from '../src/game/content';

@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import {cp,mkdir,readFile,readdir,writeFile,stat,rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {createHash} from 'node:crypto';

@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { ARCHETYPES, CARDS, PATHS } from './content';
 import { CATEGORY_NAMES, STATUS_NAMES } from './i18n';
 import { RULES } from './rules';

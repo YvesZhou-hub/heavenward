@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 'use client';
 import { useEffect, useId, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';

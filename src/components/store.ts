@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 'use client';
 import { useSyncExternalStore } from 'react';
 import { loadSave, SAVE_KEY, saveWithLock, type SaveData } from '@/game/save';
