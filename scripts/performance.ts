@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 /** Reproducible production-only diagnostics. Run after build + serve-static.mjs 3212. */
 import { chromium, type Page } from '@playwright/test';
 import { mkdir, readFile, readdir, stat, writeFile } from 'node:fs/promises';

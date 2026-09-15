@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 'use client';
 import { ArrowRight, Crown, X } from 'lucide-react';
 import { REALMS } from '@/game/content';

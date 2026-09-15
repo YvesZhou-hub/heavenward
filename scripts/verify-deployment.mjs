@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 const origin=process.argv[2];if(!origin||new URL(origin).protocol!=='https:')throw new Error('Usage: node scripts/verify-deployment.mjs https://canonical-domain');

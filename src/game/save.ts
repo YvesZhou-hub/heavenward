@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { CARDS, ENEMIES, REALMS, SUMMONS } from './content';
 import { RULES } from './rules';
 import { STATUS_NAMES } from './i18n';

@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests/browser',

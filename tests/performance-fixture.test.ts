@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { describe, expect, it } from 'vitest';
 import { battleFixture, fixtureSave, MEASURED_ACTIONS } from '../scripts/performance';
 import { playCard, playableReason } from '../src/game/combat';

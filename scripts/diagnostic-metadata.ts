@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { RULES } from '../src/game/rules';

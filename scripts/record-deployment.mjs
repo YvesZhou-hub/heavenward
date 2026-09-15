@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 /** Records the live production deployment that deploy:verify checks against. Usage: node scripts/record-deployment.mjs [domain] [scope] */
 import {execFileSync} from 'node:child_process';
 import {mkdir,writeFile} from 'node:fs/promises';

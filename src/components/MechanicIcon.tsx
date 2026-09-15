@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { ArrowDownUp, Axe, BookOpen, CircleDot, Cloud, Droplets, Eye, Feather, Flame, Heart, Hexagon, Layers3, Leaf, Mountain, Shield, ShieldHalf, Sparkles, Sprout, Swords, Tornado, Wind, Zap } from 'lucide-react';
 const icons={fire:Flame,wood:Sprout,earth:Mountain,water:Droplets,metal:ShieldHalf,sword:Swords,wind:Wind,blood:Droplets,summoning:Feather,strength:Axe,refinement:Flame,formation:Hexagon,wisdom:Eye,basic:CircleDot,weak:Feather,vulnerable:ShieldHalf,poison:Leaf,pierce:Swords,protectiveQi:Shield,swordIntent:Swords,tidalMomentum:Droplets,windMomentum:Tornado,bleeding:Droplets,flame:Flame,seed:Sprout,regen:Heart,dodge:Cloud,reduction:Shield,fortify:Mountain,basicPower:Sparkles,basicCost:CircleDot,link:ArrowDownUp,restriction:Hexagon,energyDebt:Zap,attack:Swords,defense:Shield,skill:BookOpen,power:Sparkles,status:Cloud,token:Layers3};
 /** One licensed vector vocabulary, shared by Paths, statuses, roles and Intents. */

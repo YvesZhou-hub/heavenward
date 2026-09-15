@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import type { Status, Text } from './types';
 import { RULES } from './rules';
 const t = (en: string, zh: string, vi: string): Text => ({ en, 'zh-CN': zh, vi });

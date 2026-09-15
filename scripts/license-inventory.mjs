@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import {readFile,writeFile,mkdir,copyFile} from 'node:fs/promises';
 import {join} from 'node:path';
 const lock=JSON.parse(await readFile('package-lock.json','utf8'));const rows=[];await mkdir('docs/licenses',{recursive:true});

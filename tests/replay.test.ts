@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { describe, expect, it } from 'vitest';
 import { createCombat, endTurn, playCard, resolveChoice, migrateCombatRulesV2 } from '../src/game/combat';
 import { createCombatReplay, replayCombat } from '../src/game/replay';

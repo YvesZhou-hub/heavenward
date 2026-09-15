@@ -1,3 +1,6 @@
+// Copyright 2026 Ye Zhou
+// SPDX-License-Identifier: Apache-2.0
+
 import { describe, expect, it } from 'vitest';
 import { createCombat, playableReason } from '../src/game/combat';
 import { choiceIds, playTarget, scorePlay } from '../scripts/simulate';
